@@ -1,22 +1,22 @@
-"""Core mapping loop — resumable, retryable per control."""
+"""Core mapping loop — resumable, retryable per control.
+
+Uses a LangChain LCEL chain (prompt | llm | parser) for each mapping call.
+"""
 import json
 import re
 from pathlib import Path
 
-from src.mapping.chat.client import get_client, chat_completion
-from src.mapping.chat.prompt_builder import SYSTEM_PROMPT, build_user_prompt
+from langchain_core.output_parsers import JsonOutputParser
+
+from src.mapping.chat.client import get_llm
+from src.mapping.chat.prompt_builder import MAPPING_PROMPT, build_chain_input
 from src.mapping.output.result_writer import save_result
 
 
-def _parse_llm_response(raw: str) -> list[dict]:
-    """Extract and parse the JSON array from the LLM response.
-
-    Handles cases where the LLM wraps JSON in markdown code fences.
-    """
-    # Strip markdown code fences if present
-    cleaned = re.sub(r"^```(?:json)?\s*", "", raw.strip())
-    cleaned = re.sub(r"\s*```$", "", cleaned)
-    return json.loads(cleaned)
+def _build_chain(llm):
+    """Build the LCEL mapping chain: prompt → LLM → JSON parser."""
+    parser = JsonOutputParser()
+    return MAPPING_PROMPT | llm | parser
 
 
 def _filter_mappings(raw_mappings: list[dict], framework: str) -> list[dict]:
@@ -37,16 +37,20 @@ def run_mapping(
     internal_controls: list[dict],
     safeguards: list[dict],
     results_dir: Path,
-    model: str,
+    llm=None,
     max_retries: int = 2,
 ) -> None:
-    """Map each internal control against all safeguards.
+    """Map each internal control against all safeguards using a LangChain chain.
 
     - Skips controls that already have a result file (resumable).
     - Retries failed LLM calls up to max_retries times.
     """
     results_dir.mkdir(parents=True, exist_ok=True)
-    client = get_client()
+
+    if llm is None:
+        llm = get_llm()
+
+    chain = _build_chain(llm)
     framework = safeguards[0]["framework"] if safeguards else "Unknown"
     total = len(internal_controls)
 
@@ -60,13 +64,12 @@ def run_mapping(
             continue
 
         print(f"[{idx}/{total}] Processing {ccf_id} ...")
-        user_prompt = build_user_prompt(ic, safeguards)
+        chain_input = build_chain_input(ic, safeguards)
 
         # Retry loop
         for attempt in range(1, max_retries + 1):
             try:
-                raw = chat_completion(client, model, SYSTEM_PROMPT, user_prompt)
-                raw_mappings = _parse_llm_response(raw)
+                raw_mappings = chain.invoke(chain_input)
                 mappings = _filter_mappings(raw_mappings, framework)
                 save_result(
                     result_path=result_path,

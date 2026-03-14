@@ -17,6 +17,9 @@ LLM_MODEL = os.getenv("LLM_MODEL", "gpt-4")
 LLM_TEMPERATURE = float(os.getenv("LLM_TEMPERATURE", "0.1"))
 LLM_MAX_TOKENS = int(os.getenv("LLM_MAX_TOKENS", "2000"))
 
+# Ollama Configuration
+OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL", "https://ollama.com/v1")
+
 # PageIndex Configuration
 PAGEINDEX_API_KEY = os.getenv("PAGEINDEX_API_KEY", "")
 

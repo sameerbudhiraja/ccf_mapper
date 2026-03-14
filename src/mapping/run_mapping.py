@@ -11,14 +11,15 @@ sys.path.insert(0, str(PROJECT_ROOT))
 
 load_dotenv(PROJECT_ROOT / ".env")
 
+from src.mapping.chat.client import get_llm
 from src.mapping.loader.internal_controls import load_internal_controls
 from src.mapping.loader.external_controls import load_and_flatten_safeguards
 from src.mapping.engine.mapping_loop import run_mapping
 
 
 def main() -> None:
-    model = os.getenv("LLM_MODEL")
-    if not model:
+    model_name = os.getenv("LLM_MODEL")
+    if not model_name:
         print("ERROR: LLM_MODEL is not set in .env")
         sys.exit(1)
 
@@ -36,10 +37,13 @@ def main() -> None:
     safeguards = load_and_flatten_safeguards(external_path)
     print(f"  {len(safeguards)} safeguards loaded")
 
-    # Run mapping
-    print(f"\nStarting mapping with model: {model}")
+    # Initialise LangChain LLM
+    llm = get_llm()
+    print(f"\nStarting mapping with model: {model_name} (via LangChain)")
     print(f"Results directory: {results_dir}\n")
-    run_mapping(internal_controls, safeguards, results_dir, model)
+
+    # Run mapping
+    run_mapping(internal_controls, safeguards, results_dir, llm=llm)
     print("\nMapping complete.")
 
 

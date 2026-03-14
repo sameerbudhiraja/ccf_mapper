@@ -1,0 +1,14 @@
+{
+  "internal_control_id": "AM-01",
+  "internal_control_name": "Inventory Management",
+  "processed_at": "2026-03-14T10:03:15.645385+00:00",
+  "total_mapped": 1,
+  "mappings": [
+    {
+      "safeguard_id": "1.1",
+      "framework": "CIS Controls v8.1",
+      "mapping": "FULL",
+      "reason": "Establishing and maintaining a detailed enterprise asset inventory directly satisfies AM-01's requirement to maintain an information systems inventory with periodic reconciliation."
+    }
+  ]
+}

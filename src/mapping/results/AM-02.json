@@ -1,0 +1,14 @@
+{
+  "internal_control_id": "AM-02",
+  "internal_control_name": "Inventory Management: Applications",
+  "processed_at": "2026-03-14T10:04:09.844966+00:00",
+  "total_mapped": 1,
+  "mappings": [
+    {
+      "safeguard_id": "6.6",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "CIS 6.6 maintains an inventory of authentication and authorization systems, which are a specific subset of the application assets required by AM-02, satisfying the inventory action for that critical class of applications."
+    }
+  ]
+}

@@ -1,25 +1,24 @@
-"""Ollama cloud chat client."""
+"""LangChain ChatOllama client for the mapping pipeline."""
 import os
-from ollama import Client
+
+from langchain_ollama import ChatOllama
 
 
-def get_client() -> Client:
-    """Create an Ollama client pointing to the cloud service."""
+def get_llm() -> ChatOllama:
+    """Create a ChatOllama instance configured from environment variables.
+
+    Reads:
+        LLM_MODEL         — Ollama model name (required)
+        LLM_TEMPERATURE   — sampling temperature (default 0.1)
+        OLLAMA_BASE_URL   — Ollama API base URL (default http://localhost:11434)
+        OLLAMA_API_KEY    — bearer token for authenticated endpoints
+    """
+    base_url = os.getenv("OLLAMA_BASE_URL", "https://ollama.com/v1")
     api_key = os.getenv("OLLAMA_API_KEY", "")
-    return Client(
-        host="https://ollama.com",
-        headers={"Authorization": f"Bearer {api_key}"} if api_key else {},
-    )
 
-
-def chat_completion(client: Client, model: str, system_prompt: str, user_prompt: str) -> str:
-    """Send a chat completion request and return the assistant's response text."""
-    resp = client.chat(
-        model=model,
-        messages=[
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": user_prompt},
-        ],
-        options={"temperature": float(os.getenv("LLM_TEMPERATURE", "0.1"))},
+    return ChatOllama(
+        model=os.getenv("LLM_MODEL", "llama3.1:8b"),
+        temperature=float(os.getenv("LLM_TEMPERATURE", "0.1")),
+        base_url=base_url,
+        client_kwargs={"headers": {"Authorization": f"Bearer {api_key}"}} if api_key else {},
     )
-    return resp["message"]["content"]
