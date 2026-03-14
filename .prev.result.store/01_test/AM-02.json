@@ -1,0 +1,50 @@
+{
+  "internal_control_id": "AM-02",
+  "internal_control_name": "Inventory Management: Applications",
+  "processed_at": "2026-03-12T16:16:24.448632+00:00",
+  "total_mapped": 7,
+  "mappings": [
+    {
+      "safeguard_id": "2.1",
+      "framework": "CIS Controls v8.1",
+      "mapping": "FULL",
+      "reason": "Explicitly requires maintaining a detailed software inventory with periodic review."
+    },
+    {
+      "safeguard_id": "2.2",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Requires periodic review of the software list but focuses on support status."
+    },
+    {
+      "safeguard_id": "2.3",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Requires periodic review of software but focuses on unauthorized software remediation."
+    },
+    {
+      "safeguard_id": "2.4",
+      "framework": "CIS Controls v8.1",
+      "mapping": "FULL",
+      "reason": "Mandates automated tools for discovery and documentation of installed software."
+    },
+    {
+      "safeguard_id": "2.5",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Requires maintaining an authorized software list and periodic reassessment."
+    },
+    {
+      "safeguard_id": "7.4",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Requires application patching which implies knowledge of installed applications."
+    },
+    {
+      "safeguard_id": "9.1",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Requires inventory and support verification for specific application types."
+    }
+  ]
+}

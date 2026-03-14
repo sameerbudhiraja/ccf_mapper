@@ -1,0 +1,14 @@
+{
+  "internal_control_id": "BC-01",
+  "internal_control_name": "Business Continuity Plan",
+  "processed_at": "2026-03-13T17:44:08.599389+00:00",
+  "total_mapped": 1,
+  "mappings": [
+    {
+      "safeguard_id": "11.1",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "11.1 requires periodic review of the data recovery process documentation, which is a critical subset of the business continuity plan, aligning on the review objective but lacking explicit management approval and communication requirements."
+    }
+  ]
+}

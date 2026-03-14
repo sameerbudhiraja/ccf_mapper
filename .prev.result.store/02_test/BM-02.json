@@ -1,0 +1,14 @@
+{
+  "internal_control_id": "BM-02",
+  "internal_control_name": "Resilience Testing",
+  "processed_at": "2026-03-13T17:56:24.322324+00:00",
+  "total_mapped": 1,
+  "mappings": [
+    {
+      "safeguard_id": "11.5",
+      "framework": "CIS Controls v8.1",
+      "mapping": "FULL",
+      "reason": "Safeguard 11.5 mandates quarterly backup recovery testing, which directly satisfies the CCF control's annual requirement to perform restoration tests and confirm backup reliability."
+    }
+  ]
+}

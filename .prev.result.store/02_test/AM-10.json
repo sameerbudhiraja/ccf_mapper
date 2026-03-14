@@ -1,0 +1,20 @@
+{
+  "internal_control_id": "AM-10",
+  "internal_control_name": "Maintenance of Assets",
+  "processed_at": "2026-03-13T17:38:06.110230+00:00",
+  "total_mapped": 2,
+  "mappings": [
+    {
+      "safeguard_id": "4.1",
+      "framework": "CIS Controls v8.1",
+      "mapping": "FULL",
+      "reason": "Both require establishing a documented process to govern the maintenance and configuration of enterprise assets."
+    },
+    {
+      "safeguard_id": "7.1",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Vulnerability management is a critical subset of equipment maintenance that requires a documented process for remediation."
+    }
+  ]
+}

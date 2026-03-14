@@ -1,0 +1,116 @@
+{
+  "internal_control_id": "AM-01",
+  "internal_control_name": "Inventory Management",
+  "processed_at": "2026-03-12T16:13:58.181017+00:00",
+  "total_mapped": 18,
+  "mappings": [
+    {
+      "safeguard_id": "1.1",
+      "framework": "CIS Controls v8.1",
+      "mapping": "FULL",
+      "reason": "Directly establishes and maintains an enterprise asset inventory with periodic bi-annual review and reconciliation."
+    },
+    {
+      "safeguard_id": "1.2",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Addresses unauthorized assets found during inventory processes but does not establish the inventory itself."
+    },
+    {
+      "safeguard_id": "1.3",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Supports inventory maintenance through active discovery but does not establish the inventory record itself."
+    },
+    {
+      "safeguard_id": "1.4",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Supports inventory updates through DHCP logging but does not establish the inventory itself."
+    },
+    {
+      "safeguard_id": "1.5",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Supports inventory maintenance through passive discovery but does not establish the inventory itself."
+    },
+    {
+      "safeguard_id": "2.1",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Addresses software inventory which is related to system inventory but covers different scope."
+    },
+    {
+      "safeguard_id": "3.2",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Addresses data inventory which is related to asset inventory but different scope."
+    },
+    {
+      "safeguard_id": "4.6",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Addresses asset management but focuses on secure configuration rather than inventory maintenance."
+    },
+    {
+      "safeguard_id": "5.1",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Addresses account inventory which is related to asset inventory but different scope."
+    },
+    {
+      "safeguard_id": "5.5",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Addresses service account inventory which is related to asset inventory but different scope."
+    },
+    {
+      "safeguard_id": "6.6",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Addresses authentication system inventory which is a subset of information systems inventory."
+    },
+    {
+      "safeguard_id": "7.5",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Requires asset knowledge for scanning but does not directly maintain system inventory."
+    },
+    {
+      "safeguard_id": "7.6",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Requires asset knowledge for scanning but does not directly maintain system inventory."
+    },
+    {
+      "safeguard_id": "12.1",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Addresses network infrastructure which is part of information systems inventory."
+    },
+    {
+      "safeguard_id": "12.4",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Architecture diagrams may include system inventory information but not comprehensive."
+    },
+    {
+      "safeguard_id": "13.5",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Requires knowledge of remote assets but focuses on access control rather than inventory."
+    },
+    {
+      "safeguard_id": "13.9",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "NAC solutions often discover and track assets but focus on access control."
+    },
+    {
+      "safeguard_id": "15.1",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Addresses service provider inventory which is related to asset inventory but different scope."
+    }
+  ]
+}

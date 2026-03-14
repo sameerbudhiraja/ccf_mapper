@@ -1,0 +1,14 @@
+{
+  "internal_control_id": "BC-04",
+  "internal_control_name": "Continuity Testing",
+  "processed_at": "2026-03-14T07:34:06.935617+00:00",
+  "total_mapped": 1,
+  "mappings": [
+    {
+      "safeguard_id": "11.5",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Safeguard 11.5 requires quarterly testing of backup recovery, which directly satisfies the disaster recovery testing action of BC-04; however, it addresses the technical data recovery subset rather than the full business contingency scope."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "internal_control_id": "AM-03",
+  "internal_control_name": "Inventory Reconciliation: ARP Table",
+  "processed_at": "2026-03-14T06:29:50.424640+00:00",
+  "total_mapped": 3,
+  "mappings": [
+    {
+      "safeguard_id": "1.2",
+      "framework": "CIS Controls v8.1",
+      "mapping": "FULL",
+      "reason": "Assigning an owner to non-inventoried devices satisfies the broader intent of addressing unauthorized assets by bringing them under management."
+    },
+    {
+      "safeguard_id": "1.3",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Active discovery tools provide the same network discovery mechanism required for reconciliation, though the control focuses on the reconciliation process rather than just tool execution."
+    },
+    {
+      "safeguard_id": "1.5",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Passive discovery tools offer an equivalent mechanism to network discovery scans for identifying assets, supporting the reconciliation objective despite frequency differences."
+    }
+  ]
+}

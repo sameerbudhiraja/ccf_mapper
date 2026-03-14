@@ -1,0 +1,20 @@
+{
+  "internal_control_id": "AM-04",
+  "internal_control_name": "Inventory Reconciliation: Logging",
+  "processed_at": "2026-03-14T06:31:13.350106+00:00",
+  "total_mapped": 2,
+  "mappings": [
+    {
+      "safeguard_id": "1.1",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "CCF's quarterly reconciliation and ownership assignment process supports the maintenance and accuracy of the enterprise asset inventory required by this safeguard."
+    },
+    {
+      "safeguard_id": "1.2",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "CCF's requirement to assign owners to non-inventoried devices satisfies the intent of addressing unauthorized assets discovered via log reconciliation."
+    }
+  ]
+}

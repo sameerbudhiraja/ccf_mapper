@@ -1,0 +1,26 @@
+{
+  "internal_control_id": "AM-03",
+  "internal_control_name": "Inventory Reconciliation: ARP Table",
+  "processed_at": "2026-03-13T17:27:04.002161+00:00",
+  "total_mapped": 3,
+  "mappings": [
+    {
+      "safeguard_id": "1.2",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Both mandate remediation of unmanaged assets found on the network, though specific actions differ (assign owner vs remove/quarantine)."
+    },
+    {
+      "safeguard_id": "1.3",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Both require using active network discovery tools to identify assets, though frequencies differ (daily vs quarterly reconciliation)."
+    },
+    {
+      "safeguard_id": "1.5",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Both require network asset discovery using equivalent mechanisms (passive vs active scans per Rule 4), though frequencies differ."
+    }
+  ]
+}

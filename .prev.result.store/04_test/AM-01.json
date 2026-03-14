@@ -1,0 +1,26 @@
+{
+  "internal_control_id": "AM-01",
+  "internal_control_name": "Inventory Management",
+  "processed_at": "2026-03-14T06:43:42.043558+00:00",
+  "total_mapped": 3,
+  "mappings": [
+    {
+      "safeguard_id": "1.1",
+      "framework": "CIS Controls v8.1",
+      "mapping": "FULL",
+      "reason": "Directly satisfies the requirement to maintain an enterprise asset inventory (information systems) and review it periodically."
+    },
+    {
+      "safeguard_id": "2.1",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Addresses the software subset of information systems by maintaining and periodically reviewing a software inventory."
+    },
+    {
+      "safeguard_id": "6.6",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Addresses the authentication and authorization system subset of information systems by maintaining and periodically reviewing their inventory."
+    }
+  ]
+}

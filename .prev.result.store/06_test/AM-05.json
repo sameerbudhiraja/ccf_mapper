@@ -1,0 +1,14 @@
+{
+  "internal_control_id": "AM-05",
+  "internal_control_name": "Inventory Labels",
+  "processed_at": "2026-03-14T07:24:54.179922+00:00",
+  "total_mapped": 1,
+  "mappings": [
+    {
+      "safeguard_id": "1.1",
+      "framework": "CIS Controls v8.1",
+      "mapping": "FULL",
+      "reason": "CIS 1.1 requires maintaining an enterprise asset inventory that records unique identifiers (e.g., machine name, hardware address) and the enterprise asset owner, directly implementing the CCF control's requirement for assets to be labeled (identified) and assigned designated owners."
+    }
+  ]
+}

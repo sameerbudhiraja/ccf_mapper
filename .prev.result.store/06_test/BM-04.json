@@ -1,0 +1,14 @@
+{
+  "internal_control_id": "BM-04",
+  "internal_control_name": "Alternate Storage",
+  "processed_at": "2026-03-14T07:38:32.966116+00:00",
+  "total_mapped": 1,
+  "mappings": [
+    {
+      "safeguard_id": "11.4",
+      "framework": "CIS Controls v8.1",
+      "mapping": "FULL",
+      "reason": "CIS 11.4 requires establishing an isolated instance of recovery data (e.g., off-site, cloud, offline), which directly implements the CCF control's security objective of storing backups in an alternate location from source data."
+    }
+  ]
+}

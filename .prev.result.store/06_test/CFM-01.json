@@ -1,0 +1,20 @@
+{
+  "internal_control_id": "CFM-01",
+  "internal_control_name": "Baseline Configuration Standard",
+  "processed_at": "2026-03-14T07:39:59.604108+00:00",
+  "total_mapped": 2,
+  "mappings": [
+    {
+      "safeguard_id": "4.1",
+      "framework": "CIS Controls v8.1",
+      "mapping": "FULL",
+      "reason": "Directly establishes and maintains the secure configuration process and baseline standards required by CFM-01, including periodic review and update of documentation."
+    },
+    {
+      "safeguard_id": "4.2",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Addresses baseline configuration standards specifically for network infrastructure, which is a subset of the enterprise assets covered by the broader CFM-01 control."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "internal_control_id": "AM-06",
+  "internal_control_name": "Media Marking",
+  "processed_at": "2026-03-14T07:10:55.921446+00:00",
+  "total_mapped": 1,
+  "mappings": [
+    {
+      "safeguard_id": "3.7",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "CIS 3.7 requires classifying data using security labels, which effectively marks logical media with handling indicators as required by AM-06, though it does not explicitly address physical media labeling or exemption processes."
+    }
+  ]
+}

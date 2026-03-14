@@ -1,0 +1,14 @@
+{
+  "internal_control_id": "AM-02",
+  "internal_control_name": "Inventory Management: Applications",
+  "processed_at": "2026-03-14T07:22:56.954778+00:00",
+  "total_mapped": 1,
+  "mappings": [
+    {
+      "safeguard_id": "6.6",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "CIS 6.6 establishes and maintains an inventory of authentication and authorization systems, which are a specific subset of application assets, satisfying the CCF control's inventory objective for that subset but not for all application assets."
+    }
+  ]
+}

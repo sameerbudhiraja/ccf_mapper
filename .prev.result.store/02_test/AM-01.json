@@ -1,0 +1,20 @@
+{
+  "internal_control_id": "AM-01",
+  "internal_control_name": "Inventory Management",
+  "processed_at": "2026-03-13T17:21:33.044388+00:00",
+  "total_mapped": 2,
+  "mappings": [
+    {
+      "safeguard_id": "1.1",
+      "framework": "CIS Controls v8.1",
+      "mapping": "FULL",
+      "reason": "Safeguard 1.1 requires maintaining a detailed enterprise asset inventory with periodic review, which directly satisfies the CCF control's requirement for an information system inventory and reconciliation."
+    },
+    {
+      "safeguard_id": "2.1",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Software inventory is a critical subset of information systems, requiring maintenance and periodic review that aligns with the CCF control's broader inventory objective."
+    }
+  ]
+}

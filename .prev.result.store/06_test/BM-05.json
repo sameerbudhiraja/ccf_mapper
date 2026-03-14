@@ -1,0 +1,14 @@
+{
+  "internal_control_id": "BM-05",
+  "internal_control_name": "Alternate Telecommunication",
+  "processed_at": "2026-03-14T07:39:17.306937+00:00",
+  "total_mapped": 1,
+  "mappings": [
+    {
+      "safeguard_id": "15.4",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "15.4 ensures service provider contracts include security requirements, which provides the contractual mechanism to establish priority of service provisions for telecommunication agreements, though it is not specific to telecom or priority clauses."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "internal_control_id": "AM-02",
+  "internal_control_name": "Inventory Management: Applications",
+  "processed_at": "2026-03-13T17:23:34.462545+00:00",
+  "total_mapped": 1,
+  "mappings": [
+    {
+      "safeguard_id": "2.1",
+      "framework": "CIS Controls v8.1",
+      "mapping": "FULL",
+      "reason": "Both require establishing and maintaining a detailed inventory of software applications and reviewing it on a periodic basis."
+    }
+  ]
+}

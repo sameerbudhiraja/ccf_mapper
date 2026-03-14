@@ -1,0 +1,14 @@
+{
+  "internal_control_id": "BC-04",
+  "internal_control_name": "Continuity Testing",
+  "processed_at": "2026-03-13T17:49:54.176778+00:00",
+  "total_mapped": 1,
+  "mappings": [
+    {
+      "safeguard_id": "11.5",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Both mandate periodic testing of recovery capabilities, where backup restoration testing satisfies the disaster recovery testing requirement but does not cover broader business continuity aspects."
+    }
+  ]
+}

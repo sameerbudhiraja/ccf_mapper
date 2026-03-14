@@ -1,0 +1,14 @@
+{
+  "internal_control_id": "BC-02",
+  "internal_control_name": "Business Continuity Plan: Personal Health Information",
+  "processed_at": "2026-03-14T07:32:24.220772+00:00",
+  "total_mapped": 1,
+  "mappings": [
+    {
+      "safeguard_id": "11.1",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Establishes the documented data recovery process required to address how to obtain data during an emergency, satisfying the data portion of the Business Continuity Plan requirement, but does not cover facility access procedures."
+    }
+  ]
+}

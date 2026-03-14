@@ -1,0 +1,26 @@
+{
+  "internal_control_id": "AM-03",
+  "internal_control_name": "Inventory Reconciliation: ARP Table",
+  "processed_at": "2026-03-14T07:23:39.576177+00:00",
+  "total_mapped": 3,
+  "mappings": [
+    {
+      "safeguard_id": "1.2",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Addresses the remediation of non-inventoried devices by requiring a process to resolve unauthorized assets, aligning with the CCF control's owner assignment requirement."
+    },
+    {
+      "safeguard_id": "1.3",
+      "framework": "CIS Controls v8.1",
+      "mapping": "FULL",
+      "reason": "Active discovery tools perform network discovery scans \u2014 the same mechanism class as ARP scanning \u2014 directly implementing the CCF control's quarterly reconciliation objective."
+    },
+    {
+      "safeguard_id": "1.5",
+      "framework": "CIS Controls v8.1",
+      "mapping": "FULL",
+      "reason": "Passive discovery tools identify network-connected assets using an equivalent network discovery mechanism, satisfying the CCF control's scan-based reconciliation objective."
+    }
+  ]
+}

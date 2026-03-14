@@ -1,0 +1,26 @@
+{
+  "internal_control_id": "AM-05",
+  "internal_control_name": "Inventory Labels",
+  "processed_at": "2026-03-12T16:26:52.874186+00:00",
+  "total_mapped": 3,
+  "mappings": [
+    {
+      "safeguard_id": "1.1",
+      "framework": "CIS Controls v8.1",
+      "mapping": "FULL",
+      "reason": "Both require maintaining a detailed asset inventory that records designated owners for organization assets."
+    },
+    {
+      "safeguard_id": "3.1",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Addresses ownership for data assets, which are a subset of organization assets, but does not explicitly require labeling."
+    },
+    {
+      "safeguard_id": "15.1",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Requires designating an enterprise contact (owner) and inventory for service providers, a specific subset of organization assets."
+    }
+  ]
+}

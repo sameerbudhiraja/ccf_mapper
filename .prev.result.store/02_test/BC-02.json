@@ -1,0 +1,14 @@
+{
+  "internal_control_id": "BC-02",
+  "internal_control_name": "Business Continuity Plan: Personal Health Information",
+  "processed_at": "2026-03-13T17:46:04.123316+00:00",
+  "total_mapped": 1,
+  "mappings": [
+    {
+      "safeguard_id": "11.1",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "The Business Continuity Plan's requirement to address data access procedures for PHI during emergencies partially satisfies the broader requirement to establish a documented data recovery process for all enterprise assets."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "internal_control_id": "AM-13",
+  "internal_control_name": "Software bill of Material",
+  "processed_at": "2026-03-13T17:41:55.433748+00:00",
+  "total_mapped": 1,
+  "mappings": [
+    {
+      "safeguard_id": "2.1",
+      "framework": "CIS Controls v8.1",
+      "mapping": "FULL",
+      "reason": "Maintaining a comprehensive software bill of materials inherently requires and establishes a detailed inventory of software titles, versions, and publishers, satisfying the software inventory safeguard."
+    }
+  ]
+}

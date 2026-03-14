@@ -1,0 +1,20 @@
+{
+  "internal_control_id": "AM-04",
+  "internal_control_name": "Inventory Reconciliation: Logging",
+  "processed_at": "2026-03-14T07:24:17.533551+00:00",
+  "total_mapped": 2,
+  "mappings": [
+    {
+      "safeguard_id": "1.2",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Addressing unauthorized assets aligns with the CCF control's requirement to assign owners to non-inventoried devices, satisfying the broader intent of ensuring unmanaged assets are resolved."
+    },
+    {
+      "safeguard_id": "1.4",
+      "framework": "CIS Controls v8.1",
+      "mapping": "FULL",
+      "reason": "Using DHCP logging to update the asset inventory directly implements the CCF control's log repository reconciliation mechanism and objective of identifying non-inventoried devices."
+    }
+  ]
+}

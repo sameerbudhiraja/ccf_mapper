@@ -1,0 +1,20 @@
+{
+  "internal_control_id": "AM-04",
+  "internal_control_name": "Inventory Reconciliation: Logging",
+  "processed_at": "2026-03-12T16:26:00.345202+00:00",
+  "total_mapped": 2,
+  "mappings": [
+    {
+      "safeguard_id": "1.2",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Both require addressing assets not currently recognized in the inventory, with CCF specifying ownership assignment as the remediation method."
+    },
+    {
+      "safeguard_id": "1.4",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Both leverage logging mechanisms to validate and update the asset inventory, with CCF covering a broader log repository scope."
+    }
+  ]
+}

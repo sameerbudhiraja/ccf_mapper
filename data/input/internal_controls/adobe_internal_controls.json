@@ -1,0 +1,1904 @@
+[
+  {
+    "CCF ID": "AM-01",
+    "Control Domain": "Asset Management",
+    "Control Name": "Inventory Management",
+    "Control Description": "Organization maintains an inventory of information systems, which is reconciled on a periodic basis."
+  },
+  {
+    "CCF ID": "AM-02",
+    "Control Domain": "Asset Management",
+    "Control Name": "Inventory Management: Applications",
+    "Control Description": "Organization maintains an inventory of application assets, which is reconciled on a periodic basis."
+  },
+  {
+    "CCF ID": "AM-03",
+    "Control Domain": "Asset Management",
+    "Control Name": "Inventory Reconciliation: ARP Table",
+    "Control Description": "Organization reconciles network discovery scans against the established device inventory on a quarterly basis; non-inventoried devices are assigned an owner."
+  },
+  {
+    "CCF ID": "AM-04",
+    "Control Domain": "Asset Management",
+    "Control Name": "Inventory Reconciliation: Logging",
+    "Control Description": "Organization reconciles the enterprise log repository against the established device inventory on a quarterly basis; non-inventoried devices are assigned an owner."
+  },
+  {
+    "CCF ID": "AM-05",
+    "Control Domain": "Asset Management",
+    "Control Name": "Inventory Labels",
+    "Control Description": "Organization assets are labeled and have designated owners."
+  },
+  {
+    "CCF ID": "AM-06",
+    "Control Domain": "Asset Management",
+    "Control Name": "Media Marking",
+    "Control Description": "Where applicable, Organization marks information system media indicating the distribution limitations, handling caveats, and applicable security markings (if any) of the information. Exemptions must be approved by management and remain in a specific controlled area."
+  },
+  {
+    "CCF ID": "AM-07",
+    "Control Domain": "Asset Management",
+    "Control Name": "Asset Transportation Authorization",
+    "Control Description": "Organization authorizes and records the entry and exit of systems at datacenter locations."
+  },
+  {
+    "CCF ID": "AM-08",
+    "Control Domain": "Asset Management",
+    "Control Name": "Asset Transportation Documentation",
+    "Control Description": "Organization documents the transportation of physical media outside of datacenters. Physical media is packaged securely and transported in a secure, traceable manner."
+  },
+  {
+    "CCF ID": "AM-09",
+    "Control Domain": "Asset Management",
+    "Control Name": "Use of Portable Media",
+    "Control Description": "The use of portable media in Organization datacenters is prohibited unless explicitly authorized by management."
+  },
+  {
+    "CCF ID": "AM-10",
+    "Control Domain": "Asset Management",
+    "Control Name": "Maintenance of Assets",
+    "Control Description": "Equipment maintenance is documented and approved according to management requirements."
+  },
+  {
+    "CCF ID": "AM-11",
+    "Control Domain": "Asset Management",
+    "Control Name": "Tampering of Payment Card Capture Devices",
+    "Control Description": "Devices that physically capture payment card data are inspected for evidence of tampering on a semi-annual basis."
+  },
+  {
+    "CCF ID": "AM-12",
+    "Control Domain": "Asset Management",
+    "Control Name": "Component Installation: Inspection and Approval",
+    "Control Description": "Prior to installation in a production network, hardware components are inspected for improper or unauthorized modifications."
+  },
+  {
+    "CCF ID": "AM-13",
+    "Control Domain": "Asset Management",
+    "Control Name": "Software bill of Material",
+    "Control Description": "Organization maintains a comprehensive software bill of materials"
+  },
+  {
+    "CCF ID": "BC-01",
+    "Control Domain": "Business Continuity",
+    "Control Name": "Business Continuity Plan",
+    "Control Description": "Organization's business contingency plan is periodically reviewed, approved by management and communicated to relevant team members."
+  },
+  {
+    "CCF ID": "BC-02",
+    "Control Domain": "Business Continuity",
+    "Control Name": "Business Continuity Plan: Personal Health Information",
+    "Control Description": "Organization's Business Contingency Plan addresses how to access facilities and obtain data during an emergency."
+  },
+  {
+    "CCF ID": "BC-03",
+    "Control Domain": "Business Continuity",
+    "Control Name": "Business Continuity Plan: Roles and Responsibilities",
+    "Control Description": "Business contingency roles and responsibilities are assigned to individuals and their contact information is communicated to authorized personnel."
+  },
+  {
+    "CCF ID": "BC-04",
+    "Control Domain": "Business Continuity",
+    "Control Name": "Continuity Testing",
+    "Control Description": "Organization performs business contingency and disaster recovery tests on a periodic basis and ensures the following: \n• tests are executed with relevant contingency teams\n• test results are documented\n• corrective actions are taken for exceptions noted\n• plans are updated based on results"
+  },
+  {
+    "CCF ID": "BC-05",
+    "Control Domain": "Business Continuity",
+    "Control Name": "Business Impact Analysis",
+    "Control Description": "Organization identifies the business impact of relevant threats to assets, infrastructure, and resources that support critical business functions. Recovery objectives are established for critical business functions."
+  },
+  {
+    "CCF ID": "BC-06",
+    "Control Domain": "Business Continuity",
+    "Control Name": "Capacity Forecasting",
+    "Control Description": "Budgets for infrastructure capacity are established based on analysis of historical business activity and growth projections; purchases are made against the established budget and plans are updated on a quarterly basis."
+  },
+  {
+    "CCF ID": "BM-01",
+    "Control Domain": "Backup Management",
+    "Control Name": "Backup Configuration",
+    "Control Description": "Organization configures redundant systems or performs periodic backups of data to resume system operations in the event of a system failure."
+  },
+  {
+    "CCF ID": "BM-02",
+    "Control Domain": "Backup Management",
+    "Control Name": "Resilience Testing",
+    "Control Description": "Organization performs annual backup restoration or data replication tests to confirm the reliability and integrity of system backups or recovery operations."
+  },
+  {
+    "CCF ID": "BM-03",
+    "Control Domain": "Backup Management",
+    "Control Name": "Backup Failure Review",
+    "Control Description": "Failed backup jobs are periodically reviewed and resolved in a timely manner."
+  },
+  {
+    "CCF ID": "BM-04",
+    "Control Domain": "Backup Management",
+    "Control Name": "Alternate Storage",
+    "Control Description": "Organization backups are securely stored in an alternate location from source data."
+  },
+  {
+    "CCF ID": "BM-05",
+    "Control Domain": "Backup Management",
+    "Control Name": "Alternate Telecommunication",
+    "Control Description": "Alternate telecommunication service agreements have been established to resume business when the primary service gets disrupted. Service agreements contain priority of service provisions."
+  },
+  {
+    "CCF ID": "CFM-01",
+    "Control Domain": "Configuration Management",
+    "Control Name": "Baseline Configuration Standard",
+    "Control Description": "Organization ensures security hardening and baseline configuration standards have been established according to industry standards and are reviewed and updated periodically."
+  },
+  {
+    "CCF ID": "CFM-02",
+    "Control Domain": "Configuration Management",
+    "Control Name": "Default \"Deny-all\" Settings",
+    "Control Description": "Where applicable, the information system default access configurations are set to \"deny-all.\""
+  },
+  {
+    "CCF ID": "CFM-03",
+    "Control Domain": "Configuration Management",
+    "Control Name": "Remote Access: Prohibited Protocols and Commands",
+    "Control Description": "Organization defines a listing of prohibited user commands and prohibited protocols that can be used in a remote session."
+  },
+  {
+    "CCF ID": "CFM-04",
+    "Control Domain": "Configuration Management",
+    "Control Name": "Data Execution Prevention",
+    "Control Description": "Organization ensures data execution prevention (DEP) security features are enabled on production hosts to restrict code execution within memory."
+  },
+  {
+    "CCF ID": "CFM-05",
+    "Control Domain": "Configuration Management",
+    "Control Name": "Client Run Time Technologies",
+    "Control Description": "Organization disables prohibited client run time technologies on information systems."
+  },
+  {
+    "CCF ID": "CFM-06",
+    "Control Domain": "Configuration Management",
+    "Control Name": "Prohibited Activity Monitoring",
+    "Control Description": "Organization information systems are configured to explicitly deny a predefined list of activities."
+  },
+  {
+    "CCF ID": "CFM-07",
+    "Control Domain": "Configuration Management",
+    "Control Name": "Configuration Checks",
+    "Control Description": "Organization uses mechanisms to detect deviations from baseline configurations on production environments."
+  },
+  {
+    "CCF ID": "CFM-08",
+    "Control Domain": "Configuration Management",
+    "Control Name": "Configuration Check Reconciliation: Logging",
+    "Control Description": "Organization reconciles the established device inventory against the enterprise log repository on a quarterly basis; devices which do not forward security configurations are remediated."
+  },
+  {
+    "CCF ID": "CFM-09",
+    "Control Domain": "Configuration Management",
+    "Control Name": "Time Clock Synchronization",
+    "Control Description": "Systems are configured to synchronize information system time clocks based on International Atomic Time or Coordinated Universal Time (UTC)."
+  },
+  {
+    "CCF ID": "CFM-10",
+    "Control Domain": "Configuration Management",
+    "Control Name": "Time Clock Configuration Access",
+    "Control Description": "Access to modify time data is restricted to authorized personnel."
+  },
+  {
+    "CCF ID": "CFM-11",
+    "Control Domain": "Configuration Management",
+    "Control Name": "Default Device Passwords",
+    "Control Description": "Vendor-supplied default passwords are changed according to Organization standards prior to device installation on the Organization network or immediately after software or operating system installation."
+  },
+  {
+    "CCF ID": "CFM-12",
+    "Control Domain": "Configuration Management",
+    "Control Name": "Process Isolation",
+    "Control Description": "Organization implements only one primary function per server within the production environment; the information system maintains a separate execution domain for each executing process."
+  },
+  {
+    "CCF ID": "CFM-13",
+    "Control Domain": "Configuration Management",
+    "Control Name": "Collaborative Devices",
+    "Control Description": "Where applicable, collaborative computing devices used at Organization are configured to restrict remote activation and provide an explicit indication that they are in use."
+  },
+  {
+    "CCF ID": "CFM-14",
+    "Control Domain": "Configuration Management",
+    "Control Name": "Software Installation",
+    "Control Description": "Installation of software or programs in the production environment is approved by authorized personnel."
+  },
+  {
+    "CCF ID": "CFM-15",
+    "Control Domain": "Configuration Management",
+    "Control Name": "Job Schedules",
+    "Control Description": "Schedule changes or the modifications of production jobs require:\n• documented approval from authorized personnel\n• documented monitoring details"
+  },
+  {
+    "CCF ID": "CHM-01",
+    "Control Domain": "Change Management",
+    "Control Name": "Change Management Workflow",
+    "Control Description": "Change scope, change type, and roles and responsibilities are pre-established and documented in a change control workflow; notification and approval requirements are also pre-established based on risk associated with change scope and type."
+  },
+  {
+    "CCF ID": "CHM-02",
+    "Control Domain": "Change Management",
+    "Control Name": "Change Approval",
+    "Control Description": "Prior to introducing changes into the production environment, approval from authorized personnel is required based on the following:\n• change description\n• impact of change\n• test results\n• back-out plan"
+  },
+  {
+    "CCF ID": "CHM-03",
+    "Control Domain": "Change Management",
+    "Control Name": "Segregation of Duties",
+    "Control Description": "Changes to the production environment are implemented by authorized personnel. "
+  },
+  {
+    "CCF ID": "CHM-04",
+    "Control Domain": "Change Management",
+    "Control Name": "Communication of Maintenance and Downtime",
+    "Control Description": "Customer-impacting product and system changes are publicly communicated on the company website."
+  },
+  {
+    "CCF ID": "CMS-01",
+    "Control Domain": "Customer Managed Security",
+    "Control Name": "Customer Administrative Access",
+    "Control Description": "For products that enable customers to manage their end users, privileged user roles exist with the capability to manage end user access to the relevant applications."
+  },
+  {
+    "CCF ID": "CMS-02",
+    "Control Domain": "Customer Managed Security",
+    "Control Name": "Customer Authentication",
+    "Control Description": "Authentication to organization customer-facing applications are  performed through secure log-on procedures."
+  },
+  {
+    "CCF ID": "CMS-03",
+    "Control Domain": "Customer Managed Security",
+    "Control Name": "Customer Systems Monitoring",
+    "Control Description": "As necessary, event logs are made available to customers."
+  },
+  {
+    "CCF ID": "CMS-04",
+    "Control Domain": "Customer Managed Security",
+    "Control Name": "Customer Security Engagements",
+    "Control Description": "Organization supports customer-requested security inquiries, questionnaires, and audits:\n• in accordance with customer contracts and agreements\n• to facilitate due diligence prior to licensing organization products"
+  },
+  {
+    "CCF ID": "CRY-01",
+    "Control Domain": "Cryptography",
+    "Control Name": "Encryption Key Maintenance",
+    "Control Description": "Cryptographic keys are invalidated when compromised or at the end of their defined lifecycle period."
+  },
+  {
+    "CCF ID": "CRY-02",
+    "Control Domain": "Cryptography",
+    "Control Name": "Encryption Key Distribution",
+    "Control Description": "Organization prohibits the distribution of cryptographic keys in clear text."
+  },
+  {
+    "CCF ID": "CRY-03",
+    "Control Domain": "Cryptography",
+    "Control Name": "Encryption Key Storage",
+    "Control Description": "Encryption keys are securely stored in an approved encryption platform."
+  },
+  {
+    "CCF ID": "CRY-04",
+    "Control Domain": "Cryptography",
+    "Control Name": "Clear Text Key Management",
+    "Control Description": "If applicable, manual clear-text cryptographic key-management operations must be managed using split knowledge and dual control."
+  },
+  {
+    "CCF ID": "CRY-05",
+    "Control Domain": "Cryptography",
+    "Control Name": "Encryption of Data in Transit",
+    "Control Description": "Organization restricted data that is transmitted over public networks is encrypted."
+  },
+  {
+    "CCF ID": "CRY-06",
+    "Control Domain": "Cryptography",
+    "Control Name": "Encryption of Data at Rest",
+    "Control Description": "Organization restricted data at rest is encrypted."
+  },
+  {
+    "CCF ID": "CRY-07",
+    "Control Domain": "Cryptography",
+    "Control Name": "Approved Cryptographic Technology",
+    "Control Description": "Where applicable, strong industry standard cryptographic ciphers and keys with an effective strength greater than 112 bits are required for cryptographic security operations."
+  },
+  {
+    "CCF ID": "CRY-08",
+    "Control Domain": "Cryptography",
+    "Control Name": "Key Repository Access",
+    "Control Description": "Access to the cryptographic keystores is limited to authorized personnel."
+  },
+  {
+    "CCF ID": "CRY-09",
+    "Control Domain": "Cryptography",
+    "Control Name": "Key Store Review",
+    "Control Description": "Management reviews and authorizes key store locations."
+  },
+  {
+    "CCF ID": "CRY-10",
+    "Control Domain": "Cryptography",
+    "Control Name": "Full Disk Encryption Access",
+    "Control Description": "Where full disk encryption is used, logical access must be managed independently of operating system authentication; decryption keys must not be associated with user accounts."
+  },
+  {
+    "CCF ID": "CRY-11",
+    "Control Domain": "Cryptography",
+    "Control Name": "Key Custodians Agreement",
+    "Control Description": "Cryptographic Key Custodians and Cryptographic Materials Custodians (CMC) acknowledge in writing or electronically that they understand and accept their cryptographic-key-custodian responsibilities."
+  },
+  {
+    "CCF ID": "CRY-12",
+    "Control Domain": "Cryptography",
+    "Control Name": "Approved Certificate Authorities",
+    "Control Description": "Organization restricts the use of digital certificates to those that are signed by approved certificate authorities; a certification path to an accepted trust anchor is established."
+  },
+  {
+    "CCF ID": "CRY-13",
+    "Control Domain": "Cryptography",
+    "Control Name": "Installation of Software: Certificate Verification",
+    "Control Description": "Digital Certificates are verified by information system components prior to installation on the production network."
+  },
+  {
+    "CCF ID": "CRY-14",
+    "Control Domain": "Cryptography",
+    "Control Name": "Public Key Infrastructure-based Authentication",
+    "Control Description": "Information systems are configured to follow an established certification path to an accepted trust anchor; in the case of network failure, a local cache of revocation data is maintained to support validation."
+  },
+  {
+    "CCF ID": "CRY-15",
+    "Control Domain": "Cryptography",
+    "Control Name": "Software Signing",
+    "Control Description": "Organization uses a software signing infrastructure to restrict access to organization’s code signing private keys used to sign organization authorized software builds."
+  },
+  {
+    "CCF ID": "DM-01",
+    "Control Domain": "Data Management",
+    "Control Name": "Data Classification Criteria",
+    "Control Description": "Organization's data classification criteria are periodically reviewed, approved by management, and communicated to authorized personnel; the data security management team determines the treatment of data according to its designated data classification level."
+  },
+  {
+    "CCF ID": "DM-02",
+    "Control Domain": "Data Management",
+    "Control Name": "Data Inventory",
+    "Control Description": "Organization should identify, label and classify Data based on the Data Classification Criteria."
+  },
+  {
+    "CCF ID": "DM-03",
+    "Control Domain": "Data Management",
+    "Control Name": "Terms of Service",
+    "Control Description": "Consent is obtained for Organization's Terms of Service (ToS) prior to collecting personal information and when the ToS is updated."
+  },
+  {
+    "CCF ID": "DM-04",
+    "Control Domain": "Data Management",
+    "Control Name": "Personal Information Access Requests",
+    "Control Description": "In accordance with Organization policy, upon request, authenticated individuals are provided with a copy of their personal information or disclosures of their personal information in an understandable form and within the defined timeframe."
+  },
+  {
+    "CCF ID": "DM-05",
+    "Control Domain": "Data Management",
+    "Control Name": "Personal Information Deletion Requests",
+    "Control Description": "In accordance with Organization policy, Organization processes requests for the deletion of personal information."
+  },
+  {
+    "CCF ID": "DM-06",
+    "Control Domain": "Data Management",
+    "Control Name": "External Privacy Inquiries",
+    "Control Description": "In compliance with Organization policy, Organization reviews privacy-related inquiries, complaints, and disputes."
+  },
+  {
+    "CCF ID": "DM-07",
+    "Control Domain": "Data Management",
+    "Control Name": "Test Data Sanitization",
+    "Control Description": "Restricted data is redacted prior to use in a non-production environment."
+  },
+  {
+    "CCF ID": "DM-08",
+    "Control Domain": "Data Management",
+    "Control Name": "Personal Information Updates",
+    "Control Description": "Organization allows authenticated users to review and update their personal information."
+  },
+  {
+    "CCF ID": "DM-09",
+    "Control Domain": "Data Management",
+    "Control Name": "Credit Card Data Restrictions",
+    "Control Description": "Organization does not store full track credit card data, credit card authentication information, credit card verification code, or credit personal identification number (PIN) which Organization processes for payment."
+  },
+  {
+    "CCF ID": "DM-10",
+    "Control Domain": "Data Management",
+    "Control Name": "Primary Account Number Data Restrictions",
+    "Control Description": "Organization restricts primary account number (PAN) data such that only the first six and last four digits are displayed; authorized users with a legitimate business need may be provided the full PAN."
+  },
+  {
+    "CCF ID": "DM-11",
+    "Control Domain": "Data Management",
+    "Control Name": "Personal Information Inventory",
+    "Control Description": "Organization maintains a documented inventory of media containing personal information."
+  },
+  {
+    "CCF ID": "DM-12",
+    "Control Domain": "Data Management",
+    "Control Name": "Changes to Data at Rest",
+    "Control Description": "Organization uses mechanisms to detect direct changes to the integrity of customer data and personal information; Organization takes action to resolve confirmed unauthorized changes to data."
+  },
+  {
+    "CCF ID": "DM-13",
+    "Control Domain": "Data Management",
+    "Control Name": "Data Processing Integrity",
+    "Control Description": "System checks are in place to ensure both complete and accurate capture of data in process."
+  },
+  {
+    "CCF ID": "DM-14",
+    "Control Domain": "Data Management",
+    "Control Name": "Secure Disposal of Media",
+    "Control Description": "Organization securely erases media containing decommissioned restricted data and obtains a certificate or log of erasure; media pending erasure are stored within a secured facility."
+  },
+  {
+    "CCF ID": "DM-15",
+    "Control Domain": "Data Management",
+    "Control Name": "Customer Data Retention and Deletion",
+    "Control Description": "Organization purges or archives data according to customer requests or legal and regulatory mandates."
+  },
+  {
+    "CCF ID": "DM-16",
+    "Control Domain": "Data Management",
+    "Control Name": "Removal of PHI from Media",
+    "Control Description": "Organization removes electronic protected health information from electronic media if the media is made available for re-use."
+  },
+  {
+    "CCF ID": "DM-17",
+    "Control Domain": "Data Management",
+    "Control Name": "Secure Disposal of Media: Testing",
+    "Control Description": "Organization tests sanitization procedures and equipment annually for effectiveness."
+  },
+  {
+    "CCF ID": "DM-18",
+    "Control Domain": "Data Management",
+    "Control Name": "Personal Information Retention and Deletion",
+    "Control Description": "Organization retains and deletes personal information from Organization and service provider systems in accordance with Organization policy."
+  },
+  {
+    "CCF ID": "DM-19",
+    "Control Domain": "Data Management",
+    "Control Name": "Temporary Storage of Personal Information",
+    "Control Description": "Temporary files and documents containing personal information are deleted in accordance with a timeframe consistent with Organization policy."
+  },
+  {
+    "CCF ID": "DM-20",
+    "Control Domain": "Data Management",
+    "Control Name": "Social Media",
+    "Control Description": "Sharing Organization restricted data via messaging technologies, social media, and public websites is prohibited."
+  },
+  {
+    "CCF ID": "DM-21",
+    "Control Domain": "Data Management",
+    "Control Name": "Publicly Accessible Content",
+    "Control Description": "Organization protects its public information system presence with the following processes: only authorized and trained individuals may post public information, content is reviewed prior to publishing, information on public systems is reviewed periodically, and non-public information is removed from public systems upon discovery."
+  },
+  {
+    "CCF ID": "DM-22",
+    "Control Domain": "Data Management",
+    "Control Name": "Data Loss Prevention",
+    "Control Description": "Data loss prevention capabilities are implemented to protect sensitive information as it is stored, transmitted, and processed."
+  },
+  {
+    "CCF ID": "EM-01",
+    "Control Domain": "Entity Management",
+    "Control Name": "Board of Directors Structure and Purpose",
+    "Control Description": "The Board of Directors provides corporate oversight, strategic direction, and review of management for Organization. The Board of Directors meets at least quarterly and has 3 sub-committees: \n• Audit Committee\n• Executive Compensation and Nominating Committee\n• Governance Committee"
+  },
+  {
+    "CCF ID": "EM-02",
+    "Control Domain": "Entity Management",
+    "Control Name": "Audit Committee",
+    "Control Description": "The Audit Committee is governed by a Charter, is independent from Organization Management, composed of outside directors (Industry Experts), and meets quarterly. The Audit Committee oversees: \n•Financial Statement Quality \n•Enterprise Risk Management\n•Regulatory & Legal Compliance\n•Internal Audit Functions\n•Information Security Functions\n•External Audit Functions"
+  },
+  {
+    "CCF ID": "EM-03",
+    "Control Domain": "Entity Management",
+    "Control Name": "Organizational Structure",
+    "Control Description": "Organization Management ensures that its organization is aligned with the corporate strategy by assigning key managers with responsibilities to execute the corporate strategy."
+  },
+  {
+    "CCF ID": "EM-04",
+    "Control Domain": "Entity Management",
+    "Control Name": "Operating Plans",
+    "Control Description": "Annual operating plans are aligned with Corporate Objectives, which are established on an annual basis during the Company's planning process. Priorities are set and plans are communicated appropriately."
+  },
+  {
+    "CCF ID": "EM-05",
+    "Control Domain": "Entity Management",
+    "Control Name": "Cyber Security Insurance",
+    "Control Description": "Organization purchases cyber security insurance to mitigate risk of material financial impact that could result from a cyber security event."
+  },
+  {
+    "CCF ID": "EM-06",
+    "Control Domain": "Entity Management",
+    "Control Name": "Internal Audit Function",
+    "Control Description": "Quarterly, the Chief Audit Executive meets with the Audit Committee to review key risk issues. The Audit Committee approves the annual Internal Audit Plan. Results of quarterly audits and subsequent issue tracking summaries are presented to the Audit Committee."
+  },
+  {
+    "CCF ID": "EM-07",
+    "Control Domain": "Entity Management",
+    "Control Name": "Financial Control Review",
+    "Control Description": "Internal financial control assessment results are reported to the Audit Committee by the Chief Audit Executive on a quarterly basis and support the CEO/CFO 302/404 certifications."
+  },
+  {
+    "CCF ID": "EM-08",
+    "Control Domain": "Entity Management",
+    "Control Name": "Information Security Function",
+    "Control Description": "Quarterly, the Chief Security Officer meets with the Audit Committee to review key Information Security issues. Results of continuous monitoring activities and current security compliance status are presented to the Audit Committee and the Board of Directors."
+  },
+  {
+    "CCF ID": "EM-09",
+    "Control Domain": "Entity Management",
+    "Control Name": "Information Security Compliance Review",
+    "Control Description": "Information Security compliance results are reported to the Audit Committee by the Chief Security Officer on a quarterly basis and support information security compliance certifications"
+  },
+  {
+    "CCF ID": "EM-10",
+    "Control Domain": "Entity Management",
+    "Control Name": "Common Controls Framework",
+    "Control Description": "Organization maintains a Common Control Framework (CCF) that is used in the implementation of control measures as a risk mitigation strategy to support organization operations, technology infrastructure, and security management activities."
+  },
+  {
+    "CCF ID": "EM-11",
+    "Control Domain": "Entity Management",
+    "Control Name": "Service Agreement",
+    "Control Description": "When customers sign-up for Organization’s product and services, the customer is required to acknowledge a service agreement which includes considerations for protecting security, availability, confidentiality and indicates the responsibilities of the users and organization’s responsibilities and commitments."
+  },
+  {
+    "CCF ID": "IAM-01",
+    "Control Domain": "Identity and Access Management",
+    "Control Name": "Logical Access Provisioning",
+    "Control Description": "Logical access provisioning to information systems requires approval from appropriate personnel."
+  },
+  {
+    "CCF ID": "IAM-02",
+    "Control Domain": "Identity and Access Management",
+    "Control Name": "Change of Access Notification",
+    "Control Description": "Changes made to system access trigger a notification that is sent to designated personnel."
+  },
+  {
+    "CCF ID": "IAM-03",
+    "Control Domain": "Identity and Access Management",
+    "Control Name": "Logical Access De-provisioning",
+    "Control Description": "Logical access that is no longer required in the event of a termination is documented, communicated to management, and revoked."
+  },
+  {
+    "CCF ID": "IAM-04",
+    "Control Domain": "Identity and Access Management",
+    "Control Name": "Logical Access De-provisioning: Notification",
+    "Control Description": "The People Resources system sends a notification to relevant personnel in the event of a termination of an information system user."
+  },
+  {
+    "CCF ID": "IAM-05",
+    "Control Domain": "Identity and Access Management",
+    "Control Name": "Logical Access Review",
+    "Control Description": "Organization performs account and access reviews on a quarterly basis; corrective action is taken where applicable."
+  },
+  {
+    "CCF ID": "IAM-06",
+    "Control Domain": "Identity and Access Management",
+    "Control Name": "Role Change: Access De-provisioning",
+    "Control Description": "Upon notification of an employee reassignment or transfer, management reviews the employee's access for appropriateness. Access that is no longer required is revoked and documented."
+  },
+  {
+    "CCF ID": "IAM-07",
+    "Control Domain": "Identity and Access Management",
+    "Control Name": "Shared Logical Accounts",
+    "Control Description": "Organization restricts the use of shared and group authentication credentials. Authentication credentials for shared and group accounts are reset every 90 days."
+  },
+  {
+    "CCF ID": "IAM-08",
+    "Control Domain": "Identity and Access Management",
+    "Control Name": "Shared Logical Accounts: Group Member ",
+    "Control Description": "Passwords for shared and group accounts are reset when a member of the shared group leaves."
+  },
+  {
+    "CCF ID": "IAM-09",
+    "Control Domain": "Identity and Access Management",
+    "Control Name": "Shared Account Restrictions",
+    "Control Description": "Where applicable, the use of generic and shared accounts to administer systems or perform critical functions is prohibited; generic user IDs are disabled or removed."
+  },
+  {
+    "CCF ID": "IAM-10",
+    "Control Domain": "Identity and Access Management",
+    "Control Name": "Role Change: People Resources Notification",
+    "Control Description": "The People Resources system sends a notification to relevant management and relevant information system administrators in the event of an employee reassignment or transfer of an information system user."
+  },
+  {
+    "CCF ID": "IAM-11",
+    "Control Domain": "Identity and Access Management",
+    "Control Name": "Temporary Account Termination",
+    "Control Description": "Temporary and emergency accounts are automatically terminated 90 days from the date they are generated."
+  },
+  {
+    "CCF ID": "IAM-12",
+    "Control Domain": "Identity and Access Management",
+    "Control Name": "Unique Identifiers",
+    "Control Description": "Organization requires unique identifiers for user accounts and prevents identifier reuse."
+  },
+  {
+    "CCF ID": "IAM-13",
+    "Control Domain": "Identity and Access Management",
+    "Control Name": "Password Authentication",
+    "Control Description": "User and device authentication to privileged information systems is protected by passwords that meet Organization's password complexity requirements."
+  },
+  {
+    "CCF ID": "IAM-14",
+    "Control Domain": "Identity and Access Management",
+    "Control Name": "Multifactor Authentication",
+    "Control Description": "Multi-factor authentication is required for:\n• remote VPN sessions\n• access to trusted data environments"
+  },
+  {
+    "CCF ID": "IAM-15",
+    "Control Domain": "Identity and Access Management",
+    "Control Name": "Authentication Credential Maintenance",
+    "Control Description": "Authorized personnel verify the identity of users before modifying authentication credentials on their behalf."
+  },
+  {
+    "CCF ID": "IAM-16",
+    "Control Domain": "Identity and Access Management",
+    "Control Name": "Session Timeout",
+    "Control Description": "Information systems are configured to terminate inactive sessions after 15 minutes or when the user terminates the session."
+  },
+  {
+    "CCF ID": "IAM-17",
+    "Control Domain": "Identity and Access Management",
+    "Control Name": "Session Limit",
+    "Control Description": "Information systems are configured to limit concurrent login sessions and the inactive user interface is not displayed when the session is terminated."
+  },
+  {
+    "CCF ID": "IAM-18",
+    "Control Domain": "Identity and Access Management",
+    "Control Name": "Account Lockout: Cardholder Data Environments",
+    "Control Description": "Users are locked out of information systems after 6 invalid attempts for a minimum of 30 minutes, or until an administrator enables the user ID."
+  },
+  {
+    "CCF ID": "IAM-19",
+    "Control Domain": "Identity and Access Management",
+    "Control Name": "Account Lockout",
+    "Control Description": "Users are locked out of information systems after multiple, consecutive invalid attempts within a defined period; accounts remain locked for a defined period."
+  },
+  {
+    "CCF ID": "IAM-20",
+    "Control Domain": "Identity and Access Management",
+    "Control Name": "Login Banner",
+    "Control Description": "Systems leveraged by the U.S. Federal Government present a login screen that displays the following language:\n• users are accessing a U.S. Government information system\n• system usage may be monitored, recorded, and subject to audit\n• unauthorized use of the system is prohibited and subject to criminal and civil penalties\n• use of the system indicates consent to monitoring and recording"
+  },
+  {
+    "CCF ID": "IAM-21",
+    "Control Domain": "Identity and Access Management",
+    "Control Name": "Credentials Validation",
+    "Control Description": "Organization systems utilize Federal Identity, Credential, and Access Management (FICAM) components and conform to FICAM-issued profiles; systems verify and accept the following external credentials:\n• personal Identity Verification (PIV) credentials from federal agencies, and\n• FICAM-approved credentials from non-federal third-parties\n"
+  },
+  {
+    "CCF ID": "IAM-22",
+    "Control Domain": "Identity and Access Management",
+    "Control Name": "Password Authentication Standard: Federal Systems",
+    "Control Description": "Organization information systems obscure feedback of authentication information during the authentication process (e.g., the system does not disclose error information such as \"'user1' is not a valid username\") and have the following password requirements:\n• minimum of 12 characters\n• contains at least one upper-case letter, lower-case letter, number, and a special character\n• at least one of the characters is changed when the new passwords are created.\n• the password life span is between 1 to 60 days\n• password reuse is prohibited for 24 generations\n• only allow the use of temporary password system logons with an immediate change to a permanent password"
+  },
+  {
+    "CCF ID": "IAM-23",
+    "Control Domain": "Identity and Access Management",
+    "Control Name": "Privileged Session Management",
+    "Control Description": "Privileged logical access to trusted data environments is enabled through an authorized session manager; session user activity is recorded and tunnelling to untrusted data environments is restricted."
+  },
+  {
+    "CCF ID": "IAM-24",
+    "Control Domain": "Identity and Access Management",
+    "Control Name": "Zero Trust Enterprise Network",
+    "Control Description": "Organization users are authenticated against a Zero Trust model prior to gaining access to organization resources."
+  },
+  {
+    "CCF ID": "IAM-25",
+    "Control Domain": "Identity and Access Management",
+    "Control Name": "Logical Access Role Permission Authorization",
+    "Control Description": "Initial permission definitions, and changes to permissions, associated with logical access roles are approved by authorized personnel."
+  },
+  {
+    "CCF ID": "IAM-26",
+    "Control Domain": "Identity and Access Management",
+    "Control Name": "Source Code Security",
+    "Control Description": "Access to modify source code is restricted to authorized personnel."
+  },
+  {
+    "CCF ID": "IAM-27",
+    "Control Domain": "Identity and Access Management",
+    "Control Name": "Service Account Restrictions",
+    "Control Description": "Individual user or administrator use of service accounts for O/S, applications, and databases is prohibited."
+  },
+  {
+    "CCF ID": "IAM-28",
+    "Control Domain": "Identity and Access Management",
+    "Control Name": "PCI Account Restrictions",
+    "Control Description": "Organization clients with access to the cardholder data environment (CDE), as users or processes, are assigned unique accounts that cannot modify shared binaries or access data, server resources, or scripts owned by another CDE or Organization; application processes are restricted from operating in privileged-mode."
+  },
+  {
+    "CCF ID": "IAM-29",
+    "Control Domain": "Identity and Access Management",
+    "Control Name": "Least Privilege",
+    "Control Description": "Role-based access is defined and deployed to restrict privileged access to information resources based on the concept of least privilege."
+  },
+  {
+    "CCF ID": "IAM-30",
+    "Control Domain": "Identity and Access Management",
+    "Control Name": "Virtual Private Network",
+    "Control Description": "Remote connections to the corporate network are accessed via VPN through managed gateways."
+  },
+  {
+    "CCF ID": "IAM-31",
+    "Control Domain": "Identity and Access Management",
+    "Control Name": "Virtual Private Network: Restrict Split-Tunneling",
+    "Control Description": "VPN configurations restrict split-tunneling capabilities."
+  },
+  {
+    "CCF ID": "IAM-32",
+    "Control Domain": "Identity and Access Management",
+    "Control Name": "Ability to Disable Remote Sessions",
+    "Control Description": "Organization has a defined process and mechanisms in place to expeditiously disable or disconnect remote access to information systems within a defined time frame based on business need."
+  },
+  {
+    "CCF ID": "IAM-33",
+    "Control Domain": "Identity and Access Management",
+    "Control Name": "Remote Maintenance: Authentication Sessions",
+    "Control Description": "Vendor accounts used for remote access are enabled only during the time period needed, disabled when not in use, and monitored while in use."
+  },
+  {
+    "CCF ID": "IAM-34",
+    "Control Domain": "Identity and Access Management",
+    "Control Name": "Remote Maintenance: Unique Authentication Credentials for each Customer",
+    "Control Description": "Where applicable, Service providers with remote access to customer premises (e.g., for support of POS systems or servers) must use a unique authentication credential (such as a password/phrase) for each customer."
+  },
+  {
+    "CCF ID": "IAM-35",
+    "Control Domain": "Identity and Access Management",
+    "Control Name": "Remote Maintenance: Authentication",
+    "Control Description": "Remote maintenance and diagnostic tool utilization are restricted to the minimum required level, strong authentication is required, and remote sessions are recorded. "
+  },
+  {
+    "CCF ID": "IAM-36",
+    "Control Domain": "Identity and Access Management",
+    "Control Name": "Remote Maintenance: Audit",
+    "Control Description": "Organization documents and maintains records for vendor remote maintenance, diagnostic activities, and permissions granted. A listing of vendor remote maintenance connections is documented as well."
+  },
+  {
+    "CCF ID": "IAM-37",
+    "Control Domain": "Identity and Access Management",
+    "Control Name": "End-user Environment Segmentation",
+    "Control Description": "Where applicable, processes that run as part of an Organization shared hosting platform will run under unique credentials that permit access to only one customer environment."
+  },
+  {
+    "CCF ID": "IAM-38",
+    "Control Domain": "Identity and Access Management",
+    "Control Name": "End-user Access to Applications and Data",
+    "Control Description": "Organization applications secure user data and maintain confidentiality by default or according to permissions set by the individual; Organization authenticates individuals with unique identifiers and passwords prior to enabling access to: \n• use the application \n• view or modify their own data"
+  },
+  {
+    "CCF ID": "IAM-39",
+    "Control Domain": "Identity and Access Management",
+    "Control Name": "Hardware Tokens",
+    "Control Description": "Where applicable, hardware token-based authentication is facilitated only by approved organizations."
+  },
+  {
+    "CCF ID": "IR-01",
+    "Control Domain": "Incident Response",
+    "Control Name": "Incident Response Plan",
+    "Control Description": "Organization defines the types of incidents that need to be managed, tracked and reported, including:\n• procedures for the identification and management of incidents \n• procedures for the resolution of confirmed incidents\n• key incident response systems\n• incident coordination and communication strategy\n• contact method for internal parties to report incidents\n• support team contact information\n• notification to relevant management in the event of a security breach\n• provisions for updating and communicating the plan\n• provisions for training of support team\n• preservation of incident information\n• management review and approval, annually, or when major changes to the organization occur"
+  },
+  {
+    "CCF ID": "IR-02",
+    "Control Domain": "Incident Response",
+    "Control Name": "Incident Response Testing",
+    "Control Description": "Organization tests incident response processes on an annual basis. Results from the tests are documented."
+  },
+  {
+    "CCF ID": "IR-03",
+    "Control Domain": "Incident Response",
+    "Control Name": "Incident Response",
+    "Control Description": "Confirmed incidents are assigned a priority level and managed to resolution. If applicable, Organization coordinates the incident response with business contingency activities."
+  },
+  {
+    "CCF ID": "IR-04",
+    "Control Domain": "Incident Response",
+    "Control Name": "External Communication of Incidents",
+    "Control Description": "Organization defines external communication requirements for incidents, including:\n• information about external party dependencies\n• criteria for notification to external parties as required by Organization policy in the event of a security breach\n• contact information for authorities (e.g., law enforcement, regulatory bodies, etc.)\n• provisions for updating and communicating external communication requirement changes"
+  },
+  {
+    "CCF ID": "IR-05",
+    "Control Domain": "Incident Response",
+    "Control Name": "Incident Reporting Contact Information",
+    "Control Description": "Organization provides a contact method to:\n• submit complaints and inquiries\n• report incidents"
+  },
+  {
+    "CCF ID": "IR-06",
+    "Control Domain": "Incident Response",
+    "Control Name": "Incident External Communication",
+    "Control Description": "Organization communicates a response to external stakeholders as required by the Incident Response Plan."
+  },
+  {
+    "CCF ID": "IR-07",
+    "Control Domain": "Incident Response",
+    "Control Name": "External Communication of Incidents: Protected Health Information",
+    "Control Description": "Organization communicates the discovery and status of the breach of Protected Health Information (PHI) to the covered entity within 60 days or as required by the Business Associates Agreement (BAA) and provides the following information if available:\n• description of the Event\n• description of the Information that was compromised\n• identification of the Individuals whose PHI were compromised\n• steps Required to Protect Individuals\n• investigation Plan\n• contact Information"
+  },
+  {
+    "CCF ID": "IR-08",
+    "Control Domain": "Incident Response",
+    "Control Name": "Problem Management",
+    "Control Description": "Organization resolves customer support inquiries."
+  },
+  {
+    "CCF ID": "MDM-01",
+    "Control Domain": "Mobile Device Management",
+    "Control Name": "Mobile Device Enrollment",
+    "Control Description": "Mobile devices (i.e., laptops, smartphones, tablets) must be configured with the appropriate Mobile Device Management (MDM) profile when used as a medium to access Organization internal resources."
+  },
+  {
+    "CCF ID": "MDM-02",
+    "Control Domain": "Mobile Device Management",
+    "Control Name": "Mobile Device Encryption",
+    "Control Description": "Mobile devices (i.e., laptops, smartphones, tablets) that are used to access data from Organization internal resources are encrypted."
+  },
+  {
+    "CCF ID": "MDM-03",
+    "Control Domain": "Mobile Device Management",
+    "Control Name": "Configuration Management: Mobile Devices",
+    "Control Description": "Organization Mobile devices (i.e., laptops, smartphones, tablets) are configured to ensure unnecessary hardware capabilities and functionalities are disabled, and management defined security features are enabled."
+  },
+  {
+    "CCF ID": "MDM-04",
+    "Control Domain": "Mobile Device Management",
+    "Control Name": "Configuration Management: High Risk Travel Locations",
+    "Control Description": "Organization has a documented list of travel locations considered high risk for the use of mobile devices (i.e., laptops, smartphones, tablets). Employees procure alternate equipment before traveling to these locations."
+  },
+  {
+    "CCF ID": "NO-01",
+    "Control Domain": "Network Operations",
+    "Control Name": "Network Policy Enforcement Points",
+    "Control Description": "Network traffic to and from untrusted networks passes through a policy enforcement point; firewall rules are established in accordance with identified security requirements and business justifications."
+  },
+  {
+    "CCF ID": "NO-02",
+    "Control Domain": "Network Operations",
+    "Control Name": "Inbound and Outbound Network Traffic: DMZ Requirements",
+    "Control Description": "Network traffic to and from untrusted networks passes through a Demilitarized Zone (DMZ)."
+  },
+  {
+    "CCF ID": "NO-03",
+    "Control Domain": "Network Operations",
+    "Control Name": "Ingress and Egress Points",
+    "Control Description": "Organization maintains an inventory of ingress and egress points on the production network and performs the following for each: \n• inventory is reduced to the minimum possible level\n• permitted ports, protocols and services are inventoried and validated\n• documents security features that are implemented for insecure protocols"
+  },
+  {
+    "CCF ID": "NO-04",
+    "Control Domain": "Network Operations",
+    "Control Name": "Non-disclosure of Routing Information",
+    "Control Description": "Organization does not disclose private IP addresses and routing information to unauthorized parties."
+  },
+  {
+    "CCF ID": "NO-05",
+    "Control Domain": "Network Operations",
+    "Control Name": "Dynamic Packet Filtering",
+    "Control Description": "Where applicable, Organization enables dynamic packet filtering on the network."
+  },
+  {
+    "CCF ID": "NO-06",
+    "Control Domain": "Network Operations",
+    "Control Name": "Firewall Rule Set Review",
+    "Control Description": "Network infrastructure rule sets are reviewed every 6 months."
+  },
+  {
+    "CCF ID": "NO-07",
+    "Control Domain": "Network Operations",
+    "Control Name": "Ingress and Egress Points: Fail Secure",
+    "Control Description": "The information system fails securely in the event of an operational failure of a boundary protection device.\n"
+  },
+  {
+    "CCF ID": "NO-08",
+    "Control Domain": "Network Operations",
+    "Control Name": "Traffic Flow: Managed Proxy",
+    "Control Description": "Organization requires egress traffic initiated from within the Organization network to pass through a managed proxy."
+  },
+  {
+    "CCF ID": "NO-09",
+    "Control Domain": "Network Operations",
+    "Control Name": "Domain Name Services Security Extensions (DNSSec)",
+    "Control Description": "Organization establishes a DNSSec implementation standard and uses mechanisms to verify the DNS infrastructure for compliance."
+  },
+  {
+    "CCF ID": "NO-10",
+    "Control Domain": "Network Operations",
+    "Control Name": "Email Spam Protection",
+    "Control Description": "Organization has documented procedures and protection mechanisms in place to protect its information and information systems from spam and ensures that signature definitions are updated whenever new releases are available.\n"
+  },
+  {
+    "CCF ID": "NO-11",
+    "Control Domain": "Network Operations",
+    "Control Name": "Denial of Service (DOS)",
+    "Control Description": "Organization implements a Denial of Service (DOS) protection plan, identifies threatening DOS attacks, and configures boundary protection devices according to the DOS plan."
+  },
+  {
+    "CCF ID": "NO-12",
+    "Control Domain": "Network Operations",
+    "Control Name": "Trusted Connections",
+    "Control Description": "All trusted connections are documented and approved by authorized personnel; management ensures the following documentation is in place prior to approval: \n• agreement with vendor\n• security requirements\n• nature of transmitted information"
+  },
+  {
+    "CCF ID": "NO-13",
+    "Control Domain": "Network Operations",
+    "Control Name": "Network Segmentation",
+    "Control Description": "Production environments are logically segregated from non-production environments."
+  },
+  {
+    "CCF ID": "NO-14",
+    "Control Domain": "Network Operations",
+    "Control Name": "Card Processing Environment Segmentation",
+    "Control Description": "Where applicable, Organization segregates the Primary Account Number (PAN) infrastructure including payment card collection devices; Organization limits access to the segregated environment to authorized personnel."
+  },
+  {
+    "CCF ID": "NO-15",
+    "Control Domain": "Network Operations",
+    "Control Name": "Traffic Flow",
+    "Control Description": "Organization documents the approved traffic flow at each managed interface and configures the managed interface accordingly. Exceptions to traffic flow are documented, reviewed periodically, and removed when there is no longer a business requirement."
+  },
+  {
+    "CCF ID": "NO-16",
+    "Control Domain": "Network Operations",
+    "Control Name": "Disable Rogue Wireless Access Points",
+    "Control Description": "Organization employs mechanisms to detect and disable the use of unauthorized wireless access points."
+  },
+  {
+    "CCF ID": "NO-17",
+    "Control Domain": "Network Operations",
+    "Control Name": "Wireless Access Points",
+    "Control Description": "Organization maintains an inventory of authorized wireless access points including a documented business justification."
+  },
+  {
+    "CCF ID": "NO-18",
+    "Control Domain": "Network Operations",
+    "Control Name": "Authentication: Wireless Access Points",
+    "Control Description": "Organization restricts access to network services via wireless access points to authenticated users and services; approved wireless encryption protocols are required for wireless connections."
+  },
+  {
+    "CCF ID": "PR-01",
+    "Control Domain": "People Resources",
+    "Control Name": "Background Checks",
+    "Control Description": "New hires are required to pass a background check as a condition of their employment."
+  },
+  {
+    "CCF ID": "PR-02",
+    "Control Domain": "People Resources",
+    "Control Name": "Performance Management",
+    "Control Description": "Organization has established a check-in performance management process for on-going dialogue between managers and employees. Quarterly reminders are sent to managers to perform their regular check-in conversation."
+  },
+  {
+    "CCF ID": "PR-03",
+    "Control Domain": "People Resources",
+    "Control Name": "Hiring Process",
+    "Control Description": "Job candidates apply for roles that are listed on the Organization career portal; candidates are interviewed to determine their knowledge and competence for their prospective roles and compatibility with Organization values."
+  },
+  {
+    "CCF ID": "PR-04",
+    "Control Domain": "People Resources",
+    "Control Name": "Organization Property Collection",
+    "Control Description": "Upon employee termination, management is notified to collect Organization property from the terminated employee.\n"
+  },
+  {
+    "CCF ID": "PR-05",
+    "Control Domain": "People Resources",
+    "Control Name": "Exit Interviews",
+    "Control Description": "Upon employee termination, management conducts exit interviews for the terminated employee."
+  },
+  {
+    "CCF ID": "PR-06",
+    "Control Domain": "People Resources",
+    "Control Name": "Disciplinary Process",
+    "Control Description": "Employees that fail to comply with Organization policies are subject to a disciplinary process."
+  },
+  {
+    "CCF ID": "PR-07",
+    "Control Domain": "People Resources",
+    "Control Name": "Code of Ethics",
+    "Control Description": "Organization has a Code of Ethics for Senior Officers. The Senior Officers and CEO certify that they understand the Code on an annual basis."
+  },
+  {
+    "CCF ID": "PR-08",
+    "Control Domain": "People Resources",
+    "Control Name": "Business Ethics Hotline",
+    "Control Description": "Organization has a business ethics hotline for employees and external parties to report ethical misconduct. Allegations are investigated and Organization will take appropriate action for confirmed violations. Hotline reports are reported to the Audit Committee on a quarterly basis."
+  },
+  {
+    "CCF ID": "PR-09",
+    "Control Domain": "People Resources",
+    "Control Name": "National Security Clearance",
+    "Control Description": "Organization conducts screening and rescreening of authorized personnel for roles that require national security clearances. For national security clearances; a reinvestigation is required during the 5th year for top secret security clearance, the 10th year for secret security clearance, and 15th year for confidential security clearance. In addition, for law enforcement and high impact public trust level, a reinvestigation is required during the 5th year."
+  },
+  {
+    "CCF ID": "PR-10",
+    "Control Domain": "People Resources",
+    "Control Name": "Code of Business Conduct",
+    "Control Description": "Organization has documented the Code of Business Conduct and Business Partner Code of Conduct, which are reviewed, updated if applicable, and approved by senior management annually."
+  },
+  {
+    "CCF ID": "PRIV-01",
+    "Control Domain": "Privacy",
+    "Control Name": "Privacy Program",
+    "Control Description": "Organization privacy policies for individuals, including relevant updates, are communicated on the public company website or on the internal corporate network."
+  },
+  {
+    "CCF ID": "PRIV-02",
+    "Control Domain": "Privacy",
+    "Control Name": "Privacy Program Review",
+    "Control Description": "On an annual basis, Organization performs a review of privacy practices to ensure the following:\n• consent is obtained for users whose personal information (PI) is managed by Organization\n• PI inventory integrity and accuracy\n• data access request response template is understandable\n• standard agreement templates are up-to-date\n• requests to delete, access or update PI are processed accurately and within a timeframe consistent with Organization policy\n• compliance with Organization's privacy commitments\n• known privacy issues are remediated\n• opt-in and opt-out compliance with applicable law\n• Organization privacy documentation and practices are relevant to applicable law\n• compliance with relevant industry Codes of Conduct (e.g., EDAA)\n• if applicable, joint controller responsibilities are clearly defined and communicated to both data controllers and the data subject"
+  },
+  {
+    "CCF ID": "PRIV-03",
+    "Control Domain": "Privacy",
+    "Control Name": "Privacy Readiness Review",
+    "Control Description": "Organization performs privacy readiness reviews to identify high-risk processing activities that impact personal data; identified non-compliance with Organization privacy practices is tracked through remediation."
+  },
+  {
+    "CCF ID": "PRIV-04",
+    "Control Domain": "Privacy",
+    "Control Name": "Privacy Notice",
+    "Control Description": "Individuals are given appropriate notice and an opportunity to consent or decline to Organization privacy practices such as accessing, collecting, processing, transferring, or storing personal information."
+  },
+  {
+    "CCF ID": "PRIV-05",
+    "Control Domain": "Privacy",
+    "Control Name": "Personal Information Notice and Consent: Additional Processing Activities",
+    "Control Description": "Where appropriate, Organization obtains individual consent for processing activities for which consent has not been previously obtained."
+  },
+  {
+    "CCF ID": "PRIV-06",
+    "Control Domain": "Privacy",
+    "Control Name": "Notice of Personal Information Disclosure",
+    "Control Description": "In accordance with Organization policy, Organization provides notice to individuals regarding legally-required disclosures of personal information."
+  },
+  {
+    "CCF ID": "PRIV-07",
+    "Control Domain": "Privacy",
+    "Control Name": "PII Processing Agreements",
+    "Control Description": "Personal information is handled and processed in accordance with contractual requirements."
+  },
+  {
+    "CCF ID": "PRIV-08",
+    "Control Domain": "Privacy",
+    "Control Name": "Record of Processing Activity",
+    "Control Description": "Organization documents, reviews, and approves a record of processing activities related to personal information."
+  },
+  {
+    "CCF ID": "PRIV-09",
+    "Control Domain": "Privacy",
+    "Control Name": "Document Management Standard: HIPAA",
+    "Control Description": "Documentation that impacts personal health information, including policies, procedures, and the documentation of actions, activities, or assessments, are retained for 6 years from the date of its creation, or the date when it last was in effect, whichever is later."
+  },
+  {
+    "CCF ID": "PRIV-10",
+    "Control Domain": "Privacy",
+    "Control Name": "Law Enforcement Requests",
+    "Control Description": "Law enforcement agencies may submit requests for evidence; submitted requests are reviewed and tracked to resolution."
+  },
+  {
+    "CCF ID": "PS-01",
+    "Control Domain": "Proactive Security",
+    "Control Name": "Endpoint Detection and Response",
+    "Control Description": "Endpoint Detection and Response (EDR) software is deployed to continuously monitor, detect, and respond to cyber threats and patterns of malicious behavior and activity."
+  },
+  {
+    "CCF ID": "PS-02",
+    "Control Domain": "Proactive Security",
+    "Control Name": "Threat Hunting",
+    "Control Description": "Organization performs threat hunting to identify, track, and disrupt threats that evade existing security controls."
+  },
+  {
+    "CCF ID": "PS-03",
+    "Control Domain": "Proactive Security",
+    "Control Name": "Threat Modeling",
+    "Control Description": "Organization performs periodic threat modeling to ensure that potential threats are identified and assessed."
+  },
+  {
+    "CCF ID": "PS-04",
+    "Control Domain": "Proactive Security",
+    "Control Name": "Adversary Intelligence",
+    "Control Description": "Organization gathers intelligence on adversary personas to assist in the prioritization of security activities."
+  },
+  {
+    "CCF ID": "RM-01",
+    "Control Domain": "Risk Management",
+    "Control Name": "Service Risk Rating Assignment",
+    "Control Description": "Annually, Organization prioritizes the frequency of vulnerability discovery activities based on an assigned service risk rating."
+  },
+  {
+    "CCF ID": "RM-02",
+    "Control Domain": "Risk Management",
+    "Control Name": "Risk Assessment",
+    "Control Description": "Organization management performs an annual risk assessment. Results from risk assessment activities are reviewed to prioritize mitigation of identified risks."
+  },
+  {
+    "CCF ID": "RM-03",
+    "Control Domain": "Risk Management",
+    "Control Name": "Risk Assessment: HIPAA Criteria",
+    "Control Description": "Organization's periodic risk assessment for systems that process, transmit or store Protected Health Information (PHI) includes the following:\n• identify and classify assets\n• identify threats\n• identify vulnerabilities\n• identify controls\n• perform threat likelihood analysis\n• perform threat impact analysis\n• identify residual risk\n• identify appropriate safeguards"
+  },
+  {
+    "CCF ID": "RM-04",
+    "Control Domain": "Risk Management",
+    "Control Name": "Continuous Monitoring",
+    "Control Description": "The design and operating effectiveness of internal controls are continuously evaluated against the established Common Controls Framework by Organization. Corrective actions related to identified deficiencies are tracked to resolution."
+  },
+  {
+    "CCF ID": "RM-05",
+    "Control Domain": "Risk Management",
+    "Control Name": "Self-Assessments: PCI",
+    "Control Description": "On a quarterly basis, reviews shall be performed with approved documented specification to confirm personnel are following security policies and operational procedures pertaining to:\n• daily log reviews\n• firewall rule-set reviews\n• applying configuration standards to new systems\n• responding to security alerts\n• change management processes"
+  },
+  {
+    "CCF ID": "RM-06",
+    "Control Domain": "Risk Management",
+    "Control Name": "Internal Audits",
+    "Control Description": "Organization establishes internal audit requirements based on the Common Controls Framework by Organization and executes audits on information systems and processes at planned intervals."
+  },
+  {
+    "CCF ID": "RM-07",
+    "Control Domain": "Risk Management",
+    "Control Name": "ISMS Internal Audit Requirements",
+    "Control Description": "Internal audit establishes and executes a plan to evaluate applicable controls in the Information Security Management System (ISMS) at least once every 3 years."
+  },
+  {
+    "CCF ID": "RM-08",
+    "Control Domain": "Risk Management",
+    "Control Name": "Remediation Tracking",
+    "Control Description": "Management prepares a remediation plan to formally manage the resolution of findings identified in risk assessment activities."
+  },
+  {
+    "CCF ID": "RM-09",
+    "Control Domain": "Risk Management",
+    "Control Name": "ISMS Corrective Action Plans",
+    "Control Description": "Management prepares a Corrective Action Plan (CAP) to manage the resolution of nonconformities identified in independent audits."
+  },
+  {
+    "CCF ID": "RM-10",
+    "Control Domain": "Risk Management",
+    "Control Name": "Statement of Applicability",
+    "Control Description": "Management prepares a statement of applicability that includes control objectives, implemented controls, and business justification for excluded controls. Management aligns the statement of applicability with the results of the annual risk assessment. "
+  },
+  {
+    "CCF ID": "SDD-01",
+    "Control Domain": "System Design Documentation",
+    "Control Name": "System Documentation",
+    "Control Description": "Documentation of system boundaries and key aspects of their functionality are published to authorized Organization personnel on the Organization intranet."
+  },
+  {
+    "CCF ID": "SDD-02",
+    "Control Domain": "System Design Documentation",
+    "Control Name": "Whitepapers",
+    "Control Description": "Organization publishes whitepapers to its public website that describe the purpose, design and boundaries of the system and system components."
+  },
+  {
+    "CCF ID": "SG-01",
+    "Control Domain": "Security Governance",
+    "Control Name": "Policy and Standard Review",
+    "Control Description": "Organization's policies and standards are periodically reviewed, approved by management, and communicated to Organization personnel."
+  },
+  {
+    "CCF ID": "SG-02",
+    "Control Domain": "Security Governance",
+    "Control Name": "Exception Management",
+    "Control Description": "Organization reviews exceptions to policies, standards and procedures; exceptions are documented and approved based on business need and removed when no longer required."
+  },
+  {
+    "CCF ID": "SG-03",
+    "Control Domain": "Security Governance",
+    "Control Name": "Document Control",
+    "Control Description": "Organization's document management criteria is periodically reviewed, approved by management, and communicated to authorized personnel; management determines the treatment and retention of documentation according to legal and regulatory requirements."
+  },
+  {
+    "CCF ID": "SG-04",
+    "Control Domain": "Security Governance",
+    "Control Name": "Information Security Program Content",
+    "Control Description": "The Chief Security Officer conducts a periodic staff meeting to communicate and align on relevant security threats, program performance, and resource prioritization. "
+  },
+  {
+    "CCF ID": "SG-05",
+    "Control Domain": "Security Governance",
+    "Control Name": "Procedures",
+    "Control Description": "Organization's key control capabilities are supported by documented procedures that are communicated to authorized personnel."
+  },
+  {
+    "CCF ID": "SG-06",
+    "Control Domain": "Security Governance",
+    "Control Name": "Proprietary Rights Agreement",
+    "Control Description": "Organization regular employees consent to a proprietary rights agreement."
+  },
+  {
+    "CCF ID": "SG-07",
+    "Control Domain": "Security Governance",
+    "Control Name": "Review of Confidentiality Agreements",
+    "Control Description": "The Organization Proprietary Rights Agreement and Organization Network Access Agreement are reviewed on a periodic basis."
+  },
+  {
+    "CCF ID": "SG-08",
+    "Control Domain": "Security Governance",
+    "Control Name": "Information Security Program",
+    "Control Description": "Organization has an established security leadership team including key stakeholders in the Organization Information Security Program; goals and milestones for deployment of the information security program are established and communicated to the company through the periodic security all-hands meeting."
+  },
+  {
+    "CCF ID": "SG-09",
+    "Control Domain": "Security Governance",
+    "Control Name": "Accessibility Program",
+    "Control Description": "Organization has an established accessibility leadership team including key stakeholders; goals and milestones for deployment of the accessibility program are established and communicated to the company."
+  },
+  {
+    "CCF ID": "SG-10",
+    "Control Domain": "Security Governance",
+    "Control Name": "Information Security Management System Scope",
+    "Control Description": "Information Security Management System (ISMS) boundaries are formally defined in an ISMS scoping document."
+  },
+  {
+    "CCF ID": "SG-11",
+    "Control Domain": "Security Governance",
+    "Control Name": "Security Roles and Responsibilities",
+    "Control Description": "Roles and responsibilities for the governance of Information Security within Organization are formally documented within the Information Security Management Standard and communicated on the Organization intranet."
+  },
+  {
+    "CCF ID": "SG-12",
+    "Control Domain": "Security Governance",
+    "Control Name": "Security Roles and Responsibilities: Risk Designations",
+    "Control Description": "Organization defined security roles and responsibilities are assigned risk designations and reviewed at least once every three years."
+  },
+  {
+    "CCF ID": "SG-13",
+    "Control Domain": "Security Governance",
+    "Control Name": "Security Roles and Responsibilities: PCI Compliance",
+    "Control Description": "Roles and responsibilities and a program charter for the governance of PCI DSS compliance within Organization are formally documented and communicated by management."
+  },
+  {
+    "CCF ID": "SG-14",
+    "Control Domain": "Security Governance",
+    "Control Name": "Information Security Resources",
+    "Control Description": "Information systems security implementation and management are included as part of the budget required to support the Organization Security Program."
+  },
+  {
+    "CCF ID": "SG-15",
+    "Control Domain": "Security Governance",
+    "Control Name": "Management Review",
+    "Control Description": "The Information Security Management System (ISMS) steering committee conducts a formal management review of ISMS scope, risk assessment activities, control implementation, and audit results on an annual basis. "
+  },
+  {
+    "CCF ID": "SG-16",
+    "Control Domain": "Security Governance",
+    "Control Name": "Enterprise Data Catalog",
+    "Control Description": "Organization maintains an enterprise data catalog that encompasses key organizational data, environment metadata, and product information to facilitate continuous monitoring of the internal control environment. The enterprise data catalog is updated as part of the continuous monitoring process and upon the introduction of new service offerings and acquisitions."
+  },
+  {
+    "CCF ID": "SG-17",
+    "Control Domain": "Security Governance",
+    "Control Name": "Software Usage Restrictions",
+    "Control Description": "Organization maintains software license contracts and monitors its compliance with usage restrictions."
+  },
+  {
+    "CCF ID": "SLC-01",
+    "Control Domain": "Service Lifecycle",
+    "Control Name": "Service Lifecycle Workflow",
+    "Control Description": "Major software releases are subject to the Service Life Cycle, which requires acceptance via Concept Accept and Project Plan Commit phases prior to implementation."
+  },
+  {
+    "CCF ID": "SLC-02",
+    "Control Domain": "Service Lifecycle",
+    "Control Name": "Source Code Management",
+    "Control Description": "Source code is managed with Organization-approved version control mechanisms."
+  },
+  {
+    "CCF ID": "SLC-03",
+    "Control Domain": "Service Lifecycle",
+    "Control Name": "Secrets in Code",
+    "Control Description": "Organization manages source code secrets in a centralized repository; secrets are rotated at least annually and immediately if the security of secrets is compromised. "
+  },
+  {
+    "CCF ID": "SLC-04",
+    "Control Domain": "Service Lifecycle",
+    "Control Name": "Project Budget Approval",
+    "Control Description": "Approval for project initiation and budget is obtained from IT management and business owners.\n"
+  },
+  {
+    "CCF ID": "SLC-05",
+    "Control Domain": "Service Lifecycle",
+    "Control Name": "Project Scope Change",
+    "Control Description": "Changes to finalized project scope and requirements require the review and approval from the business team and project manager.\n"
+  },
+  {
+    "CCF ID": "SLC-06",
+    "Control Domain": "Service Lifecycle",
+    "Control Name": "Information System Operation Authorization",
+    "Control Description": "Senior management authorizes the operation of new information systems, based on security and business requirements, prior to implementation. The information system authorization is refreshed every 3 years or when significant change occurs."
+  },
+  {
+    "CCF ID": "SLC-07",
+    "Control Domain": "Service Lifecycle",
+    "Control Name": "System Acquisition Approval",
+    "Control Description": "Information system acquisitions require approval from authorized personnel based on verification of the following documented evidence:\n• security function, strength, and assurance requirements\n• requirements for protecting security-related documentation\n• system development and test requirements\n• acceptance criteria for releases\n• enumeration of Security controls\n• security control implementation and monitoring requirements\n• components are FIPS-201 approved"
+  },
+  {
+    "CCF ID": "SM-01",
+    "Control Domain": "Systems Monitoring",
+    "Control Name": "Audit Logging",
+    "Control Description": "Organization logs critical information system activity."
+  },
+  {
+    "CCF ID": "SM-02",
+    "Control Domain": "Systems Monitoring",
+    "Control Name": "Secure Audit Logging",
+    "Control Description": "Organization logs critical information system activity to a secure repository. Organization disables administrators ability to delete or modify enterprise audit logs; the number of administrators with access to audit logs is limited."
+  },
+  {
+    "CCF ID": "SM-03",
+    "Control Domain": "Systems Monitoring",
+    "Control Name": "Audit Logging: Cardholder Data Environment Activity",
+    "Control Description": "Organization logs the following activity for cardholder data environments:\n• individual user access to cardholder data\n• administrative actions\n• access to logging servers\n• failed logins\n• modifications to authentication mechanisms and user privileges\n• initialization, stopping, or pausing of the audit logs\n• creation and deletion of system-level objects\n• security events\n• logs of all system components that store, process, transmit, or could impact the security of cardholder data (CHD) and/or sensitive authentication data (SAD)\n• logs of all critical system components\n• logs of all servers and system components that perform security functions (e.g., firewalls, intrusion-detection systems/intrusion-prevention systems (IDS/IPS), authentication servers, e-commerce redirection servers, etc.)"
+  },
+  {
+    "CCF ID": "SM-04",
+    "Control Domain": "Systems Monitoring",
+    "Control Name": "Audit Logging: Cardholder Data Environment Event Information",
+    "Control Description": "Organization records the following information for confirmed events in the cardholder data environment:\n• user identification\n• type of event\n• date and time\n• event success or failure indication\n• origination of the event\n• identification of affected data, system component, or resource"
+  },
+  {
+    "CCF ID": "SM-05",
+    "Control Domain": "Systems Monitoring",
+    "Control Name": "Audit Logging: Service Provider Logging Requirements",
+    "Control Description": "Organization establishes unique logging and audit trails for each entity's cardholder data environment and complies with the following:\n• logs are enabled for third-party applications\n• logs are active by default\n• logs are available for review by and communicated to the owning entity"
+  },
+  {
+    "CCF ID": "SM-06",
+    "Control Domain": "Systems Monitoring",
+    "Control Name": "Configuration Management: Remote Logging",
+    "Control Description": "Where applicable, devices are configured to send audit log data to a remote server"
+  },
+  {
+    "CCF ID": "SM-07",
+    "Control Domain": "Systems Monitoring",
+    "Control Name": "Chain of Accountability",
+    "Control Description": "Organization implements audit trails to link authentication events to individuals users in production systems."
+  },
+  {
+    "CCF ID": "SM-08",
+    "Control Domain": "Systems Monitoring",
+    "Control Name": "Audit Record Time Stamps",
+    "Control Description": "Organization records time stamps for audit records that can be mapped to a centralized time source."
+  },
+  {
+    "CCF ID": "SM-09",
+    "Control Domain": "Systems Monitoring",
+    "Control Name": "Log Reconciliation: CMDB",
+    "Control Description": "Organization reconciles the established device inventory against the enterprise log repository on a quarterly basis; devices which do not forward log data are remediated."
+  },
+  {
+    "CCF ID": "SM-10",
+    "Control Domain": "Systems Monitoring",
+    "Control Name": "Audit Log Capacity and Retention",
+    "Control Description": "Organization allocates audit record storage capacity in accordance with logging storage and retention requirements; Audit logs are retained for 1 year with 90 days of data immediately available for analysis."
+  },
+  {
+    "CCF ID": "SM-11",
+    "Control Domain": "Systems Monitoring",
+    "Control Name": "Enterprise Antivirus Logging",
+    "Control Description": "If applicable, Organization's managed enterprise antivirus deployments generate audit logs which are retained for 1 year with 90 days of data immediately available for analysis."
+  },
+  {
+    "CCF ID": "SM-12",
+    "Control Domain": "Systems Monitoring",
+    "Control Name": "Security Monitoring Alert Criteria",
+    "Control Description": "Organization defines security monitoring alert criteria, how alert criteria will be flagged, and identifies authorized personnel for flagged system alerts."
+  },
+  {
+    "CCF ID": "SM-13",
+    "Control Domain": "Systems Monitoring",
+    "Control Name": "Security Monitoring Alert Criteria Review",
+    "Control Description": "Organization reviews security monitoring alert on an annual basis."
+  },
+  {
+    "CCF ID": "SM-14",
+    "Control Domain": "Systems Monitoring",
+    "Control Name": "Log-tampering Detection",
+    "Control Description": "Organization monitors and flags tampering to the audit logging and monitoring tools in the production environment."
+  },
+  {
+    "CCF ID": "SM-15",
+    "Control Domain": "Systems Monitoring",
+    "Control Name": "Unauthorized Devices Addition",
+    "Control Description": "Unauthorized devices connected to the Organization Network are:\n• detected within a maximum of five minutes, and\n• the unauthorized device is disabled, or a notification is sent to authorized Organization personnel"
+  },
+  {
+    "CCF ID": "SM-16",
+    "Control Domain": "Systems Monitoring",
+    "Control Name": "Security Monitoring Alert Criteria: Guest, Anonymous and Temp Accounts",
+    "Control Description": "Organization defines security monitoring alert criteria for the use of guest, anonymous, and temporary accounts on Organization's network."
+  },
+  {
+    "CCF ID": "SM-17",
+    "Control Domain": "Systems Monitoring",
+    "Control Name": "Security Monitoring Alert Criteria: VoIP Usage",
+    "Control Description": "Organization defines security monitoring alert criteria to detect deviations from Voice over IP (VoIP) activity standards."
+  },
+  {
+    "CCF ID": "SM-18",
+    "Control Domain": "Systems Monitoring",
+    "Control Name": "Prohibited Activity Monitoring: Remote Access",
+    "Control Description": "Remote sessions are monitored for prohibited activity."
+  },
+  {
+    "CCF ID": "SM-19",
+    "Control Domain": "Systems Monitoring",
+    "Control Name": "Prohibited Activity Monitoring: Client Run Time Technologies",
+    "Control Description": "Organization monitors and flags the use of prohibited client run time technologies on information systems."
+  },
+  {
+    "CCF ID": "SM-20",
+    "Control Domain": "Systems Monitoring",
+    "Control Name": "Security Monitoring Alert Criteria: Wireless Access Point",
+    "Control Description": "Organization defines security monitoring alert criteria for attack attempts against wireless access points."
+  },
+  {
+    "CCF ID": "SM-21",
+    "Control Domain": "Systems Monitoring",
+    "Control Name": "Security Monitoring Alert Criteria: Failed Logins",
+    "Control Description": "Organization defines security monitoring alert criteria for failed login attempts on Organization's network."
+  },
+  {
+    "CCF ID": "SM-22",
+    "Control Domain": "Systems Monitoring",
+    "Control Name": "Security Monitoring Alert Criteria: Privileged Functions",
+    "Control Description": "Organization defines security monitoring alert criteria for privileged functions executed by both authorized and unauthorized users."
+  },
+  {
+    "CCF ID": "SM-23",
+    "Control Domain": "Systems Monitoring",
+    "Control Name": "Security Monitoring Alert Criteria: Audit Log Integrity",
+    "Control Description": "Organization defines security monitoring alert criteria for changes to the integrity of audit logs."
+  },
+  {
+    "CCF ID": "SM-24",
+    "Control Domain": "Systems Monitoring",
+    "Control Name": "Security Monitoring Alert Criteria: Cardholder System Components",
+    "Control Description": "Organization defines security monitoring alert criteria for system components that store, process, transmit, or could impact the security of cardholder data and/or sensitive authentication data."
+  },
+  {
+    "CCF ID": "SM-25",
+    "Control Domain": "Systems Monitoring",
+    "Control Name": "System Security Monitoring",
+    "Control Description": "Critical systems are monitored in accordance with predefined security criteria and alerts are sent to authorized personnel. Confirmed incidents are tracked to resolution."
+  },
+  {
+    "CCF ID": "SM-26",
+    "Control Domain": "Systems Monitoring",
+    "Control Name": "Intrusion Detection Systems",
+    "Control Description": "Organization has an Intrusion Detection System (IDS) or Intrusion Prevention System (IPS) deployment(s) and ensures the following:\n• signature definitions are updated including the removal of false positive signatures\n• non-signature based attacks are defined\n• IDS/IPS are configured to capture malicious (both signature and non-signature based) traffic\n• alerts are reviewed and resolved by authorized personnel when malicious traffic is detected"
+  },
+  {
+    "CCF ID": "SM-27",
+    "Control Domain": "Systems Monitoring",
+    "Control Name": "System Monitoring Legal Opinion",
+    "Control Description": "Organization obtains legal opinion with regard to monitoring activities in accordance with applicable requirements and mandates."
+  },
+  {
+    "CCF ID": "SM-28",
+    "Control Domain": "Systems Monitoring",
+    "Control Name": "Privileged Session Monitoring",
+    "Control Description": "Organization monitors trusted data environments for unauthorized logical access connections. "
+  },
+  {
+    "CCF ID": "SM-29",
+    "Control Domain": "Systems Monitoring",
+    "Control Name": "Availability Monitoring Alert Criteria",
+    "Control Description": "Organization defines availability monitoring alert criteria, how alert criteria will be flagged, and identifies authorized personnel for flagged system alerts."
+  },
+  {
+    "CCF ID": "SM-30",
+    "Control Domain": "Systems Monitoring",
+    "Control Name": "Availability Monitoring Alert Criteria Review",
+    "Control Description": "Organization reviews availability monitoring alert criteria on an annual basis."
+  },
+  {
+    "CCF ID": "SM-31",
+    "Control Domain": "Systems Monitoring",
+    "Control Name": "System Availability Monitoring",
+    "Control Description": "Critical systems are monitored in accordance with predefined availability criteria and alerts are sent to authorized personnel."
+  },
+  {
+    "CCF ID": "SM-32",
+    "Control Domain": "Systems Monitoring",
+    "Control Name": "Remote Access: Activity Log Audit",
+    "Control Description": "Logs from remote sessions are audited for prohibited activity on a weekly basis."
+  },
+  {
+    "CCF ID": "SO-01",
+    "Control Domain": "Site Operations",
+    "Control Name": "Secured Facility",
+    "Control Description": "Physical access to restricted areas of the facility is protected by walls with non-partitioned ceilings, secured entry points, and/or manned reception desks."
+  },
+  {
+    "CCF ID": "SO-02",
+    "Control Domain": "Site Operations",
+    "Control Name": "Physical Protection and Positioning of Cabling",
+    "Control Description": "Organization power and telecommunication lines are protected from interference, interception, and damage."
+  },
+  {
+    "CCF ID": "SO-03",
+    "Control Domain": "Site Operations",
+    "Control Name": "Global Coordination of Critical Functions: Information Security Safeguards",
+    "Control Description": "Organization consistently applies information security safeguards in datacenters and campuses."
+  },
+  {
+    "CCF ID": "SO-04",
+    "Control Domain": "Site Operations",
+    "Control Name": "Provisioning Physical Access",
+    "Control Description": "Physical access provisioning to an Organization datacenter requires management approval and documented specification of: \n• account type (e.g., standard, visitor, or vendor)\n• access privileges granted\n• intended business purpose\n• visitor identification method, if applicable\n• temporary badge issued, if applicable\n• access start date\n• access duration"
+  },
+  {
+    "CCF ID": "SO-05",
+    "Control Domain": "Site Operations",
+    "Control Name": "De-provisioning Physical Access",
+    "Control Description": "Physical access that is no longer required in the event of a termination or role change is revoked. If applicable, temporary badges are returned prior to exiting facility."
+  },
+  {
+    "CCF ID": "SO-06",
+    "Control Domain": "Site Operations",
+    "Control Name": "Periodic Review of Physical Access",
+    "Control Description": "Organization performs physical account and access reviews on a quarterly basis; corrective action is taken where applicable."
+  },
+  {
+    "CCF ID": "SO-07",
+    "Control Domain": "Site Operations",
+    "Control Name": "Physical Access Role Permission Authorization",
+    "Control Description": "Initial permission definitions, and changes to permissions, associated with physical access roles are approved by authorized personnel."
+  },
+  {
+    "CCF ID": "SO-08",
+    "Control Domain": "Site Operations",
+    "Control Name": "Monitoring Physical Access",
+    "Control Description": "Intrusion detection and video surveillance are installed at Organization datacenter locations; confirmed incidents are documented and tracked to resolution."
+  },
+  {
+    "CCF ID": "SO-09",
+    "Control Domain": "Site Operations",
+    "Control Name": "Surveillance Feed Retention",
+    "Control Description": "Surveillance feed data is retained for 90 days."
+  },
+  {
+    "CCF ID": "SO-10",
+    "Control Domain": "Site Operations",
+    "Control Name": "Visitor Access",
+    "Control Description": "Physical access for visitors is managed through monitoring, maintaining records, escorting, and reviewing access monthly. Visitor access records to the facilities are kept for at least a year."
+  },
+  {
+    "CCF ID": "SO-11",
+    "Control Domain": "Site Operations",
+    "Control Name": "Physical Access Devices",
+    "Control Description": "Physical access devices (i.e., keys, combinations, access cards, etc.) are maintained through an inventory and restricted to authorized individuals. Appropriate devices are rotated when compromised or upon employee termination or transfer."
+  },
+  {
+    "CCF ID": "SO-12",
+    "Control Domain": "Site Operations",
+    "Control Name": "Temperature and Humidity Control",
+    "Control Description": "Temperature and humidity levels of datacenter environments are monitored and maintained at appropriate levels."
+  },
+  {
+    "CCF ID": "SO-13",
+    "Control Domain": "Site Operations",
+    "Control Name": "Fire Suppression Systems",
+    "Control Description": "Emergency responders are automatically contacted when fire detection systems are activated; the design and function of fire detection and suppression systems are maintained at appropriate intervals."
+  },
+  {
+    "CCF ID": "SO-14",
+    "Control Domain": "Site Operations",
+    "Control Name": "Power Failure Protection",
+    "Control Description": "Organization employs uninterruptible power supplies (UPS) and generators to support critical systems in the event of a power disruption or failure. The design and function of relevant equipment is certified at appropriate intervals."
+  },
+  {
+    "CCF ID": "SO-15",
+    "Control Domain": "Site Operations",
+    "Control Name": "Emergency Shutoff",
+    "Control Description": "Organization employs emergency power shut-off capabilities. Access to shut off power is restricted to authorized individuals."
+  },
+  {
+    "CCF ID": "SO-16",
+    "Control Domain": "Site Operations",
+    "Control Name": "Emergency Lighting",
+    "Control Description": "Organization employs emergency lighting in the event of a power disruption or failure. The design and function of relevant equipment is certified at appropriate intervals."
+  },
+  {
+    "CCF ID": "TA-01",
+    "Control Domain": "Training and Awareness",
+    "Control Name": "General Security Awareness Training",
+    "Control Description": "Organization personnel complete security awareness training, which includes annual updates about relevant policies and how to report security events to the authorized response team. Records of training completion are documented and retained for tracking purposes."
+  },
+  {
+    "CCF ID": "TA-02",
+    "Control Domain": "Training and Awareness",
+    "Control Name": "Code of Conduct Training",
+    "Control Description": "Organization full-time and temporary employees and interns complete a code of business conduct training."
+  },
+  {
+    "CCF ID": "TA-03",
+    "Control Domain": "Training and Awareness",
+    "Control Name": "Accessibility Training",
+    "Control Description": "Organization personnel complete accessibility awareness training, which includes annual updates about relevant policies and how to report accessibility events internally. Records of training completion are documented and retained for tracking purposes."
+  },
+  {
+    "CCF ID": "TA-04",
+    "Control Domain": "Training and Awareness",
+    "Control Name": "Phishing Awareness",
+    "Control Description": "Organization performs periodic phishing campaigns."
+  },
+  {
+    "CCF ID": "TA-05",
+    "Control Domain": "Training and Awareness",
+    "Control Name": "Developer Security Training",
+    "Control Description": "Organization's software engineers are required to complete training based on secure coding techniques on an annual basis."
+  },
+  {
+    "CCF ID": "TA-06",
+    "Control Domain": "Training and Awareness",
+    "Control Name": "Payment Card Processing Security Awareness Training",
+    "Control Description": "Organization personnel that interact with cardholder data systems receive awareness training to be aware of attempted tampering or replacement of devices. Training should include the following:\n• verify the identity of third-party persons claiming to be repair or maintenance personnel, prior to granting them access to modify or troubleshoot devices.\n• do not install, replace, or return devices without verification\n• be aware of suspicious behavior around devices (e.g., attempts by unknown persons to unplug or open devices)\n• report suspicious behavior and indications of device tampering or substitution to authorized personnel (e.g., to a manager or security officer)"
+  },
+  {
+    "CCF ID": "TA-07",
+    "Control Domain": "Training and Awareness",
+    "Control Name": "Role-based Security Training: HIPAA",
+    "Control Description": "Organization personnel with access to personal health information (PHI) are required to attend and complete HIPAA privacy training."
+  },
+  {
+    "CCF ID": "TA-08",
+    "Control Domain": "Training and Awareness",
+    "Control Name": "Role-based Security Training",
+    "Control Description": "Organization personnel with key security responsibilities complete relevant role-based training on an annual basis:\n• personnel must complete training prior to obtaining access to privileged security systems\n• personnel with contingency responsibilities must complete role-based training within 10 days of assuming the role\n• records of training completion are documented and retained for tracking purposes"
+  },
+  {
+    "CCF ID": "TA-09",
+    "Control Domain": "Training and Awareness",
+    "Control Name": "Security Champion Training",
+    "Control Description": "Service teams select a \"Security Champion\" to ensure security engagement responsibilities are assigned and tracked to completion; Security Champions receive training on how to execute responsibilities."
+  },
+  {
+    "CCF ID": "TPM-01",
+    "Control Domain": "Third-Party Management",
+    "Control Name": "Third-Party Assurance Review",
+    "Control Description": "On a periodic basis, management reviews controls within third-party assurance reports to ensure that they meet organizational requirements; if control gaps are identified in the assurance reports, management takes action to address impact the disclosed gaps have on the organization."
+  },
+  {
+    "CCF ID": "TPM-02",
+    "Control Domain": "Third-Party Management",
+    "Control Name": "Vendor Risk Management",
+    "Control Description": "Organization performs a risk assessment to determine the data types that can be shared with a managed service provider."
+  },
+  {
+    "CCF ID": "TPM-03",
+    "Control Domain": "Third-Party Management",
+    "Control Name": "Forensic Investigations",
+    "Control Description": "Organization enables procedures to conduct a forensic investigation in the event that a hosted merchant or service provider is compromised."
+  },
+  {
+    "CCF ID": "TPM-04",
+    "Control Domain": "Third-Party Management",
+    "Control Name": "Privacy Risk Assessment",
+    "Control Description": "Organization reviews the privacy practices of service providers who access, collect, process, transfer, or store personal information on Organization's behalf upon initial procurement and renewal; non-compliance is tracked through remediation."
+  },
+  {
+    "CCF ID": "TPM-05",
+    "Control Domain": "Third-Party Management",
+    "Control Name": "Network Access Agreement: Vendors",
+    "Control Description": "Third-party entities which gain access to the Organization network sign a network access agreement."
+  },
+  {
+    "CCF ID": "TPM-06",
+    "Control Domain": "Third-Party Management",
+    "Control Name": "Vendor Non-disclosure Agreements",
+    "Control Description": "Agency temporary workers, independent contractors, and third-party entities consent to a non-disclosure clause."
+  },
+  {
+    "CCF ID": "TPM-07",
+    "Control Domain": "Third-Party Management",
+    "Control Name": "Cardholder Data Security Agreement",
+    "Control Description": "Organization managed service providers that manage, store, or transmit cardholder data on behalf of the customer must provide written acknowledgement to customers of their responsibility to protect cardholder data and the cardholder data environment."
+  },
+  {
+    "CCF ID": "TPM-08",
+    "Control Domain": "Third-Party Management",
+    "Control Name": "HIPAA Business Associate Agreement",
+    "Control Description": "Organization Business Associate Agreements must contain provisions for the following:\n• permitted uses and disclosures of Protected Health Information (PHI)\n• PHI safeguards to prevent unauthorized use or disclosure\n• communications regarding the unauthorized use or disclosure of PHI\n• PHI availability\n• contract termination and disposition of PHI"
+  },
+  {
+    "CCF ID": "TPM-09",
+    "Control Domain": "Third-Party Management",
+    "Control Name": "HIPAA Business Associate Subcontractor Agreement",
+    "Control Description": "Organization requires a Business Associate Subcontractor Agreement with Business Associates from which it receives or transmits protected health information (PHI); Business Associates under contract are required to provide assurance that they adhere to Organization's security standards, which includes the security of PHI and reporting security events that potentially expose PHI."
+  },
+  {
+    "CCF ID": "TPM-10",
+    "Control Domain": "Third-Party Management",
+    "Control Name": "Network Service Level Agreements (SLA)",
+    "Control Description": "Vendors providing networking services to Organization are contractually bound to provide secure and available services as documented in SLAs."
+  },
+  {
+    "CCF ID": "TPM-11",
+    "Control Domain": "Third-Party Management",
+    "Control Name": "Personal Information Processing and Transfer Agreement",
+    "Control Description": "Appropriate data processing and transfer agreements are established for the collection, processing, transfer, or storage of personal information by, or on behalf of, Organization."
+  },
+  {
+    "CCF ID": "TPM-12",
+    "Control Domain": "Third-Party Management",
+    "Control Name": "Approved Service Provider Listing",
+    "Control Description": "Organization maintains a list of approved managed service providers and the services they provide to Organization."
+  },
+  {
+    "CCF ID": "TPM-13",
+    "Control Domain": "Third-Party Management",
+    "Control Name": "Vendor Information Security Standard",
+    "Control Description": "Organization has documented a Vendor Information Security Standard that defines the responsibilities and governance requirements regarding vendor information security engagements. Contractual agreements are entered into with vendors who process or store Organization data that define information Security terms and service level agreements."
+  },
+  {
+    "CCF ID": "VM-01",
+    "Control Domain": "Vulnerability Management",
+    "Control Name": "Vulnerability Scans",
+    "Control Description": "Organization conducts vulnerability scans against the production environment; scan tools are updated prior to running scans."
+  },
+  {
+    "CCF ID": "VM-02",
+    "Control Domain": "Vulnerability Management",
+    "Control Name": "Vulnerability Scans: Cardholder Data Environment",
+    "Control Description": "Vulnerability scans are conducted against cardholder environments at least quarterly or after significant change; critical vulnerability resolution is confirmed via a rescan."
+  },
+  {
+    "CCF ID": "VM-03",
+    "Control Domain": "Vulnerability Management",
+    "Control Name": "Vulnerability Scans: Audit Log Review",
+    "Control Description": "When vulnerabilities are identified, Organization analyzes audit logs to see if it has been previously exploited. Identified exploitations are resolved through incident management."
+  },
+  {
+    "CCF ID": "VM-04",
+    "Control Domain": "Vulnerability Management",
+    "Control Name": "Vulnerability Scans: Trend Analysis",
+    "Control Description": "Organization reviews vulnerability trends over time to include in risk assessments; high and moderate risk vulnerabilities are remediated in 30 and 90 days, respectively."
+  },
+  {
+    "CCF ID": "VM-05",
+    "Control Domain": "Vulnerability Management",
+    "Control Name": "Approved Scanning Vendor",
+    "Control Description": "At least quarterly, Organization engages an Approved Scanning Vendor to conduct external vulnerability scans."
+  },
+  {
+    "CCF ID": "VM-06",
+    "Control Domain": "Vulnerability Management",
+    "Control Name": "Application Penetration Testing",
+    "Control Description": "Organization conducts penetration tests periodically."
+  },
+  {
+    "CCF ID": "VM-07",
+    "Control Domain": "Vulnerability Management",
+    "Control Name": "Application Penetration Testing: Cardholder Data Environment",
+    "Control Description": "Organization conducts penetration tests against cardholder data environments (CDE) and includes the following requirements:\n• testing covers the entire CDE perimeter and critical data systems\n• testing verifies that CDE perimeter segmentation is operational\n• testing is performed from both inside and outside the CDE network\n• testing validates segmentation and scope-reduction controls (e.g., tokenization processes)\n• network layer penetration tests include components that support network functions as well as operating systems \n• at the application level, testing provides coverage, at a minimum, against the security testing requirements defined in VM-05-01 (01)\n• testing is performed with consideration of threats verified in the last 12 months from external alerts, directives, and advisories defined in VM-06-02\n• testing is performed with consideration of vulnerabilities reported through Organization's PSIRT process within the last 12 months\n• risk ratings are assigned to discovered vulnerabilities, which are tracked through remediation"
+  },
+  {
+    "CCF ID": "VM-08",
+    "Control Domain": "Vulnerability Management",
+    "Control Name": "Infrastructure Patch Management",
+    "Control Description": "Organization installs security-relevant patches, including software or firmware updates; identified end-of-life software must have a documented decommission plan in place."
+  },
+  {
+    "CCF ID": "VM-09",
+    "Control Domain": "Vulnerability Management",
+    "Control Name": "Enterprise Antivirus",
+    "Control Description": "Organization has managed enterprise antivirus deployments to detect and respond to malicious activities."
+  },
+  {
+    "CCF ID": "VM-10",
+    "Control Domain": "Vulnerability Management",
+    "Control Name": "Enterprise Antivirus Tampering",
+    "Control Description": "Antivirus mechanisms cannot be disabled or altered by users unless specifically authorized by management."
+  },
+  {
+    "CCF ID": "VM-11",
+    "Control Domain": "Vulnerability Management",
+    "Control Name": "Enterprise Antivirus Scope",
+    "Control Description": "Vulnerability scans are periodically performed on systems that do not require anti-virus; management determines if anti-virus should be required on the system based on scan results and associated risk."
+  },
+  {
+    "CCF ID": "VM-12",
+    "Control Domain": "Vulnerability Management",
+    "Control Name": "Maintenance Tools: Inspect Media",
+    "Control Description": "Organization checks media containing diagnostic and test programs for malicious code before the media are used in production systems."
+  },
+  {
+    "CCF ID": "VM-13",
+    "Control Domain": "Vulnerability Management",
+    "Control Name": "Code Security Check",
+    "Control Description": "Organization conducts periodic source code checks for vulnerabilities."
+  },
+  {
+    "CCF ID": "VM-14",
+    "Control Domain": "Vulnerability Management",
+    "Control Name": "Code Security Check: Cardholder Data Environment",
+    "Control Description": "Where applicable, security testing performed prior to releasing code into production includes the following:\n• code injection\n• buffer overflows\n• insecure cryptographic storage\n• insecure communications\n• improper error handling\n• high-risk vulnerabilities\n• cross-site scripting\n• improper access control\n• cross-site request forgery\n• broken authentication session management"
+  },
+  {
+    "CCF ID": "VM-15",
+    "Control Domain": "Vulnerability Management",
+    "Control Name": "Third-Party Library Check",
+    "Control Description": "Organization scans third-party libraries for vulnerabilities according to the service risk rating assignment."
+  },
+  {
+    "CCF ID": "VM-16",
+    "Control Domain": "Vulnerability Management",
+    "Control Name": "Non-disclosure of Error Detail",
+    "Control Description": "Information systems are designed to ensure error messages generated provide adequate information for taking corrective action without revealing sensitive information."
+  },
+  {
+    "CCF ID": "VM-17",
+    "Control Domain": "Vulnerability Management",
+    "Control Name": "Embedded Authenticators",
+    "Control Description": "Quality Engineering checks to ensure that static passwords are not embedded within application source code or access scripts, prior to deployment on the Organization network."
+  },
+  {
+    "CCF ID": "VM-18",
+    "Control Domain": "Vulnerability Management",
+    "Control Name": "External Information Security Inquiries",
+    "Control Description": "Organization reviews information-security-related inquiries, complaints, and disputes."
+  },
+  {
+    "CCF ID": "VM-19",
+    "Control Domain": "Vulnerability Management",
+    "Control Name": "External Alerts and Advisories",
+    "Control Description": "Organization reviews alerts and advisories from management approved security forums and communicates verified threats to authorized personnel."
+  },
+  {
+    "CCF ID": "VM-20",
+    "Control Domain": "Vulnerability Management",
+    "Control Name": "Third-Party Security Assessment",
+    "Control Description": "Organization engages qualified managed service providers to perform independent information security assessments."
+  },
+  {
+    "CCF ID": "VM-21",
+    "Control Domain": "Vulnerability Management",
+    "Control Name": "Security Testing Window",
+    "Control Description": "Security administrators notify relevant parties prior to executing technical security assessments; assessment details and results are documented in a ticket."
+  },
+  {
+    "CCF ID": "VM-22",
+    "Control Domain": "Vulnerability Management",
+    "Control Name": "Vulnerability Remediation",
+    "Control Description": "Organization assigns a risk rating to identified vulnerabilities and prioritizes remediation of legitimate vulnerabilities according to the assigned risk."
+  },
+  {
+    "CCF ID": "VM-23",
+    "Control Domain": "Vulnerability Management",
+    "Control Name": "Backlog Prioritization",
+    "Control Description": "Organization documents identified bugs, prioritize bug fixes according to risk, and tracks resolution as part of the product release cycle."
+  }
+]

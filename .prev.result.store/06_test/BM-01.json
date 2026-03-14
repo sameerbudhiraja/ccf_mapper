@@ -1,0 +1,14 @@
+{
+  "internal_control_id": "BM-01",
+  "internal_control_name": "Backup Configuration",
+  "processed_at": "2026-03-14T07:36:36.078866+00:00",
+  "total_mapped": 1,
+  "mappings": [
+    {
+      "safeguard_id": "11.2",
+      "framework": "CIS Controls v8.1",
+      "mapping": "FULL",
+      "reason": "Automated backup tools perform periodic backups of data\u2014the same mechanism class as the CCF control requires\u2014directly implementing the objective to resume system operations via data recovery copies."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "internal_control_id": "BM-02",
+  "internal_control_name": "Resilience Testing",
+  "processed_at": "2026-03-14T07:36:59.276156+00:00",
+  "total_mapped": 1,
+  "mappings": [
+    {
+      "safeguard_id": "11.5",
+      "framework": "CIS Controls v8.1",
+      "mapping": "FULL",
+      "reason": "Test Data Recovery directly performs backup restoration testing, satisfying the CCF control's objective to confirm backup reliability and integrity through annual testing."
+    }
+  ]
+}

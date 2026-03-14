@@ -1,0 +1,20 @@
+{
+  "internal_control_id": "AM-02",
+  "internal_control_name": "Inventory Management: Applications",
+  "processed_at": "2026-03-14T06:28:39.247222+00:00",
+  "total_mapped": 2,
+  "mappings": [
+    {
+      "safeguard_id": "1.1",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "CIS 1.1 requires an inventory of all assets that store or process data, which encompasses application assets as a superset per Rule 13, though fields are device-centric."
+    },
+    {
+      "safeguard_id": "6.6",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "CIS 6.6 requires maintaining an inventory of authentication and authorization systems, which are a specific subset of application assets covered by AM-02."
+    }
+  ]
+}

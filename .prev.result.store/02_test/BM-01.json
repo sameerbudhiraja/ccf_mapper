@@ -1,0 +1,14 @@
+{
+  "internal_control_id": "BM-01",
+  "internal_control_name": "Backup Configuration",
+  "processed_at": "2026-03-13T17:55:27.900020+00:00",
+  "total_mapped": 1,
+  "mappings": [
+    {
+      "safeguard_id": "11.2",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "CCF permits system redundancy as an alternative to periodic backups, whereas the safeguard specifically mandates the performance of automated backups."
+    }
+  ]
+}

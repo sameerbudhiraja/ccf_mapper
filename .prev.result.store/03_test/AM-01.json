@@ -1,0 +1,14 @@
+{
+  "internal_control_id": "AM-01",
+  "internal_control_name": "Inventory Management",
+  "processed_at": "2026-03-14T06:27:52.868334+00:00",
+  "total_mapped": 1,
+  "mappings": [
+    {
+      "safeguard_id": "1.1",
+      "framework": "CIS Controls v8.1",
+      "mapping": "FULL",
+      "reason": "Both require maintaining and periodically updating an accurate inventory of enterprise information systems and assets."
+    }
+  ]
+}

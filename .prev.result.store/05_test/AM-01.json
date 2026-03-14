@@ -1,0 +1,38 @@
+{
+  "internal_control_id": "AM-01",
+  "internal_control_name": "Inventory Management",
+  "processed_at": "2026-03-14T07:05:45.072042+00:00",
+  "total_mapped": 5,
+  "mappings": [
+    {
+      "safeguard_id": "1.1",
+      "framework": "CIS Controls v8.1",
+      "mapping": "FULL",
+      "reason": "Establishing and maintaining an enterprise asset inventory directly satisfies the CCF control's requirement to maintain an information systems inventory and review it on a periodic basis."
+    },
+    {
+      "safeguard_id": "1.2",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Addressing unauthorized assets aligns with the CCF control's reconciliation objective by ensuring that discrepancies (non-inventoried devices) discovered during periodic review are resolved."
+    },
+    {
+      "safeguard_id": "1.3",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Utilizing an active discovery tool provides a specific mechanism class (active network discovery) to identify assets, directly supporting the CCF control's requirement to reconcile the inventory periodically."
+    },
+    {
+      "safeguard_id": "1.4",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Using DHCP logging to update the inventory provides a log-based discovery mechanism that supports the CCF control's requirement to reconcile and maintain an accurate information systems inventory."
+    },
+    {
+      "safeguard_id": "1.5",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Utilizing a passive discovery tool provides an equivalent network discovery mechanism (passive class) to identify assets, directly supporting the CCF control's requirement to reconcile the inventory periodically."
+    }
+  ]
+}

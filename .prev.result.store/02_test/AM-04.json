@@ -1,0 +1,20 @@
+{
+  "internal_control_id": "AM-04",
+  "internal_control_name": "Inventory Reconciliation: Logging",
+  "processed_at": "2026-03-13T17:28:13.618731+00:00",
+  "total_mapped": 2,
+  "mappings": [
+    {
+      "safeguard_id": "1.4",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Utilizes DHCP logs to update the asset inventory, satisfying the reconciliation intent for a specific log source subset."
+    },
+    {
+      "safeguard_id": "1.5",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Utilizes passive traffic logs to identify and update assets, satisfying the reconciliation intent for a specific log source subset."
+    }
+  ]
+}

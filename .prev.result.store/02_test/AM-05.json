@@ -1,0 +1,14 @@
+{
+  "internal_control_id": "AM-05",
+  "internal_control_name": "Inventory Labels",
+  "processed_at": "2026-03-13T17:30:15.363774+00:00",
+  "total_mapped": 1,
+  "mappings": [
+    {
+      "safeguard_id": "1.1",
+      "framework": "CIS Controls v8.1",
+      "mapping": "FULL",
+      "reason": "Both require maintaining a detailed enterprise asset inventory that records asset ownership and unique identifiers (labels)."
+    }
+  ]
+}
