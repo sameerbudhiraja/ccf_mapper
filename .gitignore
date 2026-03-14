@@ -1,5 +1,56 @@
+# Project-local tooling artifacts
 .adobe.ccf/*
 .from_llm_chat/*
 .pageindex.github/*
 
+# Environment files
 .env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Build/distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs and local runtime files
+*.log
+*.pid
+*.pid.lock
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Node/frontend (if frontend directory exists)
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Generated mapping outputs and caches
+src/mapping/results/*/
+data/output/
+data/input/uploads/
+
+# Optional local data caches (uncomment if you don't want cached docs in git)
+# data/cache/doc_tree/
