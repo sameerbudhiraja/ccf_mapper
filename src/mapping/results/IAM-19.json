@@ -1,0 +1,14 @@
+{
+  "internal_control_id": "IAM-19",
+  "internal_control_name": "Account Lockout",
+  "processed_at": "2026-03-17T14:25:22.186484+00:00",
+  "total_mapped": 1,
+  "mappings": [
+    {
+      "safeguard_id": "4.10",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "CIS 4.10 enforces device lockout after a threshold of failed authentication attempts, directly implementing IAM-19's account lockout mechanism, but is scoped only to portable end-user devices rather than all information systems."
+    }
+  ]
+}

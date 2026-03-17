@@ -52,5 +52,9 @@ src/mapping/results/*/
 data/output/
 data/input/uploads/
 
+# Ignore system prompt
+src/mapping/chat/system_prompt.py
+
+
 # Optional local data caches (uncomment if you don't want cached docs in git)
 # data/cache/doc_tree/

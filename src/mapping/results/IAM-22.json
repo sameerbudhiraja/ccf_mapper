@@ -1,0 +1,14 @@
+{
+  "internal_control_id": "IAM-22",
+  "internal_control_name": "Password Authentication Standard: Federal Systems",
+  "processed_at": "2026-03-17T14:28:11.111546+00:00",
+  "total_mapped": 1,
+  "mappings": [
+    {
+      "safeguard_id": "5.2",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "CIS 5.2 enforces password length and uniqueness requirements, directly addressing the password composition and reuse objectives of IAM-22, though specific parameters (e.g., 12 chars vs 8/14) and additional requirements (complexity, expiration, feedback obscurity) are not fully covered."
+    }
+  ]
+}

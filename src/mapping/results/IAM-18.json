@@ -1,0 +1,14 @@
+{
+  "internal_control_id": "IAM-18",
+  "internal_control_name": "Account Lockout: Cardholder Data Environments",
+  "processed_at": "2026-03-17T14:24:26.448179+00:00",
+  "total_mapped": 1,
+  "mappings": [
+    {
+      "safeguard_id": "4.10",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Enforces automatic lockout following a threshold of failed authentication attempts on portable end-user devices, directly satisfying the account lockout mechanism required by IAM-18 on a subset of information systems."
+    }
+  ]
+}

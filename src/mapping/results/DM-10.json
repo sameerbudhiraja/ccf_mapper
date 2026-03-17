@@ -1,0 +1,14 @@
+{
+  "internal_control_id": "DM-10",
+  "internal_control_name": "Primary Account Number Data Restrictions",
+  "processed_at": "2026-03-17T13:20:05.798654+00:00",
+  "total_mapped": 1,
+  "mappings": [
+    {
+      "safeguard_id": "3.3",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Configuring data access control lists based on need-to-know enforces the restriction of PAN data to authorized users with a legitimate business need, satisfying DM-10's access restriction objective, though it does not mandate the specific masking format (first six and last four digits)."
+    }
+  ]
+}

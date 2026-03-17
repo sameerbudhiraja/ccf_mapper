@@ -1,0 +1,32 @@
+{
+  "internal_control_id": "CFM-12",
+  "internal_control_name": "Process Isolation",
+  "processed_at": "2026-03-17T06:47:15.336614+00:00",
+  "total_mapped": 4,
+  "mappings": [
+    {
+      "safeguard_id": "4.8",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Uninstalling or disabling unnecessary services on servers directly enforces the single-function-per-server requirement by removing extraneous service functions from enterprise assets."
+    },
+    {
+      "safeguard_id": "10.5",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Anti-exploitation features like DEP and WDEG enforce separate execution domains for processes at the OS level, directly implementing the process isolation mechanism."
+    },
+    {
+      "safeguard_id": "12.8",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Dedicated computing resources separated physically or logically for administrative tasks implements the single-function principle by segregating privileged work from standard operations."
+    },
+    {
+      "safeguard_id": "12.2",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Secure network architecture addressing segmentation supports server function separation by designing isolated network segments that can enforce single-function server deployment."
+    }
+  ]
+}

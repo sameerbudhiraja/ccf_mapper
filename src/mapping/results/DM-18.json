@@ -1,0 +1,26 @@
+{
+  "internal_control_id": "DM-18",
+  "internal_control_name": "Personal Information Retention and Deletion",
+  "processed_at": "2026-03-17T13:37:08.065680+00:00",
+  "total_mapped": 3,
+  "mappings": [
+    {
+      "safeguard_id": "3.4",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Enforces data retention according to policy, directly covering the retention requirement of DM-18 for personal information."
+    },
+    {
+      "safeguard_id": "3.5",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Performs secure data disposal according to policy, directly covering the deletion requirement of DM-18 for personal information."
+    },
+    {
+      "safeguard_id": "15.7",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Addresses secure disposal of enterprise data within service provider systems during decommissioning, covering the service provider deletion scope of DM-18."
+    }
+  ]
+}

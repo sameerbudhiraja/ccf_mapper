@@ -1,0 +1,14 @@
+{
+  "internal_control_id": "IAM-11",
+  "internal_control_name": "Temporary Account Termination",
+  "processed_at": "2026-03-17T14:18:44.884908+00:00",
+  "total_mapped": 1,
+  "mappings": [
+    {
+      "safeguard_id": "5.3",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Automatically disables dormant accounts after a period of inactivity, addressing the core objective of limiting account lifespan to reduce risk, though the trigger (inactivity vs. generation date) and scope (dormant vs. temporary) differ from the CCF control's specific 90-day expiration requirement."
+    }
+  ]
+}

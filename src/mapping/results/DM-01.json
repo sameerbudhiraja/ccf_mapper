@@ -1,0 +1,20 @@
+{
+  "internal_control_id": "DM-01",
+  "internal_control_name": "Data Classification Criteria",
+  "processed_at": "2026-03-17T13:13:12.825916+00:00",
+  "total_mapped": 2,
+  "mappings": [
+    {
+      "safeguard_id": "3.7",
+      "framework": "CIS Controls v8.1",
+      "mapping": "FULL",
+      "reason": "Establishing and maintaining a data classification scheme directly satisfies DM-01's requirement to define, review, and approve data classification criteria and labels."
+    },
+    {
+      "safeguard_id": "3.1",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "The data management process governs data sensitivity handling and treatment determination logic, covering the treatment aspect of DM-01, though it is a broader process artifact than the specific classification criteria."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "internal_control_id": "AM-04",
+  "internal_control_name": "Inventory Reconciliation: Logging",
+  "processed_at": "2026-03-17T05:55:56.186794+00:00",
+  "total_mapped": 2,
+  "mappings": [
+    {
+      "safeguard_id": "1.2",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Establishes a process to address unauthorized assets, aligning with AM-04's requirement to assign owners to non-inventoried devices as a form of addressing."
+    },
+    {
+      "safeguard_id": "1.4",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Uses DHCP logging to update the asset inventory, directly performing the log-based reconciliation action required by AM-04 for a subset of log sources."
+    }
+  ]
+}

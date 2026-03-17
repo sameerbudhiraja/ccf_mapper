@@ -1,0 +1,50 @@
+{
+  "internal_control_id": "IAM-28",
+  "internal_control_name": "PCI Account Restrictions",
+  "processed_at": "2026-03-17T14:33:11.847702+00:00",
+  "total_mapped": 7,
+  "mappings": [
+    {
+      "safeguard_id": "3.3",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Configuring data access control lists restricts user access to data and resources based on need-to-know, satisfying IAM-28's objective to prevent cross-CDE access."
+    },
+    {
+      "safeguard_id": "4.7",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Managing and disabling default accounts enforces the use of unique accounts, addressing IAM-28's requirement for unique account assignment."
+    },
+    {
+      "safeguard_id": "5.4",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Restricting administrator privileges to dedicated accounts prevents general processes from operating in privileged-mode, aligning with IAM-28's privilege restriction requirement."
+    },
+    {
+      "safeguard_id": "5.6",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Centralizing account management through a directory service supports the assignment and maintenance of unique accounts required by IAM-28."
+    },
+    {
+      "safeguard_id": "6.7",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Centralizing access control facilitates the enforcement of access restrictions and unique account policies across enterprise assets."
+    },
+    {
+      "safeguard_id": "6.8",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Defining and maintaining role-based access control ensures access rights are limited to necessary roles, preventing unauthorized cross-CDE access."
+    },
+    {
+      "safeguard_id": "12.2",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Establishing a secure network architecture with segmentation enforces isolation between CDE environments, preventing cross-CDE resource access."
+    }
+  ]
+}

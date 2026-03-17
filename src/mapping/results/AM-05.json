@@ -1,0 +1,14 @@
+{
+  "internal_control_id": "AM-05",
+  "internal_control_name": "Inventory Labels",
+  "processed_at": "2026-03-17T05:56:48.871136+00:00",
+  "total_mapped": 1,
+  "mappings": [
+    {
+      "safeguard_id": "1.1",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "CIS 1.1 requires maintaining an enterprise asset inventory that records the enterprise asset owner and unique identifiers (machine name, hardware address), directly addressing AM-05's ownership and labeling requirements within a broader inventory scope."
+    }
+  ]
+}

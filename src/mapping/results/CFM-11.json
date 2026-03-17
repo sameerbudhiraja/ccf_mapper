@@ -1,0 +1,14 @@
+{
+  "internal_control_id": "CFM-11",
+  "internal_control_name": "Default Device Passwords",
+  "processed_at": "2026-03-17T06:46:39.240946+00:00",
+  "total_mapped": 1,
+  "mappings": [
+    {
+      "safeguard_id": "4.7",
+      "framework": "CIS Controls v8.1",
+      "mapping": "FULL",
+      "reason": "Manage Default Accounts directly requires neutralizing vendor default credentials (via disabling or password change), satisfying CFM-11's objective to change default passwords prior to device installation."
+    }
+  ]
+}

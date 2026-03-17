@@ -1,0 +1,14 @@
+{
+  "internal_control_id": "CRY-09",
+  "internal_control_name": "Key Store Review",
+  "processed_at": "2026-03-17T07:04:03.304972+00:00",
+  "total_mapped": 1,
+  "mappings": [
+    {
+      "safeguard_id": "12.2",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Establishing and maintaining a secure network architecture encompasses the design and authorization of critical system placements, including key store locations, within the segmented network infrastructure."
+    }
+  ]
+}

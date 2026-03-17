@@ -1,0 +1,14 @@
+{
+  "internal_control_id": "DM-14",
+  "internal_control_name": "Secure Disposal of Media",
+  "processed_at": "2026-03-17T13:31:56.805873+00:00",
+  "total_mapped": 1,
+  "mappings": [
+    {
+      "safeguard_id": "3.5",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "CIS 3.5 performs secure disposal of data commensurate with data sensitivity, directly addressing DM-14's core requirement of secure media erasure for decommissioned restricted data, though it doesn't explicitly specify certificate/log documentation or secured storage of pending media."
+    }
+  ]
+}

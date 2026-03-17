@@ -1,0 +1,38 @@
+{
+  "internal_control_id": "DM-09",
+  "internal_control_name": "Credit Card Data Restrictions",
+  "processed_at": "2026-03-17T13:19:15.211909+00:00",
+  "total_mapped": 5,
+  "mappings": [
+    {
+      "safeguard_id": "3.1",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Establishing a data management process that addresses data retention limits provides the governance framework required to define and enforce the credit card data storage restriction."
+    },
+    {
+      "safeguard_id": "3.4",
+      "framework": "CIS Controls v8.1",
+      "mapping": "FULL",
+      "reason": "Enforcing data retention with minimum and maximum timelines directly implements the storage restriction by mandating a retention limit of zero for prohibited credit card data elements."
+    },
+    {
+      "safeguard_id": "3.5",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Securely disposing of data according to sensitivity enables the non-storage requirement by ensuring payment data is removed after processing is complete."
+    },
+    {
+      "safeguard_id": "3.13",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Deploying a DLP solution to identify all sensitive data stored supports compliance verification by detecting any prohibited credit card data that may be retained."
+    },
+    {
+      "safeguard_id": "14.4",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Training workforce members on how to properly store sensitive data ensures personnel understand and execute the restriction against storing credit card information."
+    }
+  ]
+}

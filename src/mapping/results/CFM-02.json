@@ -1,0 +1,32 @@
+{
+  "internal_control_id": "CFM-02",
+  "internal_control_name": "Default \"Deny-all\" Settings",
+  "processed_at": "2026-03-17T06:21:02.115135+00:00",
+  "total_mapped": 4,
+  "mappings": [
+    {
+      "safeguard_id": "2.5",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Allowlisting authorized software enforces a default-deny posture for application execution, addressing a subset of information system access configurations."
+    },
+    {
+      "safeguard_id": "2.6",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Allowlisting authorized libraries enforces a default-deny posture for library loading, addressing a subset of information system access configurations."
+    },
+    {
+      "safeguard_id": "2.7",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Allowlisting authorized scripts enforces a default-deny posture for script execution, addressing a subset of information system access configurations."
+    },
+    {
+      "safeguard_id": "4.5",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Implementing a firewall with a default-deny rule on end-user devices directly satisfies the deny-all objective for network traffic on this asset subset."
+    }
+  ]
+}

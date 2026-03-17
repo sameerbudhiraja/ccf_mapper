@@ -1,0 +1,26 @@
+{
+  "internal_control_id": "IAM-05",
+  "internal_control_name": "Logical Access Review",
+  "processed_at": "2026-03-17T14:14:26.124329+00:00",
+  "total_mapped": 3,
+  "mappings": [
+    {
+      "safeguard_id": "5.1",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Performs quarterly validation of account authorization, covering the account review portion of IAM-05 but not the access privilege review portion."
+    },
+    {
+      "safeguard_id": "5.5",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Performs quarterly validation of service account authorization, addressing a specific subset (service accounts) of the account review requirement."
+    },
+    {
+      "safeguard_id": "6.8",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Performs access control reviews to validate privileges, covering the access review portion of IAM-05, though the required frequency (annual) is less stringent than CCF (quarterly)."
+    }
+  ]
+}

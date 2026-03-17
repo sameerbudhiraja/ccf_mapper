@@ -1,0 +1,14 @@
+{
+  "internal_control_id": "CMS-01",
+  "internal_control_name": "Customer Administrative Access",
+  "processed_at": "2026-03-17T06:54:46.031044+00:00",
+  "total_mapped": 1,
+  "mappings": [
+    {
+      "safeguard_id": "6.8",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Define and Maintain Role-Based Access Control establishes the RBAC framework that defines roles with documented access rights, which is the mechanism CMS-01 requires for privileged customer administrative access roles\u2014same RBAC mechanism, 6.8 has broader enterprise scope."
+    }
+  ]
+}

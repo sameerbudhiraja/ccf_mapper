@@ -1,14 +1,20 @@
 {
   "internal_control_id": "AM-02",
   "internal_control_name": "Inventory Management: Applications",
-  "processed_at": "2026-03-14T10:04:09.844966+00:00",
-  "total_mapped": 1,
+  "processed_at": "2026-03-17T05:53:02.651706+00:00",
+  "total_mapped": 2,
   "mappings": [
+    {
+      "safeguard_id": "1.1",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "CIS 1.1 explicitly inventories all enterprise assets with the potential to store or process data, a scope that encompasses application assets; this qualifies as a superset match under the Rule 13 exception and Rule 3 for an application asset inventory CCF control."
+    },
     {
       "safeguard_id": "6.6",
       "framework": "CIS Controls v8.1",
       "mapping": "PARTIAL",
-      "reason": "CIS 6.6 maintains an inventory of authentication and authorization systems, which are a specific subset of the application assets required by AM-02, satisfying the inventory action for that critical class of applications."
+      "reason": "Maintaining an inventory of authentication and authorization systems is a typed system-level subset of the broader application asset inventory required by AM-02 \u2014 same inventory action, narrower scope, valid cross-domain PARTIAL under Rule 3."
     }
   ]
 }

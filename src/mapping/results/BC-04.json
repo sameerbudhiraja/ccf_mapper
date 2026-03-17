@@ -1,0 +1,20 @@
+{
+  "internal_control_id": "BC-04",
+  "internal_control_name": "Continuity Testing",
+  "processed_at": "2026-03-17T06:12:13.202449+00:00",
+  "total_mapped": 2,
+  "mappings": [
+    {
+      "safeguard_id": "11.1",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Establishing the data recovery process is the foundational capability that BC-04's disaster recovery testing component directly validates \u2014 coverage under Rule 6."
+    },
+    {
+      "safeguard_id": "11.3",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Protecting recovery data ensures the integrity and security that BC-04's disaster recovery testing confirms \u2014 coverage under Rule 7 as BC-04 validates what 11.3 protects."
+    }
+  ]
+}

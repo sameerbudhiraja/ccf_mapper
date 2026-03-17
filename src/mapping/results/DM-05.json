@@ -1,0 +1,14 @@
+{
+  "internal_control_id": "DM-05",
+  "internal_control_name": "Personal Information Deletion Requests",
+  "processed_at": "2026-03-17T13:16:20.060467+00:00",
+  "total_mapped": 1,
+  "mappings": [
+    {
+      "safeguard_id": "3.5",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Securely Dispose of Data directly performs the deletion action required by DM-05, ensuring the security outcome of personal information removal, though it does not cover the request intake workflow."
+    }
+  ]
+}

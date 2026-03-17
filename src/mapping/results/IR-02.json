@@ -1,0 +1,20 @@
+{
+  "internal_control_id": "IR-02",
+  "internal_control_name": "Incident Response Testing",
+  "processed_at": "2026-03-17T14:44:42.358139+00:00",
+  "total_mapped": 2,
+  "mappings": [
+    {
+      "safeguard_id": "17.7",
+      "framework": "CIS Controls v8.1",
+      "mapping": "FULL",
+      "reason": "Conduct Routine Incident Response Exercises directly performs annual testing of incident response processes and workflows, satisfying IR-02's objective to test IR processes and document results."
+    },
+    {
+      "safeguard_id": "17.4",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Establishing the incident response process is the foundational capability that IR-02's testing directly validates \u2014 coverage under Rule 6."
+    }
+  ]
+}

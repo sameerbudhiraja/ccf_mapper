@@ -1,0 +1,20 @@
+{
+  "internal_control_id": "CFM-10",
+  "internal_control_name": "Time Clock Configuration Access",
+  "processed_at": "2026-03-17T06:45:44.592449+00:00",
+  "total_mapped": 2,
+  "mappings": [
+    {
+      "safeguard_id": "5.4",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Restricting administrator privileges to dedicated accounts ensures that privileged tasks, such as modifying time data, are limited to authorized personnel with administrative access."
+    },
+    {
+      "safeguard_id": "6.8",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Defining and maintaining role-based access control determines and validates the access rights necessary for each role, ensuring only authorized personnel can perform specific actions like time modification."
+    }
+  ]
+}

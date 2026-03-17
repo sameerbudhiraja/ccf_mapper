@@ -1,0 +1,26 @@
+{
+  "internal_control_id": "CHM-03",
+  "internal_control_name": "Segregation of Duties",
+  "processed_at": "2026-03-17T06:53:44.145042+00:00",
+  "total_mapped": 3,
+  "mappings": [
+    {
+      "safeguard_id": "6.8",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Defining and maintaining Role-Based Access Control (RBAC) establishes the authorization framework that ensures production changes are implemented only by personnel with specific, authorized roles and access rights."
+    },
+    {
+      "safeguard_id": "5.4",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Restricting administrator privileges to dedicated administrator accounts enforces segregation of duties by ensuring only authorized administrative accounts, separated from standard user activities, can implement production changes."
+    },
+    {
+      "safeguard_id": "12.8",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Establishing dedicated computing resources for administrative work isolates the environment used for production changes, ensuring only authorized administrative sessions can implement changes and segregating them from standard user work."
+    }
+  ]
+}

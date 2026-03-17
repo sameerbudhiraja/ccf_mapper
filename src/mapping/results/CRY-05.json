@@ -1,0 +1,38 @@
+{
+  "internal_control_id": "CRY-05",
+  "internal_control_name": "Encryption of Data in Transit",
+  "processed_at": "2026-03-17T06:59:42.627527+00:00",
+  "total_mapped": 5,
+  "mappings": [
+    {
+      "safeguard_id": "3.10",
+      "framework": "CIS Controls v8.1",
+      "mapping": "FULL",
+      "reason": "Encrypt Sensitive Data in Transit directly implements encryption for data transmitted over networks using protocols like TLS/SSH, fully satisfying CRY-05's objective to encrypt restricted data in transit."
+    },
+    {
+      "safeguard_id": "4.6",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Mandates secure network protocols (SSH/HTTPS) for accessing administrative interfaces, providing encryption for management traffic in transit which is a subset of restricted data."
+    },
+    {
+      "safeguard_id": "12.3",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Mandates secure network protocols (SSH/HTTPS) for managing network infrastructure, providing encryption for infrastructure management traffic in transit (subset)."
+    },
+    {
+      "safeguard_id": "12.6",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Adopts secure communication protocols (e.g., WPA2 Enterprise) that encrypt wireless network traffic in transit, addressing a specific subset of data transmission channels."
+    },
+    {
+      "safeguard_id": "12.7",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Requires VPN for remote device access, ensuring encryption of data transmitted over public networks for remote connections (subset of transit encryption)."
+    }
+  ]
+}

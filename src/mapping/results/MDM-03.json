@@ -1,0 +1,74 @@
+{
+  "internal_control_id": "MDM-03",
+  "internal_control_name": "Configuration Management: Mobile Devices",
+  "processed_at": "2026-03-17T14:55:35.339681+00:00",
+  "total_mapped": 11,
+  "mappings": [
+    {
+      "safeguard_id": "4.8",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Disabling unnecessary services on enterprise assets directly satisfies MDM-03's requirement to disable unnecessary hardware capabilities and functionalities on mobile devices."
+    },
+    {
+      "safeguard_id": "4.12",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Separating enterprise workspaces on mobile end-user devices is a specific security feature configuration required by MDM-03 for mobile devices."
+    },
+    {
+      "safeguard_id": "4.10",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Enforcing automatic device lockout on portable end-user devices enables a management-defined security feature required by MDM-03."
+    },
+    {
+      "safeguard_id": "4.11",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Enforcing remote wipe capability on portable end-user devices enables a management-defined security feature required by MDM-03."
+    },
+    {
+      "safeguard_id": "4.3",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Configuring automatic session locking on mobile end-user devices enables a management-defined security feature required by MDM-03."
+    },
+    {
+      "safeguard_id": "4.5",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Implementing a host-based firewall on end-user devices enables a management-defined security feature required by MDM-03."
+    },
+    {
+      "safeguard_id": "4.7",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Managing and disabling default accounts on enterprise assets disables unnecessary functionalities required by MDM-03."
+    },
+    {
+      "safeguard_id": "3.6",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Encrypting data on end-user devices enables a management-defined security feature required by MDM-03."
+    },
+    {
+      "safeguard_id": "10.1",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Deploying anti-malware software on enterprise assets enables a management-defined security feature required by MDM-03."
+    },
+    {
+      "safeguard_id": "10.5",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Enabling anti-exploitation features on enterprise assets enables a management-defined security feature required by MDM-03."
+    },
+    {
+      "safeguard_id": "10.3",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Disabling autorun and autoplay for removable media disables unnecessary functionalities required by MDM-03."
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "internal_control_id": "CFM-06",
+  "internal_control_name": "Prohibited Activity Monitoring",
+  "processed_at": "2026-03-17T06:31:18.000236+00:00",
+  "total_mapped": 16,
+  "mappings": [
+    {
+      "safeguard_id": "2.5",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Application allowlisting configures systems to explicitly deny unauthorized software execution, satisfying CFM-06's objective for software-related activities."
+    },
+    {
+      "safeguard_id": "2.6",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Library allowlisting configures systems to explicitly deny unauthorized library loading, satisfying CFM-06's objective for library-related activities."
+    },
+    {
+      "safeguard_id": "2.7",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Script allowlisting configures systems to explicitly deny unauthorized script execution, satisfying CFM-06's objective for script-related activities."
+    },
+    {
+      "safeguard_id": "3.3",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Data access control lists configure systems to explicitly deny unauthorized data access, satisfying CFM-06's objective for data access activities."
+    },
+    {
+      "safeguard_id": "4.5",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Host-based firewall with default-deny rules configures systems to explicitly deny unauthorized network traffic, satisfying CFM-06's objective for network activities."
+    },
+    {
+      "safeguard_id": "4.8",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Disabling unnecessary services configures systems to explicitly deny service activities, satisfying CFM-06's objective for service-related activities."
+    },
+    {
+      "safeguard_id": "9.2",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "DNS filtering configures systems to explicitly deny access to malicious domains, satisfying CFM-06's objective for DNS query activities."
+    },
+    {
+      "safeguard_id": "9.3",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Network-based URL filtering configures systems to explicitly deny connections to unapproved websites, satisfying CFM-06's objective for web traffic activities."
+    },
+    {
+      "safeguard_id": "9.4",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Restricting browser extensions configures systems to explicitly deny unauthorized plugin activities, satisfying CFM-06's objective for browser activities."
+    },
+    {
+      "safeguard_id": "9.6",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Blocking unnecessary file types configures systems to explicitly deny unauthorized email attachments, satisfying CFM-06's objective for email activities."
+    },
+    {
+      "safeguard_id": "10.1",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Anti-malware software configures systems to explicitly deny malicious code execution, satisfying CFM-06's objective for malware activities."
+    },
+    {
+      "safeguard_id": "10.3",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Disabling autorun configures systems to explicitly deny auto-execute activities on removable media, satisfying CFM-06's objective for media activities."
+    },
+    {
+      "safeguard_id": "13.4",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Traffic filtering between segments configures systems to explicitly deny unauthorized lateral movement, satisfying CFM-06's objective for network flow activities."
+    },
+    {
+      "safeguard_id": "13.7",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Host-based intrusion prevention configures systems to explicitly deny host-based attack activities, satisfying CFM-06's objective for intrusion activities."
+    },
+    {
+      "safeguard_id": "13.8",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Network intrusion prevention configures systems to explicitly deny network-based attack activities, satisfying CFM-06's objective for intrusion activities."
+    },
+    {
+      "safeguard_id": "13.10",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Application layer filtering configures systems to explicitly deny unauthorized application traffic, satisfying CFM-06's objective for application activities."
+    }
+  ]
+}

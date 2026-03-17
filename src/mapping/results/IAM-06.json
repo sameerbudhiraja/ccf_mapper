@@ -1,0 +1,14 @@
+{
+  "internal_control_id": "IAM-06",
+  "internal_control_name": "Role Change: Access De-provisioning",
+  "processed_at": "2026-03-17T14:15:06.987076+00:00",
+  "total_mapped": 1,
+  "mappings": [
+    {
+      "safeguard_id": "6.2",
+      "framework": "CIS Controls v8.1",
+      "mapping": "FULL",
+      "reason": "CIS 6.2 explicitly establishes a process for revoking access upon role change, directly satisfying IAM-06's requirement to review, revoke, and document access when an employee is reassigned or transferred."
+    }
+  ]
+}

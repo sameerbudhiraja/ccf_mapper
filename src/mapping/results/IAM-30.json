@@ -1,0 +1,14 @@
+{
+  "internal_control_id": "IAM-30",
+  "internal_control_name": "Virtual Private Network",
+  "processed_at": "2026-03-17T14:34:30.392952+00:00",
+  "total_mapped": 1,
+  "mappings": [
+    {
+      "safeguard_id": "12.7",
+      "framework": "CIS Controls v8.1",
+      "mapping": "FULL",
+      "reason": "CIS 12.7 explicitly requires remote devices to utilize an enterprise-managed VPN prior to accessing enterprise resources, directly implementing IAM-30's mandate for VPN-based remote connections through managed gateways."
+    }
+  ]
+}

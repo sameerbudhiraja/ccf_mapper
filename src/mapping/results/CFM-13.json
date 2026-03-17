@@ -1,0 +1,14 @@
+{
+  "internal_control_id": "CFM-13",
+  "internal_control_name": "Collaborative Devices",
+  "processed_at": "2026-03-17T06:48:13.012033+00:00",
+  "total_mapped": 1,
+  "mappings": [
+    {
+      "safeguard_id": "4.8",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Disabling unnecessary services (4.8) addresses the restriction of remote activation capabilities (often implemented as services or features), satisfying the restriction objective but not the explicit usage indication requirement."
+    }
+  ]
+}
