@@ -1,0 +1,14 @@
+{
+  "internal_control_id": "IAM-01",
+  "internal_control_name": "Logical Access Provisioning",
+  "processed_at": "2026-03-17T14:10:25.289699+00:00",
+  "total_mapped": 1,
+  "mappings": [
+    {
+      "safeguard_id": "6.1",
+      "framework": "CIS Controls v8.1",
+      "mapping": "FULL",
+      "reason": "Establish an Access Granting Process directly implements the documented workflow required for logical access provisioning, encompassing the approval requirement for new hires or role changes."
+    }
+  ]
+}

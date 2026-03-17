@@ -1,0 +1,74 @@
+{
+  "internal_control_id": "DM-22",
+  "internal_control_name": "Data Loss Prevention",
+  "processed_at": "2026-03-17T13:42:13.425352+00:00",
+  "total_mapped": 11,
+  "mappings": [
+    {
+      "safeguard_id": "3.13",
+      "framework": "CIS Controls v8.1",
+      "mapping": "FULL",
+      "reason": "Deploying a Data Loss Prevention Solution directly implements DM-22's requirement for DLP capabilities to protect sensitive information across stored, transmitted, and processed states."
+    },
+    {
+      "safeguard_id": "3.10",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Encrypting sensitive data in transit protects information during transmission, satisfying the 'transmitted' protection requirement of DM-22."
+    },
+    {
+      "safeguard_id": "3.11",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Encrypting sensitive data at rest protects information on servers and databases, satisfying the 'stored' protection requirement of DM-22."
+    },
+    {
+      "safeguard_id": "3.6",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Encrypting data on end-user devices protects sensitive information on portable assets, satisfying the 'stored' protection requirement of DM-22."
+    },
+    {
+      "safeguard_id": "3.9",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Encrypting data on removable media protects sensitive information on portable storage, satisfying the 'stored' protection requirement of DM-22."
+    },
+    {
+      "safeguard_id": "3.3",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Configuring data access control lists prevents unauthorized access to sensitive data, satisfying the 'protect' objective of DM-22."
+    },
+    {
+      "safeguard_id": "3.5",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Securely disposing of data prevents data loss at the end of the data lifecycle, satisfying the 'processed' protection requirement of DM-22."
+    },
+    {
+      "safeguard_id": "4.11",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Remote wipe capability protects sensitive data on lost or stolen devices by destroying it, satisfying the 'stored' protection requirement of DM-22."
+    },
+    {
+      "safeguard_id": "9.3",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Network-based URL filters can block data exfiltration channels, satisfying the 'transmitted' protection requirement of DM-22."
+    },
+    {
+      "safeguard_id": "9.6",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Blocking unnecessary file types at the email gateway prevents data exfiltration via email, satisfying the 'transmitted' protection requirement of DM-22."
+    },
+    {
+      "safeguard_id": "13.10",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Application layer filtering can enforce data exfiltration policies at the gateway, satisfying the 'transmitted' protection requirement of DM-22."
+    }
+  ]
+}

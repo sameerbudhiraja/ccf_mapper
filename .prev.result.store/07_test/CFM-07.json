@@ -1,0 +1,20 @@
+{
+  "internal_control_id": "CFM-07",
+  "internal_control_name": "Configuration Checks",
+  "processed_at": "2026-03-17T06:32:49.957373+00:00",
+  "total_mapped": 2,
+  "mappings": [
+    {
+      "safeguard_id": "7.5",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Automated vulnerability scans of internal assets include configuration compliance checks that detect deviations from secure baselines on internal production environments."
+    },
+    {
+      "safeguard_id": "7.6",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Automated vulnerability scans of externally-exposed assets include configuration compliance checks that detect deviations from secure baselines on external production environments."
+    }
+  ]
+}

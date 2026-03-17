@@ -1,0 +1,20 @@
+{
+  "internal_control_id": "CMS-02",
+  "internal_control_name": "Customer Authentication",
+  "processed_at": "2026-03-17T06:55:16.613440+00:00",
+  "total_mapped": 2,
+  "mappings": [
+    {
+      "safeguard_id": "6.3",
+      "framework": "CIS Controls v8.1",
+      "mapping": "FULL",
+      "reason": "Require MFA for Externally-Exposed Applications directly implements secure authentication for customer-facing applications, satisfying CMS-02's objective for secure log-on procedures."
+    },
+    {
+      "safeguard_id": "5.2",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Unique password requirements establish credential strength as a component of secure log-on procedures, partially covering CMS-02's authentication objective."
+    }
+  ]
+}

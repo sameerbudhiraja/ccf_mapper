@@ -1,0 +1,26 @@
+{
+  "internal_control_id": "BM-02",
+  "internal_control_name": "Resilience Testing",
+  "processed_at": "2026-03-17T06:16:17.373724+00:00",
+  "total_mapped": 3,
+  "mappings": [
+    {
+      "safeguard_id": "11.1",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Establishing the data recovery process is the foundational capability that BM-02's restoration test directly validates \u2014 coverage under Rule 6."
+    },
+    {
+      "safeguard_id": "11.3",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Protecting recovery data ensures the integrity that BM-02 confirms \u2014 coverage under Rule 7 as BM-02 directly validates what 11.3 protects."
+    },
+    {
+      "safeguard_id": "11.5",
+      "framework": "CIS Controls v8.1",
+      "mapping": "FULL",
+      "reason": "Test Data Recovery directly performs backup restoration testing, satisfying BM-02's objective to confirm backup reliability and integrity."
+    }
+  ]
+}

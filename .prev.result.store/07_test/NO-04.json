@@ -1,0 +1,50 @@
+{
+  "internal_control_id": "NO-04",
+  "internal_control_name": "Non-disclosure of Routing Information",
+  "processed_at": "2026-03-17T14:59:44.791869+00:00",
+  "total_mapped": 7,
+  "mappings": [
+    {
+      "safeguard_id": "12.2",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Designing and maintaining a secure network architecture with segmentation and least privilege directly prevents unauthorized parties from accessing network segments containing routing information."
+    },
+    {
+      "safeguard_id": "12.3",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Securely managing network infrastructure using secure protocols (SSH/HTTPS) prevents disclosure of routing configurations and private IP data during administrative access."
+    },
+    {
+      "safeguard_id": "3.10",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Encrypting sensitive data in transit protects private IP addresses and routing information from interception and disclosure to unauthorized parties on the network."
+    },
+    {
+      "safeguard_id": "4.6",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Securely managing enterprise assets via secure administrative protocols prevents disclosure of configuration data, including routing information, across all asset types."
+    },
+    {
+      "safeguard_id": "12.5",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Centralizing network AAA controls access to network infrastructure, ensuring only authorized parties can access devices holding routing information."
+    },
+    {
+      "safeguard_id": "12.6",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Adopting secure network management and communication protocols (e.g., 802.1X, WPA2) prevents unauthorized network access and sniffing of routing data."
+    },
+    {
+      "safeguard_id": "13.4",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Traffic filtering between network segments enforces the segmentation architecture that restricts unauthorized parties from reaching routing information domains."
+    }
+  ]
+}

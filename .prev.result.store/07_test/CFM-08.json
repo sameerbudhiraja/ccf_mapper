@@ -1,0 +1,14 @@
+{
+  "internal_control_id": "CFM-08",
+  "internal_control_name": "Configuration Check Reconciliation: Logging",
+  "processed_at": "2026-03-17T06:43:58.290499+00:00",
+  "total_mapped": 1,
+  "mappings": [
+    {
+      "safeguard_id": "8.2",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "CFM-08's reconciliation and remediation process ensures logging is enabled across all inventoried assets, satisfying 8.2's requirement to ensure logging coverage, though 8.2 also includes log collection mechanics that are prerequisite to the reconciliation."
+    }
+  ]
+}

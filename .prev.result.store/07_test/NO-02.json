@@ -1,0 +1,20 @@
+{
+  "internal_control_id": "NO-02",
+  "internal_control_name": "Inbound and Outbound Network Traffic: DMZ Requirements",
+  "processed_at": "2026-03-17T14:57:50.328267+00:00",
+  "total_mapped": 2,
+  "mappings": [
+    {
+      "safeguard_id": "12.2",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Establishing a secure network architecture that addresses segmentation encompasses the DMZ requirement for untrusted traffic, providing the architectural framework necessary for NO-02 as a superset match."
+    },
+    {
+      "safeguard_id": "13.4",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Traffic filtering between network segments implements the enforcement mechanism required for DMZ boundaries, supporting the traffic control objective of NO-02."
+    }
+  ]
+}

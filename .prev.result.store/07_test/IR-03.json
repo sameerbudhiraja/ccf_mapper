@@ -1,0 +1,56 @@
+{
+  "internal_control_id": "IR-03",
+  "internal_control_name": "Incident Response",
+  "processed_at": "2026-03-17T14:45:52.335815+00:00",
+  "total_mapped": 8,
+  "mappings": [
+    {
+      "safeguard_id": "1.2",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Addresses unauthorized assets (a specific incident type) by removing or quarantining them, satisfying the 'managed to resolution' requirement for this subset of incidents."
+    },
+    {
+      "safeguard_id": "2.3",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Addresses unauthorized software (a specific incident type) by removing or documenting exceptions, satisfying the 'managed to resolution' requirement for this subset of incidents."
+    },
+    {
+      "safeguard_id": "17.1",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Designates personnel responsible for coordinating and documenting incident response, ensuring incidents have assigned ownership for management to resolution."
+    },
+    {
+      "safeguard_id": "17.4",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Establishes the Incident Response Process which defines the workflow for prioritization and resolution required by IR-03."
+    },
+    {
+      "safeguard_id": "17.5",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Assigns key roles and responsibilities for incident response, ensuring the necessary personnel are designated to manage incidents to resolution."
+    },
+    {
+      "safeguard_id": "17.7",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Conducts incident response exercises to test decision making and workflows, validating the capability to manage incidents as required by IR-03."
+    },
+    {
+      "safeguard_id": "17.8",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Conducts post-incident reviews to confirm resolution and prevent recurrence, satisfying the 'managed to resolution' closure requirement."
+    },
+    {
+      "safeguard_id": "17.9",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Establishes incident thresholds to differentiate incidents from events, supporting the 'Confirmed incidents' requirement and priority assignment."
+    }
+  ]
+}

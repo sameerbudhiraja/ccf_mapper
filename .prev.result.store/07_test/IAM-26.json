@@ -1,0 +1,44 @@
+{
+  "internal_control_id": "IAM-26",
+  "internal_control_name": "Source Code Security",
+  "processed_at": "2026-03-17T14:31:47.157027+00:00",
+  "total_mapped": 6,
+  "mappings": [
+    {
+      "safeguard_id": "6.8",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Defining and maintaining role-based access control validates that privileges are authorized, directly satisfying IAM-26's requirement to restrict source code access to authorized personnel."
+    },
+    {
+      "safeguard_id": "6.1",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Establishing an access granting process ensures that only authorized personnel are provisioned with access, enabling the restriction objective of IAM-26 under Rule 7."
+    },
+    {
+      "safeguard_id": "6.2",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Establishing an access revoking process ensures access is removed when personnel are no longer authorized, maintaining the restriction objective of IAM-26 under Rule 7."
+    },
+    {
+      "safeguard_id": "4.1",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "A secure configuration process includes configuring access controls on enterprise assets, providing the technical enforcement mechanism for IAM-26 under Rule 8."
+    },
+    {
+      "safeguard_id": "6.7",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Centralizing access control through a directory or SSO provider provides the mechanism class to enforce access restrictions consistently across enterprise assets."
+    },
+    {
+      "safeguard_id": "15.4",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Ensuring service provider contracts include security requirements covers the scenario where source code is hosted externally, requiring contractual access control obligations."
+    }
+  ]
+}

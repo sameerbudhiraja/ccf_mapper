@@ -1,0 +1,26 @@
+{
+  "internal_control_id": "CFM-14",
+  "internal_control_name": "Software Installation",
+  "processed_at": "2026-03-17T06:49:10.381819+00:00",
+  "total_mapped": 3,
+  "mappings": [
+    {
+      "safeguard_id": "2.2",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Designates software as authorized in the inventory based on support status and exceptions, satisfying the approval requirement through authorization designation."
+    },
+    {
+      "safeguard_id": "2.5",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Enforces that only authorized software can execute using technical controls, ensuring the outcome of the installation approval process is maintained."
+    },
+    {
+      "safeguard_id": "4.1",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Establishes a documented secure configuration process for software, which governs the lifecycle stage where installation approval occurs."
+    }
+  ]
+}

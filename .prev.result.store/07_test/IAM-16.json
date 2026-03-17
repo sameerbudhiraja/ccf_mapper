@@ -1,0 +1,14 @@
+{
+  "internal_control_id": "IAM-16",
+  "internal_control_name": "Session Timeout",
+  "processed_at": "2026-03-17T14:22:55.713156+00:00",
+  "total_mapped": 1,
+  "mappings": [
+    {
+      "safeguard_id": "4.3",
+      "framework": "CIS Controls v8.1",
+      "mapping": "FULL",
+      "reason": "Configure Automatic Session Locking directly implements the inactive session timeout requirement with the same 15-minute threshold, satisfying the security objective of preventing unauthorized access to inactive sessions on enterprise assets."
+    }
+  ]
+}

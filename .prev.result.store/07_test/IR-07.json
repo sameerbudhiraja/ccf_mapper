@@ -1,0 +1,14 @@
+{
+  "internal_control_id": "IR-07",
+  "internal_control_name": "External Communication of Incidents: Protected Health Information",
+  "processed_at": "2026-03-17T14:51:14.915471+00:00",
+  "total_mapped": 1,
+  "mappings": [
+    {
+      "safeguard_id": "17.4",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Establishing the incident response process with a communication plan and compliance requirements provides the foundational governance capability that mandates and enables the specific PHI breach notification execution required by IR-07 (Coverage under Rule 6)."
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "internal_control_id": "IAM-35",
+  "internal_control_name": "Remote Maintenance: Authentication",
+  "processed_at": "2026-03-17T14:39:29.700888+00:00",
+  "total_mapped": 10,
+  "mappings": [
+    {
+      "safeguard_id": "6.4",
+      "framework": "CIS Controls v8.1",
+      "mapping": "FULL",
+      "reason": "Require MFA for Remote Network Access directly implements the strong authentication requirement for remote maintenance sessions."
+    },
+    {
+      "safeguard_id": "6.5",
+      "framework": "CIS Controls v8.1",
+      "mapping": "FULL",
+      "reason": "Require MFA for Administrative Access directly implements the strong authentication requirement for maintenance activities which are administrative in nature."
+    },
+    {
+      "safeguard_id": "6.3",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Require MFA for Externally-Exposed Applications addresses strong authentication for remote tools if they are exposed externally, covering a subset of remote maintenance scenarios."
+    },
+    {
+      "safeguard_id": "12.7",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Require users to authenticate to enterprise-managed VPN prior to accessing enterprise resources enforces authentication for remote device connections used in maintenance."
+    },
+    {
+      "safeguard_id": "8.8",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Collect Command-Line Audit Logs records the commands executed during remote maintenance sessions, satisfying the session recording requirement for CLI-based maintenance."
+    },
+    {
+      "safeguard_id": "8.5",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Configure Detailed Audit Logs captures session metadata (source, destination, user, timestamp) necessary to record remote maintenance activity."
+    },
+    {
+      "safeguard_id": "8.2",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Collect Audit Logs establishes the foundational logging capability required to record remote sessions, providing coverage under Rule 6."
+    },
+    {
+      "safeguard_id": "4.6",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Securely Manage Enterprise Assets restricts remote management to secure protocols (SSH/HTTPS) and prohibits insecure ones, aligning with the restriction of tool utilization."
+    },
+    {
+      "safeguard_id": "12.3",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Securely Manage Network Infrastructure restricts remote management of network devices to secure protocols, covering the network infrastructure subset of remote maintenance."
+    },
+    {
+      "safeguard_id": "12.8",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Establish Dedicated Computing Resources for Administrative Work restricts where maintenance activities occur, supporting the restriction to minimum required level."
+    }
+  ]
+}

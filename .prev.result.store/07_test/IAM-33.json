@@ -1,0 +1,26 @@
+{
+  "internal_control_id": "IAM-33",
+  "internal_control_name": "Remote Maintenance: Authentication Sessions",
+  "processed_at": "2026-03-17T14:38:04.830289+00:00",
+  "total_mapped": 3,
+  "mappings": [
+    {
+      "safeguard_id": "5.3",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Disabling dormant accounts after inactivity directly implements the 'disabled when not in use' requirement for vendor accounts, though it is reactive rather than proactive time-binding."
+    },
+    {
+      "safeguard_id": "6.2",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Establishing and following an access revocation process to disable accounts upon termination or role change satisfies the 'disabled when not in use' requirement when the vendor access time period ends."
+    },
+    {
+      "safeguard_id": "8.11",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Conducting audit log reviews to detect anomalies directly implements the 'monitored while in use' requirement for vendor authentication sessions."
+    }
+  ]
+}

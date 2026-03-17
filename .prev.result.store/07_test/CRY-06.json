@@ -1,0 +1,32 @@
+{
+  "internal_control_id": "CRY-06",
+  "internal_control_name": "Encryption of Data at Rest",
+  "processed_at": "2026-03-17T07:00:26.092943+00:00",
+  "total_mapped": 4,
+  "mappings": [
+    {
+      "safeguard_id": "3.11",
+      "framework": "CIS Controls v8.1",
+      "mapping": "FULL",
+      "reason": "Encrypt Sensitive Data at Rest directly implements encryption for data stored on servers, applications, and databases, satisfying the primary and dominant requirement of CRY-06 for organizational data at rest."
+    },
+    {
+      "safeguard_id": "3.6",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Encrypt Data on End-User Devices addresses the encryption requirement for a specific subset of data at rest locations (endpoints), complementing the server-focused coverage of 3.11."
+    },
+    {
+      "safeguard_id": "3.9",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Encrypt Data on Removable Media addresses the encryption requirement for a specific subset of data at rest locations (removable storage), ensuring coverage for portable media."
+    },
+    {
+      "safeguard_id": "11.3",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Protect Recovery Data requires equivalent controls (referencing encryption) for backup data, satisfying the encryption requirement for the backup data subset of data at rest."
+    }
+  ]
+}

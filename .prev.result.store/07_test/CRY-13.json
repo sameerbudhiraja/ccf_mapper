@@ -1,0 +1,20 @@
+{
+  "internal_control_id": "CRY-13",
+  "internal_control_name": "Installation of Software: Certificate Verification",
+  "processed_at": "2026-03-17T07:06:12.655659+00:00",
+  "total_mapped": 2,
+  "mappings": [
+    {
+      "safeguard_id": "2.7",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Allowlist Authorized Scripts explicitly mandates the use of digital signatures to verify authorization, satisfying the certificate verification mechanism for the script subset of software."
+    },
+    {
+      "safeguard_id": "10.5",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Enabling Anti-Exploitation Features such as Gatekeeper and Code Integrity directly implements the technical capability to verify digital certificates prior to software installation or execution."
+    }
+  ]
+}

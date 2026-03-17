@@ -1,0 +1,14 @@
+{
+  "internal_control_id": "IAM-03",
+  "internal_control_name": "Logical Access De-provisioning",
+  "processed_at": "2026-03-17T14:12:01.063543+00:00",
+  "total_mapped": 1,
+  "mappings": [
+    {
+      "safeguard_id": "6.2",
+      "framework": "CIS Controls v8.1",
+      "mapping": "FULL",
+      "reason": "Establish an Access Revoking Process directly implements the requirement to revoke logical access immediately upon termination, satisfying IAM-03's primary security objective."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "internal_control_id": "IAM-14",
+  "internal_control_name": "Multifactor Authentication",
+  "processed_at": "2026-03-17T14:21:37.954525+00:00",
+  "total_mapped": 3,
+  "mappings": [
+    {
+      "safeguard_id": "6.3",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Require MFA for Externally-Exposed Applications enforces MFA for a subset of trusted data environment access vectors (external exposure), but does not cover all trusted data environments or remote VPN sessions."
+    },
+    {
+      "safeguard_id": "6.4",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Require MFA for Remote Network Access directly enforces MFA for remote VPN sessions (a subset of remote network access), but does not explicitly cover access to trusted data environments."
+    },
+    {
+      "safeguard_id": "6.5",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Require MFA for Administrative Access enforces MFA for a subset of trusted data environment access vectors (privileged access), but does not cover non-administrative trusted data access or remote VPN sessions."
+    }
+  ]
+}

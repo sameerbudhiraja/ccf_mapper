@@ -1,0 +1,14 @@
+{
+  "internal_control_id": "IAM-02",
+  "internal_control_name": "Change of Access Notification",
+  "processed_at": "2026-03-17T14:11:12.189947+00:00",
+  "total_mapped": 1,
+  "mappings": [
+    {
+      "safeguard_id": "13.1",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "13.1 establishes the centralized security event alerting capability (e.g., SIEM) that provides the mechanism to trigger notifications on system access changes, covering the alerting mechanism required by IAM-02 though with a broader security event scope."
+    }
+  ]
+}

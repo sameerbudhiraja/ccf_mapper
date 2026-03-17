@@ -1,0 +1,14 @@
+{
+  "internal_control_id": "IAM-25",
+  "internal_control_name": "Logical Access Role Permission Authorization",
+  "processed_at": "2026-03-17T14:30:55.236116+00:00",
+  "total_mapped": 1,
+  "mappings": [
+    {
+      "safeguard_id": "6.8",
+      "framework": "CIS Controls v8.1",
+      "mapping": "FULL",
+      "reason": "CIS 6.8 requires defining and maintaining role-based access control by determining access rights for each role and validating that privileges are authorized, which directly satisfies IAM-25's requirement for approval of initial and changed logical access role permissions."
+    }
+  ]
+}

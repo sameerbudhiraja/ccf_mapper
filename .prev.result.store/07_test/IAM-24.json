@@ -1,0 +1,62 @@
+{
+  "internal_control_id": "IAM-24",
+  "internal_control_name": "Zero Trust Enterprise Network",
+  "processed_at": "2026-03-17T14:29:50.281639+00:00",
+  "total_mapped": 9,
+  "mappings": [
+    {
+      "safeguard_id": "6.3",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Requiring MFA for externally-exposed applications implements a core Zero Trust authentication mechanism for a subset of enterprise resources."
+    },
+    {
+      "safeguard_id": "6.4",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Requiring MFA for remote network access implements a core Zero Trust authentication mechanism for a subset of access types."
+    },
+    {
+      "safeguard_id": "6.5",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Requiring MFA for administrative access implements a core Zero Trust authentication mechanism for a subset of privileged users."
+    },
+    {
+      "safeguard_id": "6.7",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Centralizing access control through a directory or SSO provider establishes the foundational identity and policy architecture required for a Zero Trust model."
+    },
+    {
+      "safeguard_id": "12.5",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Centralizing Network AAA establishes the foundational authentication and authorization infrastructure required to enforce Zero Trust across the network."
+    },
+    {
+      "safeguard_id": "12.6",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Adopting secure network protocols like 802.1X enables network-level authentication and access control consistent with Zero Trust principles."
+    },
+    {
+      "safeguard_id": "12.7",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Requiring users to authenticate to VPN and authentication services prior to accessing resources directly satisfies the authentication-before-access action for remote devices."
+    },
+    {
+      "safeguard_id": "13.5",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Managing access control based on device posture (anti-malware, compliance) implements the Zero Trust requirement to verify device health prior to granting access."
+    },
+    {
+      "safeguard_id": "13.9",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Deploying port-level access control (802.1X) enforces network authentication and authorization at the connection point, aligning with Zero Trust network access."
+    }
+  ]
+}
