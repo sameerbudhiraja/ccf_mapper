@@ -1,32 +1,62 @@
 {
   "internal_control_id": "CFM-02",
   "internal_control_name": "Default \"Deny-all\" Settings",
-  "processed_at": "2026-03-17T06:21:02.115135+00:00",
-  "total_mapped": 4,
+  "processed_at": "2026-03-20T10:00:36.985145+00:00",
+  "total_mapped": 9,
   "mappings": [
     {
       "safeguard_id": "2.5",
       "framework": "CIS Controls v8.1",
       "mapping": "PARTIAL",
-      "reason": "Allowlisting authorized software enforces a default-deny posture for application execution, addressing a subset of information system access configurations."
+      "reason": "Application allowlisting ensures only authorized software executes, implementing a default-deny posture for software execution access."
     },
     {
       "safeguard_id": "2.6",
       "framework": "CIS Controls v8.1",
       "mapping": "PARTIAL",
-      "reason": "Allowlisting authorized libraries enforces a default-deny posture for library loading, addressing a subset of information system access configurations."
+      "reason": "Library allowlisting ensures only authorized libraries load, implementing a default-deny posture for library access."
     },
     {
       "safeguard_id": "2.7",
       "framework": "CIS Controls v8.1",
       "mapping": "PARTIAL",
-      "reason": "Allowlisting authorized scripts enforces a default-deny posture for script execution, addressing a subset of information system access configurations."
+      "reason": "Script allowlisting ensures only authorized scripts execute, implementing a default-deny posture for script access."
+    },
+    {
+      "safeguard_id": "3.3",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Data access control lists configure explicit permissions based on need-to-know, implementing a default-deny posture for data access."
+    },
+    {
+      "safeguard_id": "4.4",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Server firewalls manage network traffic access, inherently implementing a default-deny configuration for server network interfaces."
     },
     {
       "safeguard_id": "4.5",
       "framework": "CIS Controls v8.1",
       "mapping": "PARTIAL",
-      "reason": "Implementing a firewall with a default-deny rule on end-user devices directly satisfies the deny-all objective for network traffic on this asset subset."
+      "reason": "Host-based firewalls on end-user devices explicitly require a default-deny rule, directly satisfying the deny-all configuration objective for endpoint network traffic."
+    },
+    {
+      "safeguard_id": "13.4",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Traffic filtering between network segments restricts access by default, implementing a deny-all posture for inter-segment communication."
+    },
+    {
+      "safeguard_id": "13.9",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Port-level access control (802.1X) denies network access by default unless authenticated, implementing a deny-all posture for port access."
+    },
+    {
+      "safeguard_id": "13.10",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Application layer filtering restricts traffic by default, implementing a deny-all posture for application-level network access."
     }
   ]
 }

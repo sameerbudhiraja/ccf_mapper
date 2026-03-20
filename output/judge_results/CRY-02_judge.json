@@ -1,0 +1,16 @@
+{
+  "internal_control_id": "CRY-02",
+  "overall_verdict": "QUARANTINED",
+  "overall_confidence": 0.85,
+  "overall_summary": "The mapping returned an empty set, failing the Empty Result Gate. CIS 3.10 (Encrypt Sensitive Data in Transit) is a valid coverage match as it enforces the mechanism (encryption in transit) required to prohibit clear text key distribution. This omission constitutes a Critical Unmapped Control under Axis 4.",
+  "per_mapping_verdicts": [],
+  "false_negatives": [
+    {
+      "external_id": "3.10",
+      "external_title": "Encrypt Sensitive Data in Transit",
+      "reason_should_be_included": "CIS 3.10 mandates encryption for sensitive data in transit, which directly enforces the prohibition of clear text key distribution (cryptographic keys are sensitive data) under Rule 3 (subset) and Rule 5 (intent)."
+    }
+  ],
+  "quarantine_reason": "Critical unmapped control (CIS 3.10) identified; empty mapping set fails Primary Action Test under Axis 4.",
+  "recovery_hint": "Re-run mapping ensuring CIS 3.10 is evaluated as coverage for key transmission security. Verify Rule 3 (subset reasoning) and Rule 5 (intent matching) are applied to link 'Sensitive Data' to 'Cryptographic Keys'."
+}

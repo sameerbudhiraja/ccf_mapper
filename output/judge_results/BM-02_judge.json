@@ -1,0 +1,32 @@
+{
+  "internal_control_id": "BM-02",
+  "overall_verdict": "APPROVED",
+  "overall_confidence": 0.95,
+  "overall_summary": "The mapping accurately reflects the system rules' explicit guidance for backup testing controls. 11.5 is the direct mechanism match, while 11.1 and 11.3 are correctly included as coverage under Rule 6 and Rule 7 exceptions as defined in the system prompt examples. No false negatives or rule violations were detected.",
+  "per_mapping_verdicts": [
+    {
+      "external_id": "11.5",
+      "verdict": "KEEP",
+      "rationale_rating": "STRONG",
+      "rule_violations": [],
+      "judge_note": "Direct mechanism match. Rationale correctly identifies the action alignment (test vs test)."
+    },
+    {
+      "external_id": "11.1",
+      "verdict": "KEEP",
+      "rationale_rating": "STRONG",
+      "rule_violations": [],
+      "judge_note": "Valid coverage under Rule 6 exception for backup testing controls as per system prompt examples. Rationale explicitly cites Rule 6."
+    },
+    {
+      "external_id": "11.3",
+      "verdict": "KEEP",
+      "rationale_rating": "STRONG",
+      "rule_violations": [],
+      "judge_note": "Valid coverage under Rule 7 exception for backup testing controls as per system prompt examples. Rationale explicitly cites Rule 7 and integrity link."
+    }
+  ],
+  "false_negatives": [],
+  "quarantine_reason": null,
+  "recovery_hint": null
+}

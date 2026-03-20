@@ -1,0 +1,10 @@
+{
+  "internal_control_id": "AM-09",
+  "overall_verdict": "APPROVED",
+  "overall_confidence": 0.95,
+  "overall_summary": "The internal control requires governance/authorization regarding portable media usage (prohibition unless authorized). The external catalog lacks a safeguard with this primary action; available controls (3.9, 10.3, 10.4) address technical protection (encryption, autorun, scanning) rather than usage authorization. Empty mapping assessed as correct per Rule 13 and Empty Result Gate.",
+  "per_mapping_verdicts": [],
+  "false_negatives": [],
+  "quarantine_reason": null,
+  "recovery_hint": null
+}

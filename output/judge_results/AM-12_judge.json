@@ -1,0 +1,25 @@
+{
+  "internal_control_id": "AM-12",
+  "overall_verdict": "APPROVED",
+  "overall_confidence": 0.95,
+  "overall_summary": "The mapping correctly identifies CIS 4.1 and 4.2 as coverage for AM-12 based on Rule 8 (shared pre-deployment lifecycle stage) and explicit Rule 13 guidance linking pre-installation inspection to secure configuration processes. Rationales are specific and tie the inspection gate to the configuration process. No false negatives exist in the catalog as no direct hardware inspection safeguard is available.",
+  "per_mapping_verdicts": [
+    {
+      "external_id": "4.1",
+      "verdict": "KEEP",
+      "rationale_rating": "STRONG",
+      "rule_violations": [],
+      "judge_note": "Valid subset match (servers) under Rule 3. Rationale correctly cites Rule 8 lifecycle alignment."
+    },
+    {
+      "external_id": "4.2",
+      "verdict": "KEEP",
+      "rationale_rating": "STRONG",
+      "rule_violations": [],
+      "judge_note": "Explicitly validated by Rule 13 example text for network infrastructure pre-installation verification."
+    }
+  ],
+  "false_negatives": [],
+  "quarantine_reason": null,
+  "recovery_hint": null
+}

@@ -1,0 +1,18 @@
+{
+  "internal_control_id": "CFM-04",
+  "overall_verdict": "APPROVED",
+  "overall_confidence": 1.0,
+  "overall_summary": "The mapping to CIS 10.5 is precise and complete. CIS 10.5 explicitly mandates enabling Data Execution Prevention (DEP), which is the exact primary action of CFM-04. No other catalog controls address this specific memory protection mechanism as a primary requirement, and no prerequisites were incorrectly included.",
+  "per_mapping_verdicts": [
+    {
+      "external_id": "10.5",
+      "verdict": "KEEP",
+      "rationale_rating": "STRONG",
+      "rule_violations": [],
+      "judge_note": "Rationale correctly cites the explicit mention of DEP in CIS 10.5 and ties it directly to the internal control's intent."
+    }
+  ],
+  "false_negatives": [],
+  "quarantine_reason": null,
+  "recovery_hint": null
+}

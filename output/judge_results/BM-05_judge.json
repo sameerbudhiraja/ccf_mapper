@@ -1,0 +1,10 @@
+{
+  "internal_control_id": "BM-05",
+  "overall_verdict": "APPROVED",
+  "overall_confidence": 0.95,
+  "overall_summary": "The empty mapping is correct. CIS 15.4 is explicitly excluded by Rule 13 as it addresses security requirements in contracts (encryption, breach notification) rather than telecommunication continuity provisions (priority of service, failover). No other safeguards in the catalog satisfy the primary action of establishing alternate telecom agreements.",
+  "per_mapping_verdicts": [],
+  "false_negatives": [],
+  "quarantine_reason": null,
+  "recovery_hint": null
+}

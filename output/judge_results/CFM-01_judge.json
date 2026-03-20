@@ -1,0 +1,25 @@
+{
+  "internal_control_id": "CFM-01",
+  "overall_verdict": "APPROVED",
+  "overall_confidence": 0.95,
+  "overall_summary": "The mapping correctly identifies CIS 4.1 as full coverage and CIS 4.2 as partial coverage for the baseline configuration standard requirement. Rationales are specific and compliant with Rule 3 (subset) and Rule 9 (coverage). No false negatives were detected as other configuration controls represent implementation details rather than the standard establishment process.",
+  "per_mapping_verdicts": [
+    {
+      "external_id": "4.1",
+      "verdict": "KEEP",
+      "rationale_rating": "STRONG",
+      "rule_violations": [],
+      "judge_note": "Direct coverage match. The 'Secure Configuration Process' artifact aligns with the 'Baseline Configuration Standard' requirement, including the periodic review obligation."
+    },
+    {
+      "external_id": "4.2",
+      "verdict": "KEEP",
+      "rationale_rating": "ACCEPTABLE",
+      "rule_violations": [],
+      "judge_note": "Valid subset mapping under Rule 3. Network infrastructure is a specialized subset of enterprise assets; the PARTIAL type correctly reflects the narrower scope."
+    }
+  ],
+  "false_negatives": [],
+  "quarantine_reason": null,
+  "recovery_hint": null
+}

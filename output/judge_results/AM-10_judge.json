@@ -1,0 +1,10 @@
+{
+  "internal_control_id": "AM-10",
+  "overall_verdict": "APPROVED",
+  "overall_confidence": 0.95,
+  "overall_summary": "The empty mapping is assessed as correct. AM-10 requires a governance artifact (maintenance approval record), while the external catalog contains only activity-performing safeguards (e.g., patching, configuration) or process-definition safeguards. Under Rule 9 and Rule 13, these are prerequisites, not coverage, and no external control directly implements the specific documentation/approval workflow required.",
+  "per_mapping_verdicts": [],
+  "false_negatives": [],
+  "quarantine_reason": null,
+  "recovery_hint": null
+}

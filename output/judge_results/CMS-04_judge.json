@@ -1,0 +1,10 @@
+{
+  "internal_control_id": "CMS-04",
+  "overall_verdict": "APPROVED",
+  "overall_confidence": 0.95,
+  "overall_summary": "The empty mapping is assessed as correct. The internal control requires supporting customer-driven security inquiries and audits (outbound assurance), whereas the CIS catalog focuses on enterprise asset security and vendor management (inbound assurance). No external control directly performs the primary action of responding to customer due diligence requests, and mapping inbound vendor controls (e.g., CIS 15.x) would violate Rule 9 and Rule 13 due to directionality and artifact mismatches.",
+  "per_mapping_verdicts": [],
+  "false_negatives": [],
+  "quarantine_reason": null,
+  "recovery_hint": null
+}

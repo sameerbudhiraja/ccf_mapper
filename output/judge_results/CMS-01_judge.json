@@ -1,0 +1,18 @@
+{
+  "internal_control_id": "CMS-01",
+  "overall_verdict": "APPROVED",
+  "overall_confidence": 0.9,
+  "overall_summary": "The mapping to CIS 6.8 is semantically sound as it addresses the definition of privileged roles required by CMS-01. No false negatives identified after applying primary-action filters; other access controls focus on processes or inventories rather than role definition. The rationale correctly identifies the RBAC coverage relationship.",
+  "per_mapping_verdicts": [
+    {
+      "external_id": "6.8",
+      "verdict": "KEEP",
+      "rationale_rating": "ACCEPTABLE",
+      "rule_violations": [],
+      "judge_note": "Rationale is specific to RBAC and privileged roles, but could explicitly clarify the superset relationship (Enterprise roles vs. Customer Product roles) to strengthen specificity."
+    }
+  ],
+  "false_negatives": [],
+  "quarantine_reason": null,
+  "recovery_hint": null
+}

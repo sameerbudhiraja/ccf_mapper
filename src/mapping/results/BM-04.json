@@ -1,20 +1,20 @@
 {
   "internal_control_id": "BM-04",
   "internal_control_name": "Alternate Storage",
-  "processed_at": "2026-03-17T06:18:52.778760+00:00",
+  "processed_at": "2026-03-20T09:58:53.874108+00:00",
   "total_mapped": 2,
   "mappings": [
-    {
-      "safeguard_id": "11.4",
-      "framework": "CIS Controls v8.1",
-      "mapping": "FULL",
-      "reason": "Establishing and maintaining an isolated instance of recovery data (including off-site systems) directly implements BM-04's requirement to store backups in an alternate location from source data."
-    },
     {
       "safeguard_id": "11.3",
       "framework": "CIS Controls v8.1",
       "mapping": "PARTIAL",
-      "reason": "Protecting recovery data with equivalent controls (encryption or data separation) supports BM-04's 'securely stored' requirement, addressing the security aspect of alternate backup storage under Rule 7."
+      "reason": "Protect Recovery Data references data separation as a protection method; BM-04's alternate location requirement implements this separation, providing partial coverage of 11.3's protection objective."
+    },
+    {
+      "safeguard_id": "11.4",
+      "framework": "CIS Controls v8.1",
+      "mapping": "FULL",
+      "reason": "Establish and Maintain an Isolated Instance of Recovery Data directly implements off-site or isolated backup storage, satisfying BM-04's objective to store backups in an alternate location."
     }
   ]
 }

@@ -1,0 +1,39 @@
+{
+  "internal_control_id": "CFM-10",
+  "overall_verdict": "APPROVED",
+  "overall_confidence": 0.95,
+  "overall_summary": "The mapping accurately identifies external controls that enforce access restriction mechanisms applicable to time configuration (privilege segregation, RBAC, default account hardening, AAA). Rationales are specific and tie the external control's intent to the internal control's restriction objective. No credible false negatives were found that pass the primary action filter; other candidates (e.g., MFA, Management processes) are either mechanism-specific (not covered by generic policy) or prerequisites.",
+  "per_mapping_verdicts": [
+    {
+      "external_id": "5.4",
+      "verdict": "KEEP",
+      "rationale_rating": "STRONG",
+      "rule_violations": [],
+      "judge_note": "Rationale correctly identifies the assumption that time modification requires elevated rights, linking admin privilege restriction to the access control objective."
+    },
+    {
+      "external_id": "6.8",
+      "verdict": "KEEP",
+      "rationale_rating": "STRONG",
+      "rule_violations": [],
+      "judge_note": "RBAC definition directly supports the 'authorized personnel' requirement by formalizing access rights."
+    },
+    {
+      "external_id": "4.7",
+      "verdict": "KEEP",
+      "rationale_rating": "ACCEPTABLE",
+      "rule_violations": [],
+      "judge_note": "Default account management is a valid subset of access restriction (removing unauthorized vectors), not merely a prerequisite."
+    },
+    {
+      "external_id": "12.5",
+      "verdict": "KEEP",
+      "rationale_rating": "ACCEPTABLE",
+      "rule_violations": [],
+      "judge_note": "Acknowledges the subset relationship (network infra as time sources); AAA centralization enforces the restriction mechanism."
+    }
+  ],
+  "false_negatives": [],
+  "quarantine_reason": null,
+  "recovery_hint": null
+}

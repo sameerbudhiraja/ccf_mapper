@@ -1,0 +1,27 @@
+{
+  "internal_control_id": "CHM-03",
+  "overall_verdict": "APPROVED_WITH_WARNINGS",
+  "overall_confidence": 0.9,
+  "overall_summary": "The mapping correctly identifies CIS 5.4 and 6.8 as relevant to Segregation of Duties for production changes. CIS 5.4 is flagged as WARN due to scope breadth (general computing requirements exceed production change scope) per Change 5 Over-inclusion rule. CIS 6.8 is a strong match for role-based authorization. No credible false negatives passed the primary-action filter.",
+  "per_mapping_verdicts": [
+    {
+      "external_id": "5.4",
+      "verdict": "WARN",
+      "rationale_rating": "STRONG",
+      "rule_violations": [
+        "Change 5 (Over-inclusion): Exceeds primary action scope; strict applicability may not support inclusion."
+      ],
+      "judge_note": "Safeguard includes general computing behavior requirements (internet browsing, email) that extend beyond CHM-03's production change focus. Mapping is valid for admin privilege restriction but flagged for scope breadth."
+    },
+    {
+      "external_id": "6.8",
+      "verdict": "KEEP",
+      "rationale_rating": "STRONG",
+      "rule_violations": [],
+      "judge_note": "Directly addresses role-based authorization and validation of privileges, which satisfies the 'authorized personnel' requirement of CHM-03 without significant scope excess."
+    }
+  ],
+  "false_negatives": [],
+  "quarantine_reason": null,
+  "recovery_hint": null
+}

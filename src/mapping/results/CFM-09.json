@@ -1,14 +1,14 @@
 {
   "internal_control_id": "CFM-09",
   "internal_control_name": "Time Clock Synchronization",
-  "processed_at": "2026-03-17T06:44:39.444446+00:00",
+  "processed_at": "2026-03-20T10:09:41.718502+00:00",
   "total_mapped": 1,
   "mappings": [
     {
       "safeguard_id": "8.4",
       "framework": "CIS Controls v8.1",
       "mapping": "FULL",
-      "reason": "Standardize Time Synchronization directly configures synchronized time sources across enterprise assets, encompassing the information systems required by CFM-09 to synchronize time clocks to UTC."
+      "reason": "CIS 8.4 directly mandates configuring time synchronization across enterprise assets, satisfying CFM-09's objective to synchronize system time clocks to UTC/IAT."
     }
   ]
 }

@@ -9,7 +9,7 @@ import json
 from langchain_core.messages import SystemMessage
 from langchain_core.prompts import ChatPromptTemplate, HumanMessagePromptTemplate
 
-from .system_prompt import SYSTEM_PROMPT
+from src.prompts.system_prompt import MAPPING_SYSTEM_PROMPT
 
 
 # -----------------------------------------------------------------
@@ -29,7 +29,7 @@ Apply all 16 mapping rules and the evaluation checklist. \
 Return the JSON array of mapped safeguards."""
 
 MAPPING_PROMPT = ChatPromptTemplate.from_messages([
-    SystemMessage(content=SYSTEM_PROMPT),
+    SystemMessage(content=MAPPING_SYSTEM_PROMPT),
     HumanMessagePromptTemplate.from_template(USER_TEMPLATE),
 ])
 

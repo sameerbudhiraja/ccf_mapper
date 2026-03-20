@@ -1,0 +1,18 @@
+{
+  "internal_control_id": "CFM-09",
+  "overall_verdict": "APPROVED",
+  "overall_confidence": 1.0,
+  "overall_summary": "The mapping correctly identifies CIS 8.4 as the direct coverage match for time synchronization. The rationale is specific and ties the external safeguard's intent to the internal control's objective. No false negatives or rule violations were detected.",
+  "per_mapping_verdicts": [
+    {
+      "external_id": "8.4",
+      "verdict": "KEEP",
+      "rationale_rating": "STRONG",
+      "rule_violations": [],
+      "judge_note": "CIS 8.4 is the definitive counterpart for time synchronization controls. The rationale accurately reflects the direct coverage relationship."
+    }
+  ],
+  "false_negatives": [],
+  "quarantine_reason": null,
+  "recovery_hint": null
+}

@@ -1,0 +1,10 @@
+{
+  "internal_control_id": "CHM-02",
+  "overall_verdict": "APPROVED",
+  "overall_confidence": 0.85,
+  "overall_summary": "The empty mapping set is assessed as correct because the provided CIS catalog lacks a safeguard explicitly mandating 'Change Approval' (governance artifact). CIS 4.1 (Configuration Process) is thematically related but describes a process definition artifact, not the approval action itself, making it a prerequisite under Rule 9 rather than coverage. Returning an empty set for governance controls with no technical implementation equivalent in the catalog is compliant with Rule 12 and Change 2.",
+  "per_mapping_verdicts": [],
+  "false_negatives": [],
+  "quarantine_reason": null,
+  "recovery_hint": null
+}

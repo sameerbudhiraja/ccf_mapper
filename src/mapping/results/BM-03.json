@@ -1,14 +1,14 @@
 {
   "internal_control_id": "BM-03",
   "internal_control_name": "Backup Failure Review",
-  "processed_at": "2026-03-17T06:17:52.923723+00:00",
+  "processed_at": "2026-03-20T09:58:19.399712+00:00",
   "total_mapped": 1,
   "mappings": [
     {
       "safeguard_id": "11.1",
       "framework": "CIS Controls v8.1",
       "mapping": "PARTIAL",
-      "reason": "Establishing the data recovery process is the foundational capability that BM-03's failure review directly validates \u2014 coverage under Rule 6."
+      "reason": "Establishing the data recovery process includes defining backup procedures and ensuring backup data security, which BM-03 operationally fulfills through failure review; coverage under Rule 6 as BM-03 confirms the backup reliability component of 11.1's established capability."
     }
   ]
 }

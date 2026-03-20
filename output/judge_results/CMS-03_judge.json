@@ -1,0 +1,10 @@
+{
+  "internal_control_id": "CMS-03",
+  "overall_verdict": "APPROVED",
+  "overall_confidence": 0.95,
+  "overall_summary": "The internal control requires operational availability of event logs to customers. The CIS Controls catalog focuses on internal log collection, retention, and review (Section 8) or contractual requirements (Section 15), with no safeguard directly mandating external log sharing or customer-facing transparency. The empty mapping correctly reflects this gap under Rule 9 (no coverage match) and Rule 13 (artifact mismatch between internal collection and external sharing).",
+  "per_mapping_verdicts": [],
+  "false_negatives": [],
+  "quarantine_reason": null,
+  "recovery_hint": null
+}

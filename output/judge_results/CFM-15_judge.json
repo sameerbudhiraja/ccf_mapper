@@ -1,0 +1,21 @@
+{
+  "internal_control_id": "CFM-15",
+  "overall_verdict": "QUARANTINED",
+  "overall_confidence": 0.85,
+  "overall_summary": "The empty mapping is incorrect. The internal control requires governance (approval) and monitoring for job schedule changes, which semantically aligns with CIS 4.1 (Configuration Process) and CIS 8.1 (Log Management Process). Rule 12 recall was violated by omitting these meaningful governance matches.",
+  "per_mapping_verdicts": [],
+  "false_negatives": [
+    {
+      "external_id": "4.1",
+      "external_title": "Establish and Maintain a Secure Configuration Process",
+      "reason_should_be_included": "Job schedule modifications are a subset of system configuration changes. CIS 4.1 establishes the governance process for configuration changes, directly covering the 'documented approval' requirement of CFM-15 under Rule 3 (subset reasoning) and Rule 13 (same governance artifact type)."
+    },
+    {
+      "external_id": "8.1",
+      "external_title": "Establish and Maintain an Audit Log Management Process",
+      "reason_should_be_included": "CFM-15 requires 'documented monitoring details' for schedule changes. CIS 8.1 defines the enterprise's logging requirements and process, providing the governance framework necessary to satisfy the monitoring aspect of CFM-15 under Rule 7 (objective linking)."
+    }
+  ],
+  "quarantine_reason": "Critical unmapped control: Empty mapped_results returned despite clear governance artifact matches in the catalog (CIS 4.1, 8.1) that pass the primary-action and displacement tests.",
+  "recovery_hint": "Re-map this control by evaluating CIS 4.1 as a superset governance control for configuration changes (including job schedules) and CIS 8.1 for the monitoring/logging requirement. Ensure Rule 12 recall is prioritized for governance process matches."
+}

@@ -1,0 +1,10 @@
+{
+  "internal_control_id": "AM-13",
+  "overall_verdict": "QUARANTINED",
+  "overall_confidence": 0.0,
+  "overall_summary": "Mapping was quarantined due to judge stage processing failure.",
+  "per_mapping_verdicts": [],
+  "false_negatives": [],
+  "quarantine_reason": "Judge LLM returned unparseable response",
+  "recovery_hint": "Re-run judge for this control."
+}

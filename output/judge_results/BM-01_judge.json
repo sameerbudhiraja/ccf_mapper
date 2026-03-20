@@ -1,0 +1,51 @@
+{
+  "internal_control_id": "BM-01",
+  "overall_verdict": "QUARANTINED",
+  "overall_confidence": 0.6,
+  "overall_summary": "The mapping accurately captures the core technical backup controls (11.2, 11.3, 11.4) that satisfy BM-01's primary action of configuring/performing backups. However, 11.5 (Test Data Recovery) is a validation action distinct from configuration (typically BM-02 scope) and violates Rule 9/11 by addressing a fundamentally different security function. 11.1 (Process) is flagged as a prerequisite under strict Rule 9 interpretation, though it is often accepted as foundational dependency.",
+  "per_mapping_verdicts": [
+    {
+      "external_id": "11.1",
+      "verdict": "WARN",
+      "rationale_rating": "ACCEPTABLE",
+      "rule_violations": [
+        "Rule 9: Prerequisite vs Coverage \u2014 Establishing a process is typically a prerequisite to performing configuration, not coverage of the configuration action itself."
+      ],
+      "judge_note": "While Rule 6/7 exceptions often allow process mappings for backup controls, strict Rule 9 classifies this as a prerequisite. Retain for human review on foundational dependency acceptance."
+    },
+    {
+      "external_id": "11.2",
+      "verdict": "KEEP",
+      "rationale_rating": "STRONG",
+      "rule_violations": [],
+      "judge_note": "Direct match to BM-01's primary action of performing periodic backups. Mechanism and intent align perfectly."
+    },
+    {
+      "external_id": "11.3",
+      "verdict": "KEEP",
+      "rationale_rating": "ACCEPTABLE",
+      "rule_violations": [],
+      "judge_note": "Protecting recovery data is a subset of configuring a reliable backup system. Valid partial coverage under Rule 7 (Objective Linking)."
+    },
+    {
+      "external_id": "11.4",
+      "verdict": "KEEP",
+      "rationale_rating": "STRONG",
+      "rule_violations": [],
+      "judge_note": "Directly addresses BM-01's 'redundant systems' requirement via isolated instances (off-site/cloud). Strong semantic match."
+    },
+    {
+      "external_id": "11.5",
+      "verdict": "REJECT",
+      "rationale_rating": "WEAK",
+      "rule_violations": [
+        "Rule 9: Prerequisite vs Coverage \u2014 Testing validates the configuration but does not perform it.",
+        "Rule 11: Exclude Weak or Tangential Mappings \u2014 Testing is a fundamentally different security function (Assurance) than Configuration (Implementation)."
+      ],
+      "judge_note": "11.5 corresponds to BM-02 (Backup Testing). Mapping it to BM-01 conflates implementation with validation. Remove from this control's mapping set."
+    }
+  ],
+  "false_negatives": [],
+  "quarantine_reason": "Contains a REJECT verdict (11.5) due to semantic mismatch (Testing vs Configuration) and Rule 9 violation.",
+  "recovery_hint": "Remove 11.5 from BM-01 mapping and assign to BM-02 (Backup Testing). Re-evaluate 11.1 under strict Rule 9 prerequisite criteria; if foundational dependency (Rule 6) is not explicitly triggered by a testing CCF control, consider excluding 11.1 as well."
+}

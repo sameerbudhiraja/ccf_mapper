@@ -1,0 +1,18 @@
+{
+  "internal_control_id": "BM-03",
+  "overall_verdict": "APPROVED",
+  "overall_confidence": 0.95,
+  "overall_summary": "Mapping correctly identifies CIS 11.1 as a valid coverage match per explicit Rule 13 guidance for Backup Failure Review controls. Rationale accurately cites Rule 6 foundational dependency. No false negatives flagged as CIS 11.5 fails the primary action filter under Change 3 constraints despite Rule 13 mention.",
+  "per_mapping_verdicts": [
+    {
+      "external_id": "11.1",
+      "verdict": "KEEP",
+      "rationale_rating": "STRONG",
+      "rule_violations": [],
+      "judge_note": "Mapping aligns with explicit Rule 13 exception for Backup Failure Review. Rationale correctly identifies foundational dependency relationship."
+    }
+  ],
+  "false_negatives": [],
+  "quarantine_reason": null,
+  "recovery_hint": null
+}

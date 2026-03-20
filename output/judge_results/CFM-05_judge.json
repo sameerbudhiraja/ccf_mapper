@@ -1,0 +1,53 @@
+{
+  "internal_control_id": "CFM-05",
+  "overall_verdict": "APPROVED",
+  "overall_confidence": 0.95,
+  "overall_summary": "The mapping accurately captures the primary action of disabling prohibited client technologies through general software controls (2.3, 2.5) and specific technical subsets (2.6, 2.7, 9.1, 9.4). All rationales are specific and intent-tied, complying with Rule 9 (coverage vs prerequisite) and Rule 16 (subset threshold). No credible false negatives were identified.",
+  "per_mapping_verdicts": [
+    {
+      "external_id": "2.3",
+      "verdict": "KEEP",
+      "rationale_rating": "STRONG",
+      "rule_violations": [],
+      "judge_note": "Rationale correctly ties 'removing from use' to 'disabling prohibited', satisfying the primary action."
+    },
+    {
+      "external_id": "2.5",
+      "verdict": "KEEP",
+      "rationale_rating": "STRONG",
+      "rule_violations": [],
+      "judge_note": "Allowlisting is a direct technical enforcement mechanism for prohibiting unauthorized execution."
+    },
+    {
+      "external_id": "2.6",
+      "verdict": "KEEP",
+      "rationale_rating": "STRONG",
+      "rule_violations": [],
+      "judge_note": "Valid subset under Rule 3; libraries are a core component of client run time technologies."
+    },
+    {
+      "external_id": "2.7",
+      "verdict": "KEEP",
+      "rationale_rating": "STRONG",
+      "rule_violations": [],
+      "judge_note": "Valid subset under Rule 3; scripts are a core component of client run time technologies."
+    },
+    {
+      "external_id": "9.1",
+      "verdict": "KEEP",
+      "rationale_rating": "STRONG",
+      "rule_violations": [],
+      "judge_note": "Valid subset under Rule 3; browsers are a primary class of client run time technologies."
+    },
+    {
+      "external_id": "9.4",
+      "verdict": "KEEP",
+      "rationale_rating": "STRONG",
+      "rule_violations": [],
+      "judge_note": "Valid subset under Rule 3; extensions are a component of browser client technologies."
+    }
+  ],
+  "false_negatives": [],
+  "quarantine_reason": null,
+  "recovery_hint": null
+}

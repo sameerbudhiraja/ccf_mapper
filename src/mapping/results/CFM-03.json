@@ -1,26 +1,20 @@
 {
   "internal_control_id": "CFM-03",
   "internal_control_name": "Remote Access: Prohibited Protocols and Commands",
-  "processed_at": "2026-03-17T06:27:38.940872+00:00",
-  "total_mapped": 3,
+  "processed_at": "2026-03-20T10:01:45.178773+00:00",
+  "total_mapped": 2,
   "mappings": [
     {
       "safeguard_id": "4.6",
       "framework": "CIS Controls v8.1",
       "mapping": "PARTIAL",
-      "reason": "Securely Manage Enterprise Assets and Software explicitly prohibits insecure management protocols (Telnet, HTTP) for administrative remote sessions, directly satisfying the prohibited protocol listing requirement for management access."
+      "reason": "Explicitly prohibits insecure management protocols (e.g., Telnet, HTTP) for remote access to enterprise assets, satisfying the prohibited protocol definition aspect of CFM-03 but not covering prohibited user commands."
     },
     {
       "safeguard_id": "12.3",
       "framework": "CIS Controls v8.1",
       "mapping": "PARTIAL",
-      "reason": "Securely Manage Network Infrastructure mandates secure network protocols (SSH, HTTPS) for network device management, implicitly defining prohibited insecure protocols for network infrastructure remote sessions."
-    },
-    {
-      "safeguard_id": "12.7",
-      "framework": "CIS Controls v8.1",
-      "mapping": "PARTIAL",
-      "reason": "Ensure Remote Devices Utilize a VPN requires VPN protocols for remote access, defining the allowed protocol and implicitly prohibiting direct non-VPN remote session protocols for end-user devices."
+      "reason": "Mandates secure network protocols (e.g., SSH, HTTPS) for managing network infrastructure, satisfying the prohibited protocol definition aspect of CFM-03 for network devices but not covering prohibited user commands."
     }
   ]
 }

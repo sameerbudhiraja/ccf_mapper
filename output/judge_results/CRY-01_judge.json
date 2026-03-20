@@ -1,0 +1,10 @@
+{
+  "internal_control_id": "CRY-01",
+  "overall_verdict": "APPROVED",
+  "overall_confidence": 0.95,
+  "overall_summary": "The internal control mandates cryptographic key invalidation upon compromise or lifecycle expiry. The provided CIS catalog contains encryption safeguards (e.g., 3.10, 3.11) but lacks a specific safeguard for key lifecycle management or invalidation as its primary action. The empty mapping result is correct under Rule 13 (artifact type mismatch) and Change 2 (empty-set recognition).",
+  "per_mapping_verdicts": [],
+  "false_negatives": [],
+  "quarantine_reason": null,
+  "recovery_hint": null
+}

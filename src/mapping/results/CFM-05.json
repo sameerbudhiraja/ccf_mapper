@@ -1,56 +1,44 @@
 {
   "internal_control_id": "CFM-05",
   "internal_control_name": "Client Run Time Technologies",
-  "processed_at": "2026-03-17T06:29:34.460249+00:00",
-  "total_mapped": 8,
+  "processed_at": "2026-03-20T10:04:24.784001+00:00",
+  "total_mapped": 6,
   "mappings": [
     {
       "safeguard_id": "2.3",
       "framework": "CIS Controls v8.1",
       "mapping": "FULL",
-      "reason": "Addressing unauthorized software by removing it from use directly satisfies CFM-05's requirement to disable prohibited client run time technologies."
+      "reason": "Addressing unauthorized software by removing it from use directly satisfies the requirement to disable prohibited client run time technologies."
     },
     {
       "safeguard_id": "2.5",
       "framework": "CIS Controls v8.1",
       "mapping": "FULL",
-      "reason": "Allowlisting authorized software ensures only approved software executes, effectively disabling all prohibited technologies as required by CFM-05."
+      "reason": "Application allowlisting technically enforces the prohibition of unauthorized executables, directly disabling prohibited technologies."
     },
     {
       "safeguard_id": "2.6",
       "framework": "CIS Controls v8.1",
       "mapping": "PARTIAL",
-      "reason": "Allowlisting authorized libraries prevents unauthorized libraries from loading, addressing a specific subset of client run time technologies."
+      "reason": "Allowlisting authorized libraries controls a component-level subset of runtime execution, addressing a specific technical subset of client run time technologies."
     },
     {
       "safeguard_id": "2.7",
       "framework": "CIS Controls v8.1",
       "mapping": "PARTIAL",
-      "reason": "Allowlisting authorized scripts prevents unauthorized scripts from executing, addressing a specific subset of client run time technologies."
-    },
-    {
-      "safeguard_id": "4.8",
-      "framework": "CIS Controls v8.1",
-      "mapping": "PARTIAL",
-      "reason": "Uninstalling or disabling unnecessary services addresses a subset of client run time technologies (services) that should be prohibited if not required."
+      "reason": "Allowlisting authorized scripts controls script execution engines, addressing a specific type subset of client run time technologies."
     },
     {
       "safeguard_id": "9.1",
       "framework": "CIS Controls v8.1",
       "mapping": "PARTIAL",
-      "reason": "Ensuring only supported browsers and email clients execute disables prohibited (unsupported) client applications, a subset of run time technologies."
+      "reason": "Restricting execution to supported browsers and email clients covers a specific application subset of client run time technologies."
     },
     {
       "safeguard_id": "9.4",
       "framework": "CIS Controls v8.1",
       "mapping": "PARTIAL",
-      "reason": "Restricting unauthorized browser and email client extensions disables prohibited client run time components, a subset of the broader technology scope."
-    },
-    {
-      "safeguard_id": "10.3",
-      "framework": "CIS Controls v8.1",
-      "mapping": "PARTIAL",
-      "reason": "Disabling autorun and autoplay functionality disables a specific prohibited client run time technology feature, addressing a subset of the requirement."
+      "reason": "Restricting unauthorized browser and email extensions addresses a component subset of client run time technologies."
     }
   ]
 }

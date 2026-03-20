@@ -1,0 +1,10 @@
+{
+  "internal_control_id": "AM-11",
+  "overall_verdict": "APPROVED",
+  "overall_confidence": 0.95,
+  "overall_summary": "The internal control requires physical inspection of payment card capture devices for tampering. The provided CIS Controls catalog focuses on logical/cybersecurity safeguards and contains no equivalent physical security inspection controls. Therefore, the empty mapping result is correct and compliant with the Empty Result Gate.",
+  "per_mapping_verdicts": [],
+  "false_negatives": [],
+  "quarantine_reason": null,
+  "recovery_hint": null
+}

@@ -1,0 +1,20 @@
+{
+  "internal_control_id": "CFM-11",
+  "overall_verdict": "APPROVED_WITH_WARNINGS",
+  "overall_confidence": 0.78,
+  "overall_summary": "The mapping to CIS 4.7 is substantively valid as both controls address default vendor credentials. However, the mapping_type 'FULL' is slightly overstated since CIS 4.7 covers broader default account management (disable, rename, make unusable) while CFM-11 specifically requires password changes. No significant false negatives detected after applying the primary-action filter.",
+  "per_mapping_verdicts": [
+    {
+      "external_id": "4.7",
+      "verdict": "KEEP",
+      "rationale_rating": "ACCEPTABLE",
+      "rule_violations": [
+        "Rule 12 mapping_type precision: Mapping labeled as FULL but CIS 4.7's scope (default account management including disable/rename) is broader than CFM-11's specific action (change default passwords). PARTIAL may be more accurate."
+      ],
+      "judge_note": "The mapping is valid and defensible under Rule 9 (coverage, not prerequisite) and Rule 13 (same artifact type - default vendor credentials). However, recommend human reviewer confirm whether mapping_type should be PARTIAL since 4.7 encompasses multiple default account remediation methods beyond just password changes."
+    }
+  ],
+  "false_negatives": [],
+  "quarantine_reason": null,
+  "recovery_hint": null
+}

@@ -1,0 +1,25 @@
+{
+  "internal_control_id": "CMS-02",
+  "overall_verdict": "APPROVED",
+  "overall_confidence": 0.95,
+  "overall_summary": "The mapping accurately captures the primary technical controls (MFA and Password Strength) that constitute 'secure log-on procedures' for customer-facing applications. Rationales demonstrate clear understanding of scope and intent, explicitly acknowledging subset relationships. No critical false negatives or rule violations were detected.",
+  "per_mapping_verdicts": [
+    {
+      "external_id": "6.3",
+      "verdict": "KEEP",
+      "rationale_rating": "STRONG",
+      "rule_violations": [],
+      "judge_note": "Direct mechanism match for externally-exposed/customer-facing applications. MFA is correctly identified as the primary action for secure log-on. Rationale ties external requirement directly to internal objective."
+    },
+    {
+      "external_id": "5.2",
+      "verdict": "KEEP",
+      "rationale_rating": "STRONG",
+      "rule_violations": [],
+      "judge_note": "Correctly identified as a PARTIAL subset addressing credential strength. Rationale explicitly acknowledges scope difference (assets vs apps) and supports the 'secure' aspect of the log-on procedure without overstating coverage."
+    }
+  ],
+  "false_negatives": [],
+  "quarantine_reason": null,
+  "recovery_hint": null
+}

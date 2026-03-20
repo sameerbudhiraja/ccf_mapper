@@ -1,0 +1,36 @@
+{
+  "internal_control_id": "CFM-03",
+  "overall_verdict": "APPROVED_WITH_WARNINGS",
+  "overall_confidence": 0.85,
+  "overall_summary": "The mapping correctly identifies CIS 4.6 and 12.3 as partial coverage for prohibited remote access protocols, with strong rationales acknowledging the scope limitation (commands vs protocols). However, the mapping set is incomplete under Rule 12 recall: it omits CIS 2.7 which addresses the 'prohibited user commands' half of the control, and CIS 4.1 which governs the configuration definition process.",
+  "per_mapping_verdicts": [
+    {
+      "external_id": "4.6",
+      "verdict": "KEEP",
+      "rationale_rating": "STRONG",
+      "rule_violations": [],
+      "judge_note": "Rationale correctly identifies the partial scope (protocols only). 4.6 serves as the definition of prohibited management protocols in the external framework, satisfying the 'define listing' intent despite being an implementation control."
+    },
+    {
+      "external_id": "12.3",
+      "verdict": "KEEP",
+      "rationale_rating": "STRONG",
+      "rule_violations": [],
+      "judge_note": "Valid partial match for network infrastructure management protocols. Rationale is specific and acknowledges the missing 'commands' aspect."
+    }
+  ],
+  "false_negatives": [
+    {
+      "external_id": "2.7",
+      "external_title": "Allowlist Authorized Scripts",
+      "reason_should_be_included": "CFM-03 explicitly requires a listing of 'prohibited user commands'. CIS 2.7 mandates allowlisting authorized scripts (.ps1, .py) and blocking unauthorized ones, directly satisfying the 'commands' half of the control which 4.6/12.3 miss."
+    },
+    {
+      "external_id": "4.1",
+      "external_title": "Establish and Maintain a Secure Configuration Process",
+      "reason_should_be_included": "CFM-03's primary action is 'Organization defines a listing'. CIS 4.1 establishes the documented process for defining secure configurations (including prohibited protocols), providing the governance coverage for the definition artifact that 4.6/12.3 implement technically."
+    }
+  ],
+  "quarantine_reason": null,
+  "recovery_hint": "Re-mapper should include CIS 2.7 to cover the 'prohibited commands' requirement and consider CIS 4.1 for the 'definition process' governance aspect to achieve full recall."
+}

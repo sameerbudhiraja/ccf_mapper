@@ -11,6 +11,11 @@ INPUT_DIR = DATA_DIR / "input"
 OUTPUT_DIR = DATA_DIR / "output"
 CACHE_DIR = DATA_DIR / "cache"
 
+# Judge / Review / Final Output Paths
+JUDGE_OUTPUT_DIR = PROJECT_ROOT / "output" / "judge_results"
+REVIEW_QUEUE_DIR = PROJECT_ROOT / "output" / "review_queue"
+FINAL_OUTPUT_DIR = PROJECT_ROOT / "output" / "final_output"
+
 # LLM Configuration
 LLM_PROVIDER = os.getenv("LLM_PROVIDER", "openai")  # openai, anthropic, etc.
 LLM_MODEL = os.getenv("LLM_MODEL", "gpt-4")

@@ -1,0 +1,10 @@
+{
+  "internal_control_id": "AM-08",
+  "overall_verdict": "APPROVED",
+  "overall_confidence": 0.95,
+  "overall_summary": "The empty mapping result is correct. The CIS Controls catalog lacks safeguards specifically addressing physical media transportation logistics, documentation, or traceability. Closest candidates like CIS 3.9 (Encryption) address data confidentiality on media rather than the transportation process artifact required by AM-08.",
+  "per_mapping_verdicts": [],
+  "false_negatives": [],
+  "quarantine_reason": null,
+  "recovery_hint": null
+}

@@ -1,0 +1,10 @@
+{
+  "internal_control_id": "CRY-03",
+  "overall_verdict": "APPROVED",
+  "overall_confidence": 0.95,
+  "overall_summary": "The empty mapping set is correct. The internal control mandates secure storage infrastructure for encryption keys (e.g., HSM, KMS), while the external catalog contains safeguards for data encryption (e.g., CIS 3.11) but lacks a specific safeguard for key management or key storage platforms. Under Rule 13, data encryption artifacts do not equate to key storage artifacts, and no catalog item passes the primary action test for this control.",
+  "per_mapping_verdicts": [],
+  "false_negatives": [],
+  "quarantine_reason": null,
+  "recovery_hint": null
+}

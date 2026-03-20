@@ -1,0 +1,25 @@
+{
+  "internal_control_id": "CFM-07",
+  "overall_verdict": "APPROVED_WITH_WARNINGS",
+  "overall_confidence": 0.85,
+  "overall_summary": "Mapping correctly identifies vulnerability scans (7.5, 7.6) as the primary detection mechanisms for configuration deviations in the absence of dedicated config scan controls. Flagged as WARN per QA Change 5 because safeguard scope (vulnerability scanning) exceeds internal control scope (configuration checks), though functionally inclusive. No false negatives identified; process controls (4.1) correctly excluded as prerequisites.",
+  "per_mapping_verdicts": [
+    {
+      "external_id": "7.5",
+      "verdict": "WARN",
+      "rationale_rating": "ACCEPTABLE",
+      "rule_violations": [],
+      "judge_note": "Safeguard primary action (Vulnerability Scanning) exceeds internal control primary action (Configuration Checks). Flagged WARN per QA Change 5 (Over-inclusion check) for human confirmation on strict applicability, though mapping is defensible as PARTIAL due to functional overlap (authenticated scans include config benchmarks)."
+    },
+    {
+      "external_id": "7.6",
+      "verdict": "WARN",
+      "rationale_rating": "ACCEPTABLE",
+      "rule_violations": [],
+      "judge_note": "Safeguard primary action (Vulnerability Scanning) exceeds internal control primary action (Configuration Checks). Flagged WARN per QA Change 5 (Over-inclusion check) for human confirmation on strict applicability, though mapping is defensible as PARTIAL due to functional overlap (authenticated scans include config benchmarks)."
+    }
+  ],
+  "false_negatives": [],
+  "quarantine_reason": null,
+  "recovery_hint": null
+}

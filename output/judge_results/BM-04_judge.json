@@ -1,0 +1,25 @@
+{
+  "internal_control_id": "BM-04",
+  "overall_verdict": "APPROVED",
+  "overall_confidence": 0.95,
+  "overall_summary": "The mapping correctly identifies CIS 11.4 as a FULL match for alternate storage and CIS 11.3 as a PARTIAL match for protection via separation. Rationales are specific and tied to control intent. No false negatives or rule violations detected; prerequisites (11.1, 11.2, 11.5) were correctly excluded.",
+  "per_mapping_verdicts": [
+    {
+      "external_id": "11.3",
+      "verdict": "KEEP",
+      "rationale_rating": "STRONG",
+      "rule_violations": [],
+      "judge_note": "Rationale correctly links BM-04's 'alternate location' to 11.3's 'data separation' option. PARTIAL mapping type is appropriate as 11.3 also allows encryption."
+    },
+    {
+      "external_id": "11.4",
+      "verdict": "KEEP",
+      "rationale_rating": "STRONG",
+      "rule_violations": [],
+      "judge_note": "Direct semantic match between 'isolated instance/off-site' (11.4) and 'alternate location' (BM-04). FULL mapping type is justified."
+    }
+  ],
+  "false_negatives": [],
+  "quarantine_reason": null,
+  "recovery_hint": null
+}

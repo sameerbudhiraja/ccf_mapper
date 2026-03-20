@@ -1,7 +1,32 @@
 {
   "internal_control_id": "BC-03",
   "internal_control_name": "Business Continuity Plan: Roles and Responsibilities",
-  "processed_at": "2026-03-17T06:10:25.287882+00:00",
-  "total_mapped": 0,
-  "mappings": []
+  "processed_at": "2026-03-20T09:48:09.966162+00:00",
+  "total_mapped": 4,
+  "mappings": [
+    {
+      "safeguard_id": "17.1",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Designating personnel to manage incident handling assigns a key contingency role, satisfying a subset of BC-03's requirement to assign business contingency roles to individuals."
+    },
+    {
+      "safeguard_id": "17.2",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Maintaining contact information for security incident reporting satisfies the contact information communication requirement of BC-03 for the subset of security-related contingencies."
+    },
+    {
+      "safeguard_id": "17.4",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Establishing an incident response process that addresses roles, responsibilities, and a communication plan partially satisfies BC-03's requirement for documented contingency roles and contact communication."
+    },
+    {
+      "safeguard_id": "17.5",
+      "framework": "CIS Controls v8.1",
+      "mapping": "PARTIAL",
+      "reason": "Assigning key roles and responsibilities for incident response (including legal, IT, facilities, HR) directly implements the role assignment mechanism required by BC-03 for the subset of security incident contingencies."
+    }
+  ]
 }

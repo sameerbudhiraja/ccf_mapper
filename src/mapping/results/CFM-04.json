@@ -1,14 +1,14 @@
 {
   "internal_control_id": "CFM-04",
   "internal_control_name": "Data Execution Prevention",
-  "processed_at": "2026-03-17T06:28:56.814634+00:00",
+  "processed_at": "2026-03-20T10:03:28.286615+00:00",
   "total_mapped": 1,
   "mappings": [
     {
       "safeguard_id": "10.5",
       "framework": "CIS Controls v8.1",
       "mapping": "FULL",
-      "reason": "Enable Anti-Exploitation Features directly requires enabling Data Execution Prevention (DEP) and similar memory protection features on enterprise assets, satisfying CFM-04's objective to restrict code execution within memory on production hosts."
+      "reason": "CIS 10.5 explicitly requires enabling anti-exploitation features including Data Execution Prevention (DEP), directly satisfying CFM-04's objective to restrict code execution within memory on production hosts."
     }
   ]
 }

@@ -1,0 +1,25 @@
+{
+  "internal_control_id": "AM-01",
+  "overall_verdict": "APPROVED",
+  "overall_confidence": 0.95,
+  "overall_summary": "The mapping correctly identifies CIS 1.1 and 6.6 as valid coverage matches (superset and subset respectively) for the information systems inventory requirement. It correctly excludes discovery tools (1.3-1.5) as prerequisites per Rule 9 and wrong artifact types (2.1, 5.1) per Rule 13, aligning with the specific Rule 9 examples provided in the system rules for this control phrasing.",
+  "per_mapping_verdicts": [
+    {
+      "external_id": "1.1",
+      "verdict": "KEEP",
+      "rationale_rating": "STRONG",
+      "rule_violations": [],
+      "judge_note": "Rationale correctly cites Rule 13 superset exception and Rule 3. Alignment with primary action (inventory maintenance) is precise."
+    },
+    {
+      "external_id": "6.6",
+      "verdict": "KEEP",
+      "rationale_rating": "STRONG",
+      "rule_violations": [],
+      "judge_note": "Rationale correctly identifies typed system-level subset relationship under Rule 3. Cross-domain match is valid."
+    }
+  ],
+  "false_negatives": [],
+  "quarantine_reason": null,
+  "recovery_hint": null
+}

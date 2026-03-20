@@ -1,0 +1,18 @@
+{
+  "internal_control_id": "AM-05",
+  "overall_verdict": "APPROVED",
+  "overall_confidence": 0.95,
+  "overall_summary": "The mapping to CIS 1.1 is accurate and well-justified. CIS 1.1 explicitly requires recording asset owners and identifying information which satisfies the labeling and ownership requirements of AM-05. No false negatives were identified that pass the primary-action displacement filter, as CIS 1.1 provides comprehensive coverage for the internal control's scope.",
+  "per_mapping_verdicts": [
+    {
+      "external_id": "1.1",
+      "verdict": "KEEP",
+      "rationale_rating": "STRONG",
+      "rule_violations": [],
+      "judge_note": "Rationale correctly links specific 1.1 fields (owner, machine name, hardware address) to AM-05 requirements (ownership, labeling). Rule 9 and 13 compliance confirmed; 1.1 is coverage (inventory maintenance with attributes), not prerequisite."
+    }
+  ],
+  "false_negatives": [],
+  "quarantine_reason": null,
+  "recovery_hint": null
+}

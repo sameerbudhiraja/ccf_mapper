@@ -1,0 +1,10 @@
+{
+  "internal_control_id": "CHM-04",
+  "overall_verdict": "APPROVED",
+  "overall_confidence": 1.0,
+  "overall_summary": "The internal control requires public customer communication regarding maintenance and downtime. The CIS Controls catalog focuses on technical security safeguards and internal processes; no safeguard mandates public website notifications for routine changes. The empty mapping set is correct under Rule 12 and Empty-Set Recognition criteria.",
+  "per_mapping_verdicts": [],
+  "false_negatives": [],
+  "quarantine_reason": null,
+  "recovery_hint": null
+}

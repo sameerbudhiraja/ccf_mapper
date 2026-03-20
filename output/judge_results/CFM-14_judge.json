@@ -1,0 +1,38 @@
+{
+  "internal_control_id": "CFM-14",
+  "overall_verdict": "APPROVED_WITH_WARNINGS",
+  "overall_confidence": 0.85,
+  "overall_summary": "The mapped allowlisting controls (2.5, 2.6, 2.7) validly enforce the security intent of preventing unauthorized software execution, with strong rationales linking technical enforcement to approval intent. However, the mapping lacks recall for CIS 2.2, which directly governs the authorization designation and exception documentation required by the 'approved by authorized personnel' clause.",
+  "per_mapping_verdicts": [
+    {
+      "external_id": "2.5",
+      "verdict": "KEEP",
+      "rationale_rating": "STRONG",
+      "rule_violations": [],
+      "judge_note": "Rationale clearly links technical enforcement to approval intent; PARTIAL mapping type appropriately acknowledges the process-vs-technology distinction."
+    },
+    {
+      "external_id": "2.6",
+      "verdict": "KEEP",
+      "rationale_rating": "STRONG",
+      "rule_violations": [],
+      "judge_note": "Rationale correctly identifies libraries as a subset of software scope; valid subset reasoning under Rule 3."
+    },
+    {
+      "external_id": "2.7",
+      "verdict": "KEEP",
+      "rationale_rating": "STRONG",
+      "rule_violations": [],
+      "judge_note": "Rationale correctly identifies scripts as a subset of software scope; valid subset reasoning under Rule 3."
+    }
+  ],
+  "false_negatives": [
+    {
+      "external_id": "2.2",
+      "external_title": "Ensure Authorized Software is Currently Supported",
+      "reason_should_be_included": "Directly addresses the 'designation as authorized' and 'exception documentation' which constitutes the approval record required by CFM-14; this is the governance match for the 'approved by authorized personnel' action."
+    }
+  ],
+  "quarantine_reason": null,
+  "recovery_hint": null
+}

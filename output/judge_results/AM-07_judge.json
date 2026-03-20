@@ -1,0 +1,10 @@
+{
+  "internal_control_id": "AM-07",
+  "overall_verdict": "APPROVED",
+  "overall_confidence": 0.95,
+  "overall_summary": "The empty mapping set is correct. The internal control requires physical authorization and logging of asset movement at datacenter locations. The provided CIS v8 catalog lacks safeguards governing physical access or transportation authorization; existing inventory and configuration controls address logical state, not physical entry/exit artifacts.",
+  "per_mapping_verdicts": [],
+  "false_negatives": [],
+  "quarantine_reason": null,
+  "recovery_hint": null
+}

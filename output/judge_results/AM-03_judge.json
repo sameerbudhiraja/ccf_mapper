@@ -1,0 +1,32 @@
+{
+  "internal_control_id": "AM-03",
+  "overall_verdict": "APPROVED",
+  "overall_confidence": 0.95,
+  "overall_summary": "Mapping correctly applies the Rule 9 reconciliation exception by including discovery tools (1.3, 1.5) as coverage rather than prerequisites. Rationales are specific and compliant with Rule 15 mechanism class distinctions (excluding log-based 1.4). No critical false negatives identified; 1.1 correctly excluded as a prerequisite artifact.",
+  "per_mapping_verdicts": [
+    {
+      "external_id": "1.2",
+      "verdict": "KEEP",
+      "rationale_rating": "STRONG",
+      "rule_violations": [],
+      "judge_note": "Rationale correctly links unauthorized asset remediation (1.2) to the assignment of owners for non-inventoried devices (AM-03)."
+    },
+    {
+      "external_id": "1.3",
+      "verdict": "KEEP",
+      "rationale_rating": "STRONG",
+      "rule_violations": [],
+      "judge_note": "Correctly identified as coverage under Rule 9 reconciliation exception (Change 1). Provides the active scan input required for reconciliation."
+    },
+    {
+      "external_id": "1.5",
+      "verdict": "KEEP",
+      "rationale_rating": "STRONG",
+      "rule_violations": [],
+      "judge_note": "Correctly identified as equivalent mechanism class (passive discovery) under Rule 15. Valid coverage under Rule 9 reconciliation exception."
+    }
+  ],
+  "false_negatives": [],
+  "quarantine_reason": null,
+  "recovery_hint": null
+}

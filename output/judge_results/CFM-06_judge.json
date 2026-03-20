@@ -1,0 +1,234 @@
+{
+  "internal_control_id": "CFM-06",
+  "overall_verdict": "APPROVED_WITH_WARNINGS",
+  "overall_confidence": 0.75,
+  "overall_summary": "The mapping demonstrates strong recall for technical 'deny' controls (allowlisting, firewalls, filtering) but suffers from generic, templated rationales that lack specificity. Several mapped safeguards (5.3, 5.4, 10.1, 9.7) represent process or deployment actions rather than explicit configuration deny lists, warranting WARN flags for over-inclusion under Rule 16/Change 5. One credible false negative (CIS 4.6) was identified as it explicitly mandates denying insecure protocols via configuration.",
+  "per_mapping_verdicts": [
+    {
+      "external_id": "2.5",
+      "verdict": "KEEP",
+      "rationale_rating": "ACCEPTABLE",
+      "rule_violations": [],
+      "judge_note": "Strong semantic match (Allowlist = Explicit Deny). Rationale is specific to software execution."
+    },
+    {
+      "external_id": "2.6",
+      "verdict": "KEEP",
+      "rationale_rating": "ACCEPTABLE",
+      "rule_violations": [],
+      "judge_note": "Strong semantic match (Library Allowlist). Rationale specific to library loading."
+    },
+    {
+      "external_id": "2.7",
+      "verdict": "KEEP",
+      "rationale_rating": "ACCEPTABLE",
+      "rule_violations": [],
+      "judge_note": "Strong semantic match (Script Allowlist). Rationale specific to script execution."
+    },
+    {
+      "external_id": "3.3",
+      "verdict": "KEEP",
+      "rationale_rating": "WEAK",
+      "rule_violations": [
+        "Rule 2: Rationale uses template language rather than referencing specific ACL mechanisms."
+      ],
+      "judge_note": "Valid match (ACLs = Deny List), but rationale is generic."
+    },
+    {
+      "external_id": "4.3",
+      "verdict": "KEEP",
+      "rationale_rating": "WEAK",
+      "rule_violations": [
+        "Rule 2: Rationale uses template language."
+      ],
+      "judge_note": "Valid match (Session Lock = Access Deny), but rationale is generic."
+    },
+    {
+      "external_id": "4.4",
+      "verdict": "KEEP",
+      "rationale_rating": "ACCEPTABLE",
+      "rule_violations": [],
+      "judge_note": "Strong match (Firewall = Traffic Deny). Rationale references default-deny implicitly."
+    },
+    {
+      "external_id": "4.5",
+      "verdict": "KEEP",
+      "rationale_rating": "ACCEPTABLE",
+      "rule_violations": [],
+      "judge_note": "Strong match (Host Firewall = Default-Deny). Rationale references default-deny rule."
+    },
+    {
+      "external_id": "4.7",
+      "verdict": "KEEP",
+      "rationale_rating": "WEAK",
+      "rule_violations": [
+        "Rule 2: Rationale uses template language."
+      ],
+      "judge_note": "Valid match (Disabling = Deny), but rationale is generic."
+    },
+    {
+      "external_id": "4.8",
+      "verdict": "KEEP",
+      "rationale_rating": "WEAK",
+      "rule_violations": [
+        "Rule 2: Rationale uses template language."
+      ],
+      "judge_note": "Valid match (Disabling Services = Deny), but rationale is generic."
+    },
+    {
+      "external_id": "4.10",
+      "verdict": "KEEP",
+      "rationale_rating": "WEAK",
+      "rule_violations": [
+        "Rule 2: Rationale uses template language."
+      ],
+      "judge_note": "Valid match (Lockout = Access Deny), but rationale is generic."
+    },
+    {
+      "external_id": "5.3",
+      "verdict": "WARN",
+      "rationale_rating": "WEAK",
+      "rule_violations": [
+        "Rule 16/Change 5: Exceeds primary action scope. Disabling dormant accounts is a time-based remediation process, not a static configuration deny list."
+      ],
+      "judge_note": "Flag for human review. Mechanism (process/timer) differs from primary action (config deny list)."
+    },
+    {
+      "external_id": "5.4",
+      "verdict": "WARN",
+      "rationale_rating": "WEAK",
+      "rule_violations": [
+        "Rule 16/Change 5: Exceeds primary action scope. Restricting privileges is a policy/role design, not a system configuration deny list."
+      ],
+      "judge_note": "Flag for human review. Policy vs Configuration distinction."
+    },
+    {
+      "external_id": "9.1",
+      "verdict": "KEEP",
+      "rationale_rating": "WEAK",
+      "rule_violations": [
+        "Rule 2: Rationale uses template language."
+      ],
+      "judge_note": "Valid match (Allowlist Browsers), but rationale is generic."
+    },
+    {
+      "external_id": "9.2",
+      "verdict": "KEEP",
+      "rationale_rating": "ACCEPTABLE",
+      "rule_violations": [],
+      "judge_note": "Strong match (DNS Filtering = Block/Deny)."
+    },
+    {
+      "external_id": "9.3",
+      "verdict": "KEEP",
+      "rationale_rating": "ACCEPTABLE",
+      "rule_violations": [],
+      "judge_note": "Strong match (URL Filtering = Block/Deny)."
+    },
+    {
+      "external_id": "9.4",
+      "verdict": "KEEP",
+      "rationale_rating": "WEAK",
+      "rule_violations": [
+        "Rule 2: Rationale uses template language."
+      ],
+      "judge_note": "Valid match (Disable Extensions = Deny), but rationale is generic."
+    },
+    {
+      "external_id": "9.6",
+      "verdict": "KEEP",
+      "rationale_rating": "ACCEPTABLE",
+      "rule_violations": [],
+      "judge_note": "Strong match (Block File Types = Deny)."
+    },
+    {
+      "external_id": "9.7",
+      "verdict": "WARN",
+      "rationale_rating": "WEAK",
+      "rule_violations": [
+        "Rule 16/Change 5: Exceeds primary action scope. 'Deploy and Maintain' is a deployment action, not a configuration deny list."
+      ],
+      "judge_note": "Flag for human review. Deployment vs Configuration distinction."
+    },
+    {
+      "external_id": "10.1",
+      "verdict": "WARN",
+      "rationale_rating": "WEAK",
+      "rule_violations": [
+        "Rule 16/Change 5: Exceeds primary action scope. 'Deploy and Maintain' is a deployment action, not a configuration deny list."
+      ],
+      "judge_note": "Flag for human review. Deployment vs Configuration distinction."
+    },
+    {
+      "external_id": "10.3",
+      "verdict": "KEEP",
+      "rationale_rating": "WEAK",
+      "rule_violations": [
+        "Rule 2: Rationale uses template language."
+      ],
+      "judge_note": "Valid match (Disable Autorun = Deny), but rationale is generic."
+    },
+    {
+      "external_id": "10.5",
+      "verdict": "KEEP",
+      "rationale_rating": "WEAK",
+      "rule_violations": [
+        "Rule 2: Rationale uses template language."
+      ],
+      "judge_note": "Valid match (Anti-Exploitation = Deny Exploits), but rationale is generic."
+    },
+    {
+      "external_id": "12.8",
+      "verdict": "KEEP",
+      "rationale_rating": "WEAK",
+      "rule_violations": [
+        "Rule 2: Rationale uses template language."
+      ],
+      "judge_note": "Valid match (Segmentation/No Internet = Deny), but rationale is generic."
+    },
+    {
+      "external_id": "13.4",
+      "verdict": "KEEP",
+      "rationale_rating": "ACCEPTABLE",
+      "rule_violations": [],
+      "judge_note": "Strong match (Traffic Filtering = Deny)."
+    },
+    {
+      "external_id": "13.7",
+      "verdict": "KEEP",
+      "rationale_rating": "ACCEPTABLE",
+      "rule_violations": [],
+      "judge_note": "Strong match (HIPS = Prevention/Deny)."
+    },
+    {
+      "external_id": "13.8",
+      "verdict": "KEEP",
+      "rationale_rating": "ACCEPTABLE",
+      "rule_violations": [],
+      "judge_note": "Strong match (NIPS = Prevention/Deny)."
+    },
+    {
+      "external_id": "13.9",
+      "verdict": "KEEP",
+      "rationale_rating": "ACCEPTABLE",
+      "rule_violations": [],
+      "judge_note": "Strong match (Port Access Control = Deny)."
+    },
+    {
+      "external_id": "13.10",
+      "verdict": "KEEP",
+      "rationale_rating": "ACCEPTABLE",
+      "rule_violations": [],
+      "judge_note": "Strong match (App Layer Filtering = Deny)."
+    }
+  ],
+  "false_negatives": [
+    {
+      "external_id": "4.6",
+      "external_title": "Securely Manage Enterprise Assets and Software",
+      "reason_should_be_included": "Primary action test passed: Safeguard explicitly mandates 'Do not use insecure management protocols', which is a static configuration deny list matching CFM-06's primary action. Displacement test passed: Removing this would leave insecure protocol usage uncovered."
+    }
+  ],
+  "quarantine_reason": null,
+  "recovery_hint": "Refine rationales to reference specific control language (e.g., 'default-deny', 'block', 'disable') rather than generic templates. Review WARN mappings (5.3, 5.4, 10.1, 9.7) to confirm if process/deployment actions qualify as configuration deny lists under strict Rule 16 interpretation. Add CIS 4.6 to the mapping set."
+}

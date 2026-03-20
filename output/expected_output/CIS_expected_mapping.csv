@@ -1,0 +1,604 @@
+CCF ID,DOMAIN,NAME,Description,CIS Appliclibity,CIS ref
+AM-01,Asset Management,Inventory Management,"Organization maintains an inventory of information systems, which is reconciled on a periodic basis.",X,"1.1
+6.6"
+AM-02,Asset Management,Inventory Management: Applications,"Organization maintains an inventory of application assets, which is reconciled on a periodic basis.",X,"1.1
+6.6"
+AM-03,Asset Management,Inventory Reconciliation: ARP Table,Organization reconciles network discovery scans against the established device inventory on a quarterly basis; non-inventoried devices are assigned an owner.,X,"1.2
+1.3
+1.5"
+AM-04,Asset Management,Inventory Reconciliation: Logging,Organization reconciles the enterprise log repository against the established device inventory on a quarterly basis; non-inventoried devices are assigned an owner.,X,1.4
+AM-05,Asset Management,Inventory Labels,Organization assets are labeled and have designated owners.,X,1.1
+AM-06,Asset Management,Media Marking,"Where applicable, Organization marks information system media indicating the distribution limitations, handling caveats, and applicable security markings (if any) of the information. Exemptions must be approved by management and remain in a specific controlled area.",,
+AM-07,Asset Management,Asset Transportation Authorization,Organization authorizes and records the entry and exit of systems at datacenter locations.,,
+AM-08,Asset Management,Asset Transportation Documentation,"Organization documents the transportation of physical media outside of datacenters. Physical media is packaged securely and transported in a secure, traceable manner.",,
+AM-09,Asset Management,Use of Portable Media,The use of portable media in Organization datacenters is prohibited unless explicitly authorized by management.,,
+AM-10,Asset Management,Maintenance of Assets,Equipment maintenance is documented and approved according to management requirements.,,
+AM-11,Asset Management,Tampering of Payment Card Capture Devices,Devices that physically capture payment card data are inspected for evidence of tampering on a semi-annual basis.,,
+AM-12,Asset Management,Component Installation: Inspection and Approval,"Prior to installation in a production network, hardware components are inspected for improper or unauthorized modifications.",X,4.2
+AM-13,Asset Management,Software bill of Material,Organization maintains a comprehensive software bill of materials,,
+BC-01,Business Continuity,Business Continuity Plan,"Organization's business contingency plan is periodically reviewed, approved by management and communicated to relevant team members.",,
+BC-02,Business Continuity,Business Continuity Plan: Personal Health Information,Organization's Business Contingency Plan addresses how to access facilities and obtain data during an emergency.,,
+BC-03,Business Continuity,Business Continuity Plan: Roles and Responsibilities,Business contingency roles and responsibilities are assigned to individuals and their contact information is communicated to authorized personnel.,,
+BC-04,Business Continuity,Continuity Testing,"Organization performs business contingency and disaster recovery tests on a periodic basis and ensures the following: 
+• tests are executed with relevant contingency teams
+• test results are documented
+• corrective actions are taken for exceptions noted
+• plans are updated based on results",,
+BC-05,Business Continuity,Business Impact Analysis,"Organization identifies the business impact of relevant threats to assets, infrastructure, and resources that support critical business functions. Recovery objectives are established for critical business functions.",,
+BC-06,Business Continuity,Capacity Forecasting,Budgets for infrastructure capacity are established based on analysis of historical business activity and growth projections; purchases are made against the established budget and plans are updated on a quarterly basis.,,
+BM-01,Backup Management,Backup Configuration,Organization configures redundant systems or performs periodic backups of data to resume system operations in the event of a system failure.,X,11.2
+BM-02,Backup Management,Resilience Testing,Organization performs annual backup restoration or data replication tests to confirm the reliability and integrity of system backups or recovery operations.,X,"11.1
+11.3
+11.5"
+BM-03,Backup Management,Backup Failure Review,Failed backup jobs are periodically reviewed and resolved in a timely manner.,X,"11.1
+11.5"
+BM-04,Backup Management,Alternate Storage,Organization backups are securely stored in an alternate location from source data.,X,11.4
+BM-05,Backup Management,Alternate Telecommunication,Alternate telecommunication service agreements have been established to resume business when the primary service gets disrupted. Service agreements contain priority of service provisions.,,
+CFM-01,Configuration Management,Baseline Configuration Standard,Organization ensures security hardening and baseline configuration standards have been established according to industry standards and are reviewed and updated periodically.,X,"4.1
+4.2
+16.7"
+CFM-02,Configuration Management,"Default ""Deny-all"" Settings","Where applicable, the information system default access configurations are set to ""deny-all.""",X,4.5
+CFM-03,Configuration Management,Remote Access: Prohibited Protocols and Commands,Organization defines a listing of prohibited user commands and prohibited protocols that can be used in a remote session.,X,13.5
+CFM-04,Configuration Management,Data Execution Prevention,Organization ensures data execution prevention (DEP) security features are enabled on production hosts to restrict code execution within memory.,X,10.5
+CFM-05,Configuration Management,Client Run Time Technologies,Organization disables prohibited client run time technologies on information systems.,X,9.4
+CFM-06,Configuration Management,Prohibited Activity Monitoring,Organization information systems are configured to explicitly deny a predefined list of activities.,,
+CFM-07,Configuration Management,Configuration Checks,Organization uses mechanisms to detect deviations from baseline configurations on production environments.,,
+CFM-08,Configuration Management,Configuration Check Reconciliation: Logging,Organization reconciles the established device inventory against the enterprise log repository on a quarterly basis; devices which do not forward security configurations are remediated.,,
+CFM-09,Configuration Management,Time Clock Synchronization,Systems are configured to synchronize information system time clocks based on International Atomic Time or Coordinated Universal Time (UTC).,X,8.4
+CFM-10,Configuration Management,Time Clock Configuration Access,Access to modify time data is restricted to authorized personnel.,,
+CFM-11,Configuration Management,Default Device Passwords,Vendor-supplied default passwords are changed according to Organization standards prior to device installation on the Organization network or immediately after software or operating system installation.,,
+CFM-12,Configuration Management,Process Isolation,Organization implements only one primary function per server within the production environment; the information system maintains a separate execution domain for each executing process.,X,12.8
+CFM-13,Configuration Management,Collaborative Devices,"Where applicable, collaborative computing devices used at Organization are configured to restrict remote activation and provide an explicit indication that they are in use.",X,12.8
+CFM-14,Configuration Management,Software Installation,Installation of software or programs in the production environment is approved by authorized personnel.,X,"2.4
+2.5
+2.6"
+CFM-15,Configuration Management,Job Schedules,"Schedule changes or the modifications of production jobs require:
+• documented approval from authorized personnel
+• documented monitoring details",,
+CHM-01,Change Management,Change Management Workflow,"Change scope, change type, and roles and responsibilities are pre-established and documented in a change control workflow; notification and approval requirements are also pre-established based on risk associated with change scope and type.",,
+CHM-02,Change Management,Change Approval,"Prior to introducing changes into the production environment, approval from authorized personnel is required based on the following:
+• change description
+• impact of change
+• test results
+• back-out plan",,
+CHM-03,Change Management,Segregation of Duties,Changes to the production environment are implemented by authorized personnel. ,,
+CHM-04,Change Management,Communication of Maintenance and Downtime,Customer-impacting product and system changes are publicly communicated on the company website.,,
+CMS-01,Customer Managed Security,Customer Administrative Access,"For products that enable customers to manage their end users, privileged user roles exist with the capability to manage end user access to the relevant applications.",,
+CMS-02,Customer Managed Security,Customer Authentication,Authentication to organization customer-facing applications are  performed through secure log-on procedures.,,
+CMS-03,Customer Managed Security,Customer Systems Monitoring,"As necessary, event logs are made available to customers.",,
+CMS-04,Customer Managed Security,Customer Security Engagements,"Organization supports customer-requested security inquiries, questionnaires, and audits:
+• in accordance with customer contracts and agreements
+• to facilitate due diligence prior to licensing organization products",,
+CRY-01,Cryptography,Encryption Key Maintenance,Cryptographic keys are invalidated when compromised or at the end of their defined lifecycle period.,,
+CRY-02,Cryptography,Encryption Key Distribution,Organization prohibits the distribution of cryptographic keys in clear text.,,
+CRY-03,Cryptography,Encryption Key Storage,Encryption keys are securely stored in an approved encryption platform.,,
+CRY-04,Cryptography,Clear Text Key Management,"If applicable, manual clear-text cryptographic key-management operations must be managed using split knowledge and dual control.",,
+CRY-05,Cryptography,Encryption of Data in Transit,Organization restricted data that is transmitted over public networks is encrypted.,X,3.10
+CRY-06,Cryptography,Encryption of Data at Rest,Organization restricted data at rest is encrypted.,X,"3.11
+11.3"
+CRY-07,Cryptography,Approved Cryptographic Technology,"Where applicable, strong industry standard cryptographic ciphers and keys with an effective strength greater than 112 bits are required for cryptographic security operations.",X,3.11
+CRY-08,Cryptography,Key Repository Access,Access to the cryptographic keystores is limited to authorized personnel.,,
+CRY-09,Cryptography,Key Store Review,Management reviews and authorizes key store locations.,,
+CRY-10,Cryptography,Full Disk Encryption Access,"Where full disk encryption is used, logical access must be managed independently of operating system authentication; decryption keys must not be associated with user accounts.",,
+CRY-11,Cryptography,Key Custodians Agreement,Cryptographic Key Custodians and Cryptographic Materials Custodians (CMC) acknowledge in writing or electronically that they understand and accept their cryptographic-key-custodian responsibilities.,,
+CRY-12,Cryptography,Approved Certificate Authorities,Organization restricts the use of digital certificates to those that are signed by approved certificate authorities; a certification path to an accepted trust anchor is established.,,
+CRY-13,Cryptography,Installation of Software: Certificate Verification,Digital Certificates are verified by information system components prior to installation on the production network.,,
+CRY-14,Cryptography,Public Key Infrastructure-based Authentication,"Information systems are configured to follow an established certification path to an accepted trust anchor; in the case of network failure, a local cache of revocation data is maintained to support validation.",,
+CRY-15,Cryptography,Software Signing,Organization uses a software signing infrastructure to restrict access to organization’s code signing private keys used to sign organization authorized software builds.,X,2.7
+DM-01,Data Management,Data Classification Criteria,"Organization's data classification criteria are periodically reviewed, approved by management, and communicated to authorized personnel; the data security management team determines the treatment of data according to its designated data classification level.",X,"3.1
+3.7"
+DM-02,Data Management,Data Inventory,"Organization should identify, label and classify Data based on the Data Classification Criteria.",X,"3.1
+3.7"
+DM-03,Data Management,Terms of Service,Consent is obtained for Organization's Terms of Service (ToS) prior to collecting personal information and when the ToS is updated.,,
+DM-04,Data Management,Personal Information Access Requests,"In accordance with Organization policy, upon request, authenticated individuals are provided with a copy of their personal information or disclosures of their personal information in an understandable form and within the defined timeframe.",,
+DM-05,Data Management,Personal Information Deletion Requests,"In accordance with Organization policy, Organization processes requests for the deletion of personal information.",,
+DM-06,Data Management,External Privacy Inquiries,"In compliance with Organization policy, Organization reviews privacy-related inquiries, complaints, and disputes.",,
+DM-07,Data Management,Test Data Sanitization,Restricted data is redacted prior to use in a non-production environment.,,
+DM-08,Data Management,Personal Information Updates,Organization allows authenticated users to review and update their personal information.,,
+DM-09,Data Management,Credit Card Data Restrictions,"Organization does not store full track credit card data, credit card authentication information, credit card verification code, or credit personal identification number (PIN) which Organization processes for payment.",,
+DM-10,Data Management,Primary Account Number Data Restrictions,Organization restricts primary account number (PAN) data such that only the first six and last four digits are displayed; authorized users with a legitimate business need may be provided the full PAN.,,
+DM-11,Data Management,Personal Information Inventory,Organization maintains a documented inventory of media containing personal information.,X,3.2
+DM-12,Data Management,Changes to Data at Rest,Organization uses mechanisms to detect direct changes to the integrity of customer data and personal information; Organization takes action to resolve confirmed unauthorized changes to data.,X,3.12
+DM-13,Data Management,Data Processing Integrity,System checks are in place to ensure both complete and accurate capture of data in process.,X,3.12
+DM-14,Data Management,Secure Disposal of Media,Organization securely erases media containing decommissioned restricted data and obtains a certificate or log of erasure; media pending erasure are stored within a secured facility.,X,3.5
+DM-15,Data Management,Customer Data Retention and Deletion,Organization purges or archives data according to customer requests or legal and regulatory mandates.,X,3.5
+DM-16,Data Management,Removal of PHI from Media,Organization removes electronic protected health information from electronic media if the media is made available for re-use.,,
+DM-17,Data Management,Secure Disposal of Media: Testing,Organization tests sanitization procedures and equipment annually for effectiveness.,,
+DM-18,Data Management,Personal Information Retention and Deletion,Organization retains and deletes personal information from Organization and service provider systems in accordance with Organization policy.,X,"3.4
+15.7"
+DM-19,Data Management,Temporary Storage of Personal Information,Temporary files and documents containing personal information are deleted in accordance with a timeframe consistent with Organization policy.,,
+DM-20,Data Management,Social Media,"Sharing Organization restricted data via messaging technologies, social media, and public websites is prohibited.",,
+DM-21,Data Management,Publicly Accessible Content,"Organization protects its public information system presence with the following processes: only authorized and trained individuals may post public information, content is reviewed prior to publishing, information on public systems is reviewed periodically, and non-public information is removed from public systems upon discovery.",,
+DM-22,Data Management,Data Loss Prevention,"Data loss prevention capabilities are implemented to protect sensitive information as it is stored, transmitted, and processed.",X,3.13
+EM-01,Entity Management,Board of Directors Structure and Purpose,"The Board of Directors provides corporate oversight, strategic direction, and review of management for Organization. The Board of Directors meets at least quarterly and has 3 sub-committees: 
+• Audit Committee
+• Executive Compensation and Nominating Committee
+• Governance Committee",,
+EM-02,Entity Management,Audit Committee,"The Audit Committee is governed by a Charter, is independent from Organization Management, composed of outside directors (Industry Experts), and meets quarterly. The Audit Committee oversees: 
+•Financial Statement Quality 
+•Enterprise Risk Management
+•Regulatory & Legal Compliance
+•Internal Audit Functions
+•Information Security Functions
+•External Audit Functions",,
+EM-03,Entity Management,Organizational Structure,Organization Management ensures that its organization is aligned with the corporate strategy by assigning key managers with responsibilities to execute the corporate strategy.,,
+EM-04,Entity Management,Operating Plans,"Annual operating plans are aligned with Corporate Objectives, which are established on an annual basis during the Company's planning process. Priorities are set and plans are communicated appropriately.",,
+EM-05,Entity Management,Cyber Security Insurance,Organization purchases cyber security insurance to mitigate risk of material financial impact that could result from a cyber security event.,,
+EM-06,Entity Management,Internal Audit Function,"Quarterly, the Chief Audit Executive meets with the Audit Committee to review key risk issues. The Audit Committee approves the annual Internal Audit Plan. Results of quarterly audits and subsequent issue tracking summaries are presented to the Audit Committee.",,
+EM-07,Entity Management,Financial Control Review,Internal financial control assessment results are reported to the Audit Committee by the Chief Audit Executive on a quarterly basis and support the CEO/CFO 302/404 certifications.,,
+EM-08,Entity Management,Information Security Function,"Quarterly, the Chief Security Officer meets with the Audit Committee to review key Information Security issues. Results of continuous monitoring activities and current security compliance status are presented to the Audit Committee and the Board of Directors.",,
+EM-09,Entity Management,Information Security Compliance Review,Information Security compliance results are reported to the Audit Committee by the Chief Security Officer on a quarterly basis and support information security compliance certifications,,
+EM-10,Entity Management,Common Controls Framework,"Organization maintains a Common Control Framework (CCF) that is used in the implementation of control measures as a risk mitigation strategy to support organization operations, technology infrastructure, and security management activities.",,
+EM-11,Entity Management,Service Agreement,"When customers sign-up for Organization’s product and services, the customer is required to acknowledge a service agreement which includes considerations for protecting security, availability, confidentiality and indicates the responsibilities of the users and organization’s responsibilities and commitments.",,
+IAM-01,Identity and Access Management,Logical Access Provisioning,Logical access provisioning to information systems requires approval from appropriate personnel.,X,"5.6
+6.1
+6.7"
+IAM-02,Identity and Access Management,Change of Access Notification,Changes made to system access trigger a notification that is sent to designated personnel.,X,3.14
+IAM-03,Identity and Access Management,Logical Access De-provisioning,"Logical access that is no longer required in the event of a termination is documented, communicated to management, and revoked.",X,"6.2
+15.7"
+IAM-04,Identity and Access Management,Logical Access De-provisioning: Notification,The People Resources system sends a notification to relevant personnel in the event of a termination of an information system user.,X,6.2
+IAM-05,Identity and Access Management,Logical Access Review,Organization performs account and access reviews on a quarterly basis; corrective action is taken where applicable.,X,"5.1
+5.3
+5.5
+6.8"
+IAM-06,Identity and Access Management,Role Change: Access De-provisioning,"Upon notification of an employee reassignment or transfer, management reviews the employee's access for appropriateness. Access that is no longer required is revoked and documented.",X,6.2
+IAM-07,Identity and Access Management,Shared Logical Accounts,Organization restricts the use of shared and group authentication credentials. Authentication credentials for shared and group accounts are reset every 90 days.,,
+IAM-08,Identity and Access Management,Shared Logical Accounts: Group Member ,Passwords for shared and group accounts are reset when a member of the shared group leaves.,,
+IAM-09,Identity and Access Management,Shared Account Restrictions,"Where applicable, the use of generic and shared accounts to administer systems or perform critical functions is prohibited; generic user IDs are disabled or removed.",X,4.7
+IAM-10,Identity and Access Management,Role Change: People Resources Notification,The People Resources system sends a notification to relevant management and relevant information system administrators in the event of an employee reassignment or transfer of an information system user.,X,6.1
+IAM-11,Identity and Access Management,Temporary Account Termination,Temporary and emergency accounts are automatically terminated 90 days from the date they are generated.,,
+IAM-12,Identity and Access Management,Unique Identifiers,Organization requires unique identifiers for user accounts and prevents identifier reuse.,X,3.14
+IAM-13,Identity and Access Management,Password Authentication,User and device authentication to privileged information systems is protected by passwords that meet Organization's password complexity requirements.,,
+IAM-14,Identity and Access Management,Multifactor Authentication,"Multi-factor authentication is required for:
+• remote VPN sessions
+• access to trusted data environments",X,"5.2
+6.3
+6.4
+6.5
+13.5"
+IAM-15,Identity and Access Management,Authentication Credential Maintenance,Authorized personnel verify the identity of users before modifying authentication credentials on their behalf.,,
+IAM-16,Identity and Access Management,Session Timeout,Information systems are configured to terminate inactive sessions after 15 minutes or when the user terminates the session.,X,4.3
+IAM-17,Identity and Access Management,Session Limit,Information systems are configured to limit concurrent login sessions and the inactive user interface is not displayed when the session is terminated.,,
+IAM-18,Identity and Access Management,Account Lockout: Cardholder Data Environments,"Users are locked out of information systems after 6 invalid attempts for a minimum of 30 minutes, or until an administrator enables the user ID.",X,4.10
+IAM-19,Identity and Access Management,Account Lockout,"Users are locked out of information systems after multiple, consecutive invalid attempts within a defined period; accounts remain locked for a defined period.",X,4.10
+IAM-20,Identity and Access Management,Login Banner,"Systems leveraged by the U.S. Federal Government present a login screen that displays the following language:
+• users are accessing a U.S. Government information system
+• system usage may be monitored, recorded, and subject to audit
+• unauthorized use of the system is prohibited and subject to criminal and civil penalties
+• use of the system indicates consent to monitoring and recording",,
+IAM-21,Identity and Access Management,Credentials Validation,"Organization systems utilize Federal Identity, Credential, and Access Management (FICAM) components and conform to FICAM-issued profiles; systems verify and accept the following external credentials:
+• personal Identity Verification (PIV) credentials from federal agencies, and
+• FICAM-approved credentials from non-federal third-parties
+",,
+IAM-22,Identity and Access Management,Password Authentication Standard: Federal Systems,"Organization information systems obscure feedback of authentication information during the authentication process (e.g., the system does not disclose error information such as ""'user1' is not a valid username"") and have the following password requirements:
+• minimum of 12 characters
+• contains at least one upper-case letter, lower-case letter, number, and a special character
+• at least one of the characters is changed when the new passwords are created.
+• the password life span is between 1 to 60 days
+• password reuse is prohibited for 24 generations
+• only allow the use of temporary password system logons with an immediate change to a permanent password",X,5.2
+IAM-23,Identity and Access Management,Privileged Session Management,Privileged logical access to trusted data environments is enabled through an authorized session manager; session user activity is recorded and tunnelling to untrusted data environments is restricted.,X,"3.3
+3.14
+5.4"
+IAM-24,Identity and Access Management,Zero Trust Enterprise Network,Organization users are authenticated against a Zero Trust model prior to gaining access to organization resources.,,
+IAM-25,Identity and Access Management,Logical Access Role Permission Authorization,"Initial permission definitions, and changes to permissions, associated with logical access roles are approved by authorized personnel.",X,"6.1
+6.8"
+IAM-26,Identity and Access Management,Source Code Security,Access to modify source code is restricted to authorized personnel.,,
+IAM-27,Identity and Access Management,Service Account Restrictions,"Individual user or administrator use of service accounts for O/S, applications, and databases is prohibited.",,
+IAM-28,Identity and Access Management,PCI Account Restrictions,"Organization clients with access to the cardholder data environment (CDE), as users or processes, are assigned unique accounts that cannot modify shared binaries or access data, server resources, or scripts owned by another CDE or Organization; application processes are restricted from operating in privileged-mode.",,
+IAM-29,Identity and Access Management,Least Privilege,Role-based access is defined and deployed to restrict privileged access to information resources based on the concept of least privilege.,X,"3.3
+5.4
+6.8
+12.2"
+IAM-30,Identity and Access Management,Virtual Private Network,Remote connections to the corporate network are accessed via VPN through managed gateways.,X,"12.7
+13.5"
+IAM-31,Identity and Access Management,Virtual Private Network: Restrict Split-Tunneling,VPN configurations restrict split-tunneling capabilities.,,
+IAM-32,Identity and Access Management,Ability to Disable Remote Sessions,Organization has a defined process and mechanisms in place to expeditiously disable or disconnect remote access to information systems within a defined time frame based on business need.,X,13.5
+IAM-33,Identity and Access Management,Remote Maintenance: Authentication Sessions,"Vendor accounts used for remote access are enabled only during the time period needed, disabled when not in use, and monitored while in use.",X,13.5
+IAM-34,Identity and Access Management,Remote Maintenance: Unique Authentication Credentials for each Customer,"Where applicable, Service providers with remote access to customer premises (e.g., for support of POS systems or servers) must use a unique authentication credential (such as a password/phrase) for each customer.",,
+IAM-35,Identity and Access Management,Remote Maintenance: Authentication,"Remote maintenance and diagnostic tool utilization are restricted to the minimum required level, strong authentication is required, and remote sessions are recorded. ",,
+IAM-36,Identity and Access Management,Remote Maintenance: Audit,"Organization documents and maintains records for vendor remote maintenance, diagnostic activities, and permissions granted. A listing of vendor remote maintenance connections is documented as well.",,
+IAM-37,Identity and Access Management,End-user Environment Segmentation,"Where applicable, processes that run as part of an Organization shared hosting platform will run under unique credentials that permit access to only one customer environment.",,
+IAM-38,Identity and Access Management,End-user Access to Applications and Data,"Organization applications secure user data and maintain confidentiality by default or according to permissions set by the individual; Organization authenticates individuals with unique identifiers and passwords prior to enabling access to: 
+• use the application 
+• view or modify their own data",,
+IAM-39,Identity and Access Management,Hardware Tokens,"Where applicable, hardware token-based authentication is facilitated only by approved organizations.",,
+IR-01,Incident Response,Incident Response Plan,"Organization defines the types of incidents that need to be managed, tracked and reported, including:
+• procedures for the identification and management of incidents 
+• procedures for the resolution of confirmed incidents
+• key incident response systems
+• incident coordination and communication strategy
+• contact method for internal parties to report incidents
+• support team contact information
+• notification to relevant management in the event of a security breach
+• provisions for updating and communicating the plan
+• provisions for training of support team
+• preservation of incident information
+• management review and approval, annually, or when major changes to the organization occur",X,"17.1
+17.4
+17.8
+17.9"
+IR-02,Incident Response,Incident Response Testing,Organization tests incident response processes on an annual basis. Results from the tests are documented.,X,17.7
+IR-03,Incident Response,Incident Response,"Confirmed incidents are assigned a priority level and managed to resolution. If applicable, Organization coordinates the incident response with business contingency activities.",X,17.9
+IR-04,Incident Response,External Communication of Incidents,"Organization defines external communication requirements for incidents, including:
+• information about external party dependencies
+• criteria for notification to external parties as required by Organization policy in the event of a security breach
+• contact information for authorities (e.g., law enforcement, regulatory bodies, etc.)
+• provisions for updating and communicating external communication requirement changes",X,"17.2
+17.6"
+IR-05,Incident Response,Incident Reporting Contact Information,"Organization provides a contact method to:
+• submit complaints and inquiries
+• report incidents",X,17.3
+IR-06,Incident Response,Incident External Communication,Organization communicates a response to external stakeholders as required by the Incident Response Plan.,X,"17.4
+17.6"
+IR-07,Incident Response,External Communication of Incidents: Protected Health Information,"Organization communicates the discovery and status of the breach of Protected Health Information (PHI) to the covered entity within 60 days or as required by the Business Associates Agreement (BAA) and provides the following information if available:
+• description of the Event
+• description of the Information that was compromised
+• identification of the Individuals whose PHI were compromised
+• steps Required to Protect Individuals
+• investigation Plan
+• contact Information",,
+IR-08,Incident Response,Problem Management,Organization resolves customer support inquiries.,,
+MDM-01,Mobile Device Management,Mobile Device Enrollment,"Mobile devices (i.e., laptops, smartphones, tablets) must be configured with the appropriate Mobile Device Management (MDM) profile when used as a medium to access Organization internal resources.",X,"1.1
+4.11
+4.12"
+MDM-02,Mobile Device Management,Mobile Device Encryption,"Mobile devices (i.e., laptops, smartphones, tablets) that are used to access data from Organization internal resources are encrypted.",X,"3.6
+3.9"
+MDM-03,Mobile Device Management,Configuration Management: Mobile Devices,"Organization Mobile devices (i.e., laptops, smartphones, tablets) are configured to ensure unnecessary hardware capabilities and functionalities are disabled, and management defined security features are enabled.",X,"4.3
+4.8"
+MDM-04,Mobile Device Management,Configuration Management: High Risk Travel Locations,"Organization has a documented list of travel locations considered high risk for the use of mobile devices (i.e., laptops, smartphones, tablets). Employees procure alternate equipment before traveling to these locations.",,
+NO-01,Network Operations,Network Policy Enforcement Points,Network traffic to and from untrusted networks passes through a policy enforcement point; firewall rules are established in accordance with identified security requirements and business justifications.,X,"4.4
+4.5
+12.5"
+NO-02,Network Operations,Inbound and Outbound Network Traffic: DMZ Requirements,Network traffic to and from untrusted networks passes through a Demilitarized Zone (DMZ).,,
+NO-03,Network Operations,Ingress and Egress Points,"Organization maintains an inventory of ingress and egress points on the production network and performs the following for each: 
+• inventory is reduced to the minimum possible level
+• permitted ports, protocols and services are inventoried and validated
+• documents security features that are implemented for insecure protocols",X,"4.5
+4.6
+12.1
+12.2
+12.6
+13.9"
+NO-04,Network Operations,Non-disclosure of Routing Information,Organization does not disclose private IP addresses and routing information to unauthorized parties.,,
+NO-05,Network Operations,Dynamic Packet Filtering,"Where applicable, Organization enables dynamic packet filtering on the network.",X,"9.3
+13.4
+13.10"
+NO-06,Network Operations,Firewall Rule Set Review,Network infrastructure rule sets are reviewed every 6 months.,,
+NO-07,Network Operations,Ingress and Egress Points: Fail Secure,"The information system fails securely in the event of an operational failure of a boundary protection device.
+",,
+NO-08,Network Operations,Traffic Flow: Managed Proxy,Organization requires egress traffic initiated from within the Organization network to pass through a managed proxy.,X,13.10
+NO-09,Network Operations,Domain Name Services Security Extensions (DNSSec),Organization establishes a DNSSec implementation standard and uses mechanisms to verify the DNS infrastructure for compliance.,X,"4.9
+9.2"
+NO-10,Network Operations,Email Spam Protection,"Organization has documented procedures and protection mechanisms in place to protect its information and information systems from spam and ensures that signature definitions are updated whenever new releases are available.
+",X,"9.1
+9.5
+9.6"
+NO-11,Network Operations,Denial of Service (DOS),"Organization implements a Denial of Service (DOS) protection plan, identifies threatening DOS attacks, and configures boundary protection devices according to the DOS plan.",,
+NO-12,Network Operations,Trusted Connections,"All trusted connections are documented and approved by authorized personnel; management ensures the following documentation is in place prior to approval: 
+• agreement with vendor
+• security requirements
+• nature of transmitted information",X,12.4
+NO-13,Network Operations,Network Segmentation,Production environments are logically segregated from non-production environments.,X,16.8
+NO-14,Network Operations,Card Processing Environment Segmentation,"Where applicable, Organization segregates the Primary Account Number (PAN) infrastructure including payment card collection devices; Organization limits access to the segregated environment to authorized personnel.",,
+NO-15,Network Operations,Traffic Flow,"Organization documents the approved traffic flow at each managed interface and configures the managed interface accordingly. Exceptions to traffic flow are documented, reviewed periodically, and removed when there is no longer a business requirement.",X,12.4
+NO-16,Network Operations,Disable Rogue Wireless Access Points,Organization employs mechanisms to detect and disable the use of unauthorized wireless access points.,,
+NO-17,Network Operations,Wireless Access Points,Organization maintains an inventory of authorized wireless access points including a documented business justification.,,
+NO-18,Network Operations,Authentication: Wireless Access Points,Organization restricts access to network services via wireless access points to authenticated users and services; approved wireless encryption protocols are required for wireless connections.,X,"12.5
+12.6"
+PR-01,People Resources,Background Checks,New hires are required to pass a background check as a condition of their employment.,,
+PR-02,People Resources,Performance Management,Organization has established a check-in performance management process for on-going dialogue between managers and employees. Quarterly reminders are sent to managers to perform their regular check-in conversation.,,
+PR-03,People Resources,Hiring Process,Job candidates apply for roles that are listed on the Organization career portal; candidates are interviewed to determine their knowledge and competence for their prospective roles and compatibility with Organization values.,,
+PR-04,People Resources,Organization Property Collection,"Upon employee termination, management is notified to collect Organization property from the terminated employee.
+",,
+PR-05,People Resources,Exit Interviews,"Upon employee termination, management conducts exit interviews for the terminated employee.",,
+PR-06,People Resources,Disciplinary Process,Employees that fail to comply with Organization policies are subject to a disciplinary process.,,
+PR-07,People Resources,Code of Ethics,Organization has a Code of Ethics for Senior Officers. The Senior Officers and CEO certify that they understand the Code on an annual basis.,,
+PR-08,People Resources,Business Ethics Hotline,Organization has a business ethics hotline for employees and external parties to report ethical misconduct. Allegations are investigated and Organization will take appropriate action for confirmed violations. Hotline reports are reported to the Audit Committee on a quarterly basis.,,
+PR-09,People Resources,National Security Clearance,"Organization conducts screening and rescreening of authorized personnel for roles that require national security clearances. For national security clearances; a reinvestigation is required during the 5th year for top secret security clearance, the 10th year for secret security clearance, and 15th year for confidential security clearance. In addition, for law enforcement and high impact public trust level, a reinvestigation is required during the 5th year.",,
+PR-10,People Resources,Code of Business Conduct,"Organization has documented the Code of Business Conduct and Business Partner Code of Conduct, which are reviewed, updated if applicable, and approved by senior management annually.",,
+PRIV-01,Privacy,Privacy Program,"Organization privacy policies for individuals, including relevant updates, are communicated on the public company website or on the internal corporate network.",,
+PRIV-02,Privacy,Privacy Program Review,"On an annual basis, Organization performs a review of privacy practices to ensure the following:
+• consent is obtained for users whose personal information (PI) is managed by Organization
+• PI inventory integrity and accuracy
+• data access request response template is understandable
+• standard agreement templates are up-to-date
+• requests to delete, access or update PI are processed accurately and within a timeframe consistent with Organization policy
+• compliance with Organization's privacy commitments
+• known privacy issues are remediated
+• opt-in and opt-out compliance with applicable law
+• Organization privacy documentation and practices are relevant to applicable law
+• compliance with relevant industry Codes of Conduct (e.g., EDAA)
+• if applicable, joint controller responsibilities are clearly defined and communicated to both data controllers and the data subject",,
+PRIV-03,Privacy,Privacy Readiness Review,Organization performs privacy readiness reviews to identify high-risk processing activities that impact personal data; identified non-compliance with Organization privacy practices is tracked through remediation.,,
+PRIV-04,Privacy,Privacy Notice,"Individuals are given appropriate notice and an opportunity to consent or decline to Organization privacy practices such as accessing, collecting, processing, transferring, or storing personal information.",,
+PRIV-05,Privacy,Personal Information Notice and Consent: Additional Processing Activities,"Where appropriate, Organization obtains individual consent for processing activities for which consent has not been previously obtained.",,
+PRIV-06,Privacy,Notice of Personal Information Disclosure,"In accordance with Organization policy, Organization provides notice to individuals regarding legally-required disclosures of personal information.",,
+PRIV-07,Privacy,PII Processing Agreements,Personal information is handled and processed in accordance with contractual requirements.,,
+PRIV-08,Privacy,Record of Processing Activity,"Organization documents, reviews, and approves a record of processing activities related to personal information.",,
+PRIV-09,Privacy,Document Management Standard: HIPAA,"Documentation that impacts personal health information, including policies, procedures, and the documentation of actions, activities, or assessments, are retained for 6 years from the date of its creation, or the date when it last was in effect, whichever is later.",,
+PRIV-10,Privacy,Law Enforcement Requests,Law enforcement agencies may submit requests for evidence; submitted requests are reviewed and tracked to resolution.,,
+PS-01,Proactive Security,Endpoint Detection and Response,"Endpoint Detection and Response (EDR) software is deployed to continuously monitor, detect, and respond to cyber threats and patterns of malicious behavior and activity.",X,"13.2
+13.7"
+PS-02,Proactive Security,Threat Hunting,"Organization performs threat hunting to identify, track, and disrupt threats that evade existing security controls.",,
+PS-03,Proactive Security,Threat Modeling,Organization performs periodic threat modeling to ensure that potential threats are identified and assessed.,X,16.14
+PS-04,Proactive Security,Adversary Intelligence,Organization gathers intelligence on adversary personas to assist in the prioritization of security activities.,,
+RM-01,Risk Management,Service Risk Rating Assignment,"Annually, Organization prioritizes the frequency of vulnerability discovery activities based on an assigned service risk rating.",,
+RM-02,Risk Management,Risk Assessment,Organization management performs an annual risk assessment. Results from risk assessment activities are reviewed to prioritize mitigation of identified risks.,,
+RM-03,Risk Management,Risk Assessment: HIPAA Criteria,"Organization's periodic risk assessment for systems that process, transmit or store Protected Health Information (PHI) includes the following:
+• identify and classify assets
+• identify threats
+• identify vulnerabilities
+• identify controls
+• perform threat likelihood analysis
+• perform threat impact analysis
+• identify residual risk
+• identify appropriate safeguards",,
+RM-04,Risk Management,Continuous Monitoring,The design and operating effectiveness of internal controls are continuously evaluated against the established Common Controls Framework by Organization. Corrective actions related to identified deficiencies are tracked to resolution.,,
+RM-05,Risk Management,Self-Assessments: PCI,"On a quarterly basis, reviews shall be performed with approved documented specification to confirm personnel are following security policies and operational procedures pertaining to:
+• daily log reviews
+• firewall rule-set reviews
+• applying configuration standards to new systems
+• responding to security alerts
+• change management processes",,
+RM-06,Risk Management,Internal Audits,Organization establishes internal audit requirements based on the Common Controls Framework by Organization and executes audits on information systems and processes at planned intervals.,,
+RM-07,Risk Management,ISMS Internal Audit Requirements,Internal audit establishes and executes a plan to evaluate applicable controls in the Information Security Management System (ISMS) at least once every 3 years.,,
+RM-08,Risk Management,Remediation Tracking,Management prepares a remediation plan to formally manage the resolution of findings identified in risk assessment activities.,X,16.3
+RM-09,Risk Management,ISMS Corrective Action Plans,Management prepares a Corrective Action Plan (CAP) to manage the resolution of nonconformities identified in independent audits.,,
+RM-10,Risk Management,Statement of Applicability,"Management prepares a statement of applicability that includes control objectives, implemented controls, and business justification for excluded controls. Management aligns the statement of applicability with the results of the annual risk assessment. ",,
+SDD-01,System Design Documentation,System Documentation,Documentation of system boundaries and key aspects of their functionality are published to authorized Organization personnel on the Organization intranet.,X,3.8
+SDD-02,System Design Documentation,Whitepapers,"Organization publishes whitepapers to its public website that describe the purpose, design and boundaries of the system and system components.",,
+SG-01,Security Governance,Policy and Standard Review,"Organization's policies and standards are periodically reviewed, approved by management, and communicated to Organization personnel.",X,"7.1
+11.1
+12.4
+18.1"
+SG-02,Security Governance,Exception Management,"Organization reviews exceptions to policies, standards and procedures; exceptions are documented and approved based on business need and removed when no longer required.",X,2.2
+SG-03,Security Governance,Document Control,"Organization's document management criteria is periodically reviewed, approved by management, and communicated to authorized personnel; management determines the treatment and retention of documentation according to legal and regulatory requirements.",,
+SG-04,Security Governance,Information Security Program Content,"The Chief Security Officer conducts a periodic staff meeting to communicate and align on relevant security threats, program performance, and resource prioritization. ",,
+SG-05,Security Governance,Procedures,Organization's key control capabilities are supported by documented procedures that are communicated to authorized personnel.,,
+SG-06,Security Governance,Proprietary Rights Agreement,Organization regular employees consent to a proprietary rights agreement.,,
+SG-07,Security Governance,Review of Confidentiality Agreements,The Organization Proprietary Rights Agreement and Organization Network Access Agreement are reviewed on a periodic basis.,,
+SG-08,Security Governance,Information Security Program,Organization has an established security leadership team including key stakeholders in the Organization Information Security Program; goals and milestones for deployment of the information security program are established and communicated to the company through the periodic security all-hands meeting.,,
+SG-09,Security Governance,Accessibility Program,Organization has an established accessibility leadership team including key stakeholders; goals and milestones for deployment of the accessibility program are established and communicated to the company.,,
+SG-10,Security Governance,Information Security Management System Scope,Information Security Management System (ISMS) boundaries are formally defined in an ISMS scoping document.,,
+SG-11,Security Governance,Security Roles and Responsibilities,Roles and responsibilities for the governance of Information Security within Organization are formally documented within the Information Security Management Standard and communicated on the Organization intranet.,X,17.5
+SG-12,Security Governance,Security Roles and Responsibilities: Risk Designations,Organization defined security roles and responsibilities are assigned risk designations and reviewed at least once every three years.,X,17.5
+SG-13,Security Governance,Security Roles and Responsibilities: PCI Compliance,Roles and responsibilities and a program charter for the governance of PCI DSS compliance within Organization are formally documented and communicated by management.,,
+SG-14,Security Governance,Information Security Resources,Information systems security implementation and management are included as part of the budget required to support the Organization Security Program.,,
+SG-15,Security Governance,Management Review,"The Information Security Management System (ISMS) steering committee conducts a formal management review of ISMS scope, risk assessment activities, control implementation, and audit results on an annual basis. ",,
+SG-16,Security Governance,Enterprise Data Catalog,"Organization maintains an enterprise data catalog that encompasses key organizational data, environment metadata, and product information to facilitate continuous monitoring of the internal control environment. The enterprise data catalog is updated as part of the continuous monitoring process and upon the introduction of new service offerings and acquisitions.",X,3.2
+SG-17,Security Governance,Software Usage Restrictions,Organization maintains software license contracts and monitors its compliance with usage restrictions.,X,"2.1
+2.2
+2.3
+2.4
+2.5
+2.6"
+SLC-01,Service Lifecycle,Service Lifecycle Workflow,"Major software releases are subject to the Service Life Cycle, which requires acceptance via Concept Accept and Project Plan Commit phases prior to implementation.",X,"16.1
+16.2
+16.10"
+SLC-02,Service Lifecycle,Source Code Management,Source code is managed with Organization-approved version control mechanisms.,X,"2.7
+4.6
+12.3"
+SLC-03,Service Lifecycle,Secrets in Code,Organization manages source code secrets in a centralized repository; secrets are rotated at least annually and immediately if the security of secrets is compromised. ,,
+SLC-04,Service Lifecycle,Project Budget Approval,"Approval for project initiation and budget is obtained from IT management and business owners.
+",,
+SLC-05,Service Lifecycle,Project Scope Change,"Changes to finalized project scope and requirements require the review and approval from the business team and project manager.
+",,
+SLC-06,Service Lifecycle,Information System Operation Authorization,"Senior management authorizes the operation of new information systems, based on security and business requirements, prior to implementation. The information system authorization is refreshed every 3 years or when significant change occurs.",,
+SLC-07,Service Lifecycle,System Acquisition Approval,"Information system acquisitions require approval from authorized personnel based on verification of the following documented evidence:
+• security function, strength, and assurance requirements
+• requirements for protecting security-related documentation
+• system development and test requirements
+• acceptance criteria for releases
+• enumeration of Security controls
+• security control implementation and monitoring requirements
+• components are FIPS-201 approved",X,16.11
+SM-01,Systems Monitoring,Audit Logging,Organization logs critical information system activity.,X,"1.4
+3.14
+8.1
+8.2
+8.5
+8.12
+13.6"
+SM-02,Systems Monitoring,Secure Audit Logging,Organization logs critical information system activity to a secure repository. Organization disables administrators ability to delete or modify enterprise audit logs; the number of administrators with access to audit logs is limited.,X,"8.2
+8.5
+8.6
+8.7
+8.8
+8.9
+8.12
+12.5"
+SM-03,Systems Monitoring,Audit Logging: Cardholder Data Environment Activity,"Organization logs the following activity for cardholder data environments:
+• individual user access to cardholder data
+• administrative actions
+• access to logging servers
+• failed logins
+• modifications to authentication mechanisms and user privileges
+• initialization, stopping, or pausing of the audit logs
+• creation and deletion of system-level objects
+• security events
+• logs of all system components that store, process, transmit, or could impact the security of cardholder data (CHD) and/or sensitive authentication data (SAD)
+• logs of all critical system components
+• logs of all servers and system components that perform security functions (e.g., firewalls, intrusion-detection systems/intrusion-prevention systems (IDS/IPS), authentication servers, e-commerce redirection servers, etc.)",,
+SM-04,Systems Monitoring,Audit Logging: Cardholder Data Environment Event Information,"Organization records the following information for confirmed events in the cardholder data environment:
+• user identification
+• type of event
+• date and time
+• event success or failure indication
+• origination of the event
+• identification of affected data, system component, or resource",X,8.1
+SM-05,Systems Monitoring,Audit Logging: Service Provider Logging Requirements,"Organization establishes unique logging and audit trails for each entity's cardholder data environment and complies with the following:
+• logs are enabled for third-party applications
+• logs are active by default
+• logs are available for review by and communicated to the owning entity",,
+SM-06,Systems Monitoring,Configuration Management: Remote Logging,"Where applicable, devices are configured to send audit log data to a remote server",,
+SM-07,Systems Monitoring,Chain of Accountability,Organization implements audit trails to link authentication events to individuals users in production systems.,,
+SM-08,Systems Monitoring,Audit Record Time Stamps,Organization records time stamps for audit records that can be mapped to a centralized time source.,,
+SM-09,Systems Monitoring,Log Reconciliation: CMDB,Organization reconciles the established device inventory against the enterprise log repository on a quarterly basis; devices which do not forward log data are remediated.,X,8.9
+SM-10,Systems Monitoring,Audit Log Capacity and Retention,Organization allocates audit record storage capacity in accordance with logging storage and retention requirements; Audit logs are retained for 1 year with 90 days of data immediately available for analysis.,X,"8.1
+8.3
+8.9
+8.10"
+SM-11,Systems Monitoring,Enterprise Antivirus Logging,"If applicable, Organization's managed enterprise antivirus deployments generate audit logs which are retained for 1 year with 90 days of data immediately available for analysis.",X,8.10
+SM-12,Systems Monitoring,Security Monitoring Alert Criteria,"Organization defines security monitoring alert criteria, how alert criteria will be flagged, and identifies authorized personnel for flagged system alerts.",X,"13.1
+13.11"
+SM-13,Systems Monitoring,Security Monitoring Alert Criteria Review,Organization reviews security monitoring alert on an annual basis.,X,8.1
+SM-14,Systems Monitoring,Log-tampering Detection,Organization monitors and flags tampering to the audit logging and monitoring tools in the production environment.,X,13.1
+SM-15,Systems Monitoring,Unauthorized Devices Addition,"Unauthorized devices connected to the Organization Network are:
+• detected within a maximum of five minutes, and
+• the unauthorized device is disabled, or a notification is sent to authorized Organization personnel",X,"12.5
+13.6"
+SM-16,Systems Monitoring,"Security Monitoring Alert Criteria: Guest, Anonymous and Temp Accounts","Organization defines security monitoring alert criteria for the use of guest, anonymous, and temporary accounts on Organization's network.",,
+SM-17,Systems Monitoring,Security Monitoring Alert Criteria: VoIP Usage,Organization defines security monitoring alert criteria to detect deviations from Voice over IP (VoIP) activity standards.,,
+SM-18,Systems Monitoring,Prohibited Activity Monitoring: Remote Access,Remote sessions are monitored for prohibited activity.,,
+SM-19,Systems Monitoring,Prohibited Activity Monitoring: Client Run Time Technologies,Organization monitors and flags the use of prohibited client run time technologies on information systems.,,
+SM-20,Systems Monitoring,Security Monitoring Alert Criteria: Wireless Access Point,Organization defines security monitoring alert criteria for attack attempts against wireless access points.,,
+SM-21,Systems Monitoring,Security Monitoring Alert Criteria: Failed Logins,Organization defines security monitoring alert criteria for failed login attempts on Organization's network.,,
+SM-22,Systems Monitoring,Security Monitoring Alert Criteria: Privileged Functions,Organization defines security monitoring alert criteria for privileged functions executed by both authorized and unauthorized users.,,
+SM-23,Systems Monitoring,Security Monitoring Alert Criteria: Audit Log Integrity,Organization defines security monitoring alert criteria for changes to the integrity of audit logs.,,
+SM-24,Systems Monitoring,Security Monitoring Alert Criteria: Cardholder System Components,"Organization defines security monitoring alert criteria for system components that store, process, transmit, or could impact the security of cardholder data and/or sensitive authentication data.",,
+SM-25,Systems Monitoring,System Security Monitoring,Critical systems are monitored in accordance with predefined security criteria and alerts are sent to authorized personnel. Confirmed incidents are tracked to resolution.,,
+SM-26,Systems Monitoring,Intrusion Detection Systems,"Organization has an Intrusion Detection System (IDS) or Intrusion Prevention System (IPS) deployment(s) and ensures the following:
+• signature definitions are updated including the removal of false positive signatures
+• non-signature based attacks are defined
+• IDS/IPS are configured to capture malicious (both signature and non-signature based) traffic
+• alerts are reviewed and resolved by authorized personnel when malicious traffic is detected",X,"8.11
+13.3
+13.8"
+SM-27,Systems Monitoring,System Monitoring Legal Opinion,Organization obtains legal opinion with regard to monitoring activities in accordance with applicable requirements and mandates.,,
+SM-28,Systems Monitoring,Privileged Session Monitoring,Organization monitors trusted data environments for unauthorized logical access connections. ,,
+SM-29,Systems Monitoring,Availability Monitoring Alert Criteria,"Organization defines availability monitoring alert criteria, how alert criteria will be flagged, and identifies authorized personnel for flagged system alerts.",,
+SM-30,Systems Monitoring,Availability Monitoring Alert Criteria Review,Organization reviews availability monitoring alert criteria on an annual basis.,,
+SM-31,Systems Monitoring,System Availability Monitoring,Critical systems are monitored in accordance with predefined availability criteria and alerts are sent to authorized personnel.,,
+SM-32,Systems Monitoring,Remote Access: Activity Log Audit,Logs from remote sessions are audited for prohibited activity on a weekly basis.,X,8.11
+SO-01,Site Operations,Secured Facility,"Physical access to restricted areas of the facility is protected by walls with non-partitioned ceilings, secured entry points, and/or manned reception desks.",,
+SO-02,Site Operations,Physical Protection and Positioning of Cabling,"Organization power and telecommunication lines are protected from interference, interception, and damage.",,
+SO-03,Site Operations,Global Coordination of Critical Functions: Information Security Safeguards,Organization consistently applies information security safeguards in datacenters and campuses.,,
+SO-04,Site Operations,Provisioning Physical Access,"Physical access provisioning to an Organization datacenter requires management approval and documented specification of: 
+• account type (e.g., standard, visitor, or vendor)
+• access privileges granted
+• intended business purpose
+• visitor identification method, if applicable
+• temporary badge issued, if applicable
+• access start date
+• access duration",,
+SO-05,Site Operations,De-provisioning Physical Access,"Physical access that is no longer required in the event of a termination or role change is revoked. If applicable, temporary badges are returned prior to exiting facility.",,
+SO-06,Site Operations,Periodic Review of Physical Access,Organization performs physical account and access reviews on a quarterly basis; corrective action is taken where applicable.,,
+SO-07,Site Operations,Physical Access Role Permission Authorization,"Initial permission definitions, and changes to permissions, associated with physical access roles are approved by authorized personnel.",,
+SO-08,Site Operations,Monitoring Physical Access,Intrusion detection and video surveillance are installed at Organization datacenter locations; confirmed incidents are documented and tracked to resolution.,,
+SO-09,Site Operations,Surveillance Feed Retention,Surveillance feed data is retained for 90 days.,,
+SO-10,Site Operations,Visitor Access,"Physical access for visitors is managed through monitoring, maintaining records, escorting, and reviewing access monthly. Visitor access records to the facilities are kept for at least a year.",,
+SO-11,Site Operations,Physical Access Devices,"Physical access devices (i.e., keys, combinations, access cards, etc.) are maintained through an inventory and restricted to authorized individuals. Appropriate devices are rotated when compromised or upon employee termination or transfer.",,
+SO-12,Site Operations,Temperature and Humidity Control,Temperature and humidity levels of datacenter environments are monitored and maintained at appropriate levels.,,
+SO-13,Site Operations,Fire Suppression Systems,Emergency responders are automatically contacted when fire detection systems are activated; the design and function of fire detection and suppression systems are maintained at appropriate intervals.,,
+SO-14,Site Operations,Power Failure Protection,Organization employs uninterruptible power supplies (UPS) and generators to support critical systems in the event of a power disruption or failure. The design and function of relevant equipment is certified at appropriate intervals.,,
+SO-15,Site Operations,Emergency Shutoff,Organization employs emergency power shut-off capabilities. Access to shut off power is restricted to authorized individuals.,,
+SO-16,Site Operations,Emergency Lighting,Organization employs emergency lighting in the event of a power disruption or failure. The design and function of relevant equipment is certified at appropriate intervals.,,
+TA-01,Training and Awareness,General Security Awareness Training,"Organization personnel complete security awareness training, which includes annual updates about relevant policies and how to report security events to the authorized response team. Records of training completion are documented and retained for tracking purposes.",X,"14.1
+14.2
+14.3
+14.4
+14.5
+14.6
+14.7
+14.8"
+TA-02,Training and Awareness,Code of Conduct Training,Organization full-time and temporary employees and interns complete a code of business conduct training.,X,"14.2
+14.3
+14.4
+14.5
+14.7
+14.8"
+TA-03,Training and Awareness,Accessibility Training,"Organization personnel complete accessibility awareness training, which includes annual updates about relevant policies and how to report accessibility events internally. Records of training completion are documented and retained for tracking purposes.",,
+TA-04,Training and Awareness,Phishing Awareness,Organization performs periodic phishing campaigns.,X,9.5
+TA-05,Training and Awareness,Developer Security Training,Organization's software engineers are required to complete training based on secure coding techniques on an annual basis.,X,"14.9
+16.9"
+TA-06,Training and Awareness,Payment Card Processing Security Awareness Training,"Organization personnel that interact with cardholder data systems receive awareness training to be aware of attempted tampering or replacement of devices. Training should include the following:
+• verify the identity of third-party persons claiming to be repair or maintenance personnel, prior to granting them access to modify or troubleshoot devices.
+• do not install, replace, or return devices without verification
+• be aware of suspicious behavior around devices (e.g., attempts by unknown persons to unplug or open devices)
+• report suspicious behavior and indications of device tampering or substitution to authorized personnel (e.g., to a manager or security officer)",X,14.9
+TA-07,Training and Awareness,Role-based Security Training: HIPAA,Organization personnel with access to personal health information (PHI) are required to attend and complete HIPAA privacy training.,X,14.9
+TA-08,Training and Awareness,Role-based Security Training,"Organization personnel with key security responsibilities complete relevant role-based training on an annual basis:
+• personnel must complete training prior to obtaining access to privileged security systems
+• personnel with contingency responsibilities must complete role-based training within 10 days of assuming the role
+• records of training completion are documented and retained for tracking purposes",X,14.9
+TA-09,Training and Awareness,Security Champion Training,"Service teams select a ""Security Champion"" to ensure security engagement responsibilities are assigned and tracked to completion; Security Champions receive training on how to execute responsibilities.",X,14.9
+TPM-01,Third-Party Management,Third-Party Assurance Review,"On a periodic basis, management reviews controls within third-party assurance reports to ensure that they meet organizational requirements; if control gaps are identified in the assurance reports, management takes action to address impact the disclosed gaps have on the organization.",X,"15.5
+15.6"
+TPM-02,Third-Party Management,Vendor Risk Management,Organization performs a risk assessment to determine the data types that can be shared with a managed service provider.,X,15.3
+TPM-03,Third-Party Management,Forensic Investigations,Organization enables procedures to conduct a forensic investigation in the event that a hosted merchant or service provider is compromised.,,
+TPM-04,Third-Party Management,Privacy Risk Assessment,"Organization reviews the privacy practices of service providers who access, collect, process, transfer, or store personal information on Organization's behalf upon initial procurement and renewal; non-compliance is tracked through remediation.",,
+TPM-05,Third-Party Management,Network Access Agreement: Vendors,Third-party entities which gain access to the Organization network sign a network access agreement.,,
+TPM-06,Third-Party Management,Vendor Non-disclosure Agreements,"Agency temporary workers, independent contractors, and third-party entities consent to a non-disclosure clause.",X,15.4
+TPM-07,Third-Party Management,Cardholder Data Security Agreement,"Organization managed service providers that manage, store, or transmit cardholder data on behalf of the customer must provide written acknowledgement to customers of their responsibility to protect cardholder data and the cardholder data environment.",,
+TPM-08,Third-Party Management,HIPAA Business Associate Agreement,"Organization Business Associate Agreements must contain provisions for the following:
+• permitted uses and disclosures of Protected Health Information (PHI)
+• PHI safeguards to prevent unauthorized use or disclosure
+• communications regarding the unauthorized use or disclosure of PHI
+• PHI availability
+• contract termination and disposition of PHI",,
+TPM-09,Third-Party Management,HIPAA Business Associate Subcontractor Agreement,"Organization requires a Business Associate Subcontractor Agreement with Business Associates from which it receives or transmits protected health information (PHI); Business Associates under contract are required to provide assurance that they adhere to Organization's security standards, which includes the security of PHI and reporting security events that potentially expose PHI.",,
+TPM-10,Third-Party Management,Network Service Level Agreements (SLA),Vendors providing networking services to Organization are contractually bound to provide secure and available services as documented in SLAs.,X,15.4
+TPM-11,Third-Party Management,Personal Information Processing and Transfer Agreement,"Appropriate data processing and transfer agreements are established for the collection, processing, transfer, or storage of personal information by, or on behalf of, Organization.",X,15.4
+TPM-12,Third-Party Management,Approved Service Provider Listing,Organization maintains a list of approved managed service providers and the services they provide to Organization.,X,15.1
+TPM-13,Third-Party Management,Vendor Information Security Standard,Organization has documented a Vendor Information Security Standard that defines the responsibilities and governance requirements regarding vendor information security engagements. Contractual agreements are entered into with vendors who process or store Organization data that define information Security terms and service level agreements.,X,"15.2
+15.4"
+VM-01,Vulnerability Management,Vulnerability Scans,Organization conducts vulnerability scans against the production environment; scan tools are updated prior to running scans.,X,"7.5
+7.6"
+VM-02,Vulnerability Management,Vulnerability Scans: Cardholder Data Environment,Vulnerability scans are conducted against cardholder environments at least quarterly or after significant change; critical vulnerability resolution is confirmed via a rescan.,,
+VM-03,Vulnerability Management,Vulnerability Scans: Audit Log Review,"When vulnerabilities are identified, Organization analyzes audit logs to see if it has been previously exploited. Identified exploitations are resolved through incident management.",X,18.4
+VM-04,Vulnerability Management,Vulnerability Scans: Trend Analysis,"Organization reviews vulnerability trends over time to include in risk assessments; high and moderate risk vulnerabilities are remediated in 30 and 90 days, respectively.",X,18.4
+VM-05,Vulnerability Management,Approved Scanning Vendor,"At least quarterly, Organization engages an Approved Scanning Vendor to conduct external vulnerability scans.",,
+VM-06,Vulnerability Management,Application Penetration Testing,Organization conducts penetration tests periodically.,X,"16.13
+18.1
+18.2
+18.5"
+VM-07,Vulnerability Management,Application Penetration Testing: Cardholder Data Environment,"Organization conducts penetration tests against cardholder data environments (CDE) and includes the following requirements:
+• testing covers the entire CDE perimeter and critical data systems
+• testing verifies that CDE perimeter segmentation is operational
+• testing is performed from both inside and outside the CDE network
+• testing validates segmentation and scope-reduction controls (e.g., tokenization processes)
+• network layer penetration tests include components that support network functions as well as operating systems 
+• at the application level, testing provides coverage, at a minimum, against the security testing requirements defined in VM-05-01 (01)
+• testing is performed with consideration of threats verified in the last 12 months from external alerts, directives, and advisories defined in VM-06-02
+• testing is performed with consideration of vulnerabilities reported through Organization's PSIRT process within the last 12 months
+• risk ratings are assigned to discovered vulnerabilities, which are tracked through remediation",,
+VM-08,Vulnerability Management,Infrastructure Patch Management,"Organization installs security-relevant patches, including software or firmware updates; identified end-of-life software must have a documented decommission plan in place.",X,"7.3
+7.4"
+VM-09,Vulnerability Management,Enterprise Antivirus,Organization has managed enterprise antivirus deployments to detect and respond to malicious activities.,X,"9.7
+10.1
+10.2
+10.3
+10.4
+10.6
+10.7"
+VM-10,Vulnerability Management,Enterprise Antivirus Tampering,Antivirus mechanisms cannot be disabled or altered by users unless specifically authorized by management.,,
+VM-11,Vulnerability Management,Enterprise Antivirus Scope,Vulnerability scans are periodically performed on systems that do not require anti-virus; management determines if anti-virus should be required on the system based on scan results and associated risk.,,
+VM-12,Vulnerability Management,Maintenance Tools: Inspect Media,Organization checks media containing diagnostic and test programs for malicious code before the media are used in production systems.,,
+VM-13,Vulnerability Management,Code Security Check,Organization conducts periodic source code checks for vulnerabilities.,X,16.12
+VM-14,Vulnerability Management,Code Security Check: Cardholder Data Environment,"Where applicable, security testing performed prior to releasing code into production includes the following:
+• code injection
+• buffer overflows
+• insecure cryptographic storage
+• insecure communications
+• improper error handling
+• high-risk vulnerabilities
+• cross-site scripting
+• improper access control
+• cross-site request forgery
+• broken authentication session management",X,16.12
+VM-15,Vulnerability Management,Third-Party Library Check,Organization scans third-party libraries for vulnerabilities according to the service risk rating assignment.,X,16.5
+VM-16,Vulnerability Management,Non-disclosure of Error Detail,Information systems are designed to ensure error messages generated provide adequate information for taking corrective action without revealing sensitive information.,,
+VM-17,Vulnerability Management,Embedded Authenticators,"Quality Engineering checks to ensure that static passwords are not embedded within application source code or access scripts, prior to deployment on the Organization network.",,
+VM-18,Vulnerability Management,External Information Security Inquiries,"Organization reviews information-security-related inquiries, complaints, and disputes.",,
+VM-19,Vulnerability Management,External Alerts and Advisories,Organization reviews alerts and advisories from management approved security forums and communicates verified threats to authorized personnel.,,
+VM-20,Vulnerability Management,Third-Party Security Assessment,Organization engages qualified managed service providers to perform independent information security assessments.,,
+VM-21,Vulnerability Management,Security Testing Window,Security administrators notify relevant parties prior to executing technical security assessments; assessment details and results are documented in a ticket.,,
+VM-22,Vulnerability Management,Vulnerability Remediation,Organization assigns a risk rating to identified vulnerabilities and prioritizes remediation of legitimate vulnerabilities according to the assigned risk.,X,"7.2
+7.7
+16.2
+16.6
+18.3"
+VM-23,Vulnerability Management,Backlog Prioritization,"Organization documents identified bugs, prioritize bug fixes according to risk, and tracks resolution as part of the product release cycle.",X,"7.2
+7.7
+16.2"

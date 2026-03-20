@@ -1,0 +1,10 @@
+{
+  "internal_control_id": "AM-06",
+  "overall_verdict": "APPROVED",
+  "overall_confidence": 1.0,
+  "overall_summary": "The empty mapping set is correct. Rule 13 and Rule 9 explicitly classify CIS 3.7 (Data Classification Scheme) as a prerequisite to Media Marking, not coverage, because defining labels is not the same as applying them to media. No other external controls in the catalog perform the primary action of marking information system media.",
+  "per_mapping_verdicts": [],
+  "false_negatives": [],
+  "quarantine_reason": null,
+  "recovery_hint": null
+}

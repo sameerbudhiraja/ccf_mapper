@@ -1,0 +1,25 @@
+{
+  "internal_control_id": "AM-04",
+  "overall_verdict": "APPROVED",
+  "overall_confidence": 0.95,
+  "overall_summary": "Mapping correctly identifies the log-based discovery mechanism (1.4) and remediation process (1.2) aligned with AM-04's reconciliation and ownership assignment actions. Rule 9 exception for reconciliation controls (Change 1) was correctly applied to treat 1.4 as coverage rather than prerequisite. No false negatives detected due to mechanism class constraints (Log vs Scan). Note: System rules text contains a typo (1.5 DHCP) but mapper correctly used catalog ID 1.4.",
+  "per_mapping_verdicts": [
+    {
+      "external_id": "1.2",
+      "verdict": "KEEP",
+      "rationale_rating": "ACCEPTABLE",
+      "rule_violations": [],
+      "judge_note": "Rationale links ownership assignment to unauthorized asset remediation intent under Rule 5. Specific enough to justify PARTIAL mapping."
+    },
+    {
+      "external_id": "1.4",
+      "verdict": "KEEP",
+      "rationale_rating": "ACCEPTABLE",
+      "rule_violations": [],
+      "judge_note": "Correctly applies Rule 9 exception for reconciliation controls (Change 1); mechanism class (log-based) matches AM-04 'log repository' requirement."
+    }
+  ],
+  "false_negatives": [],
+  "quarantine_reason": null,
+  "recovery_hint": null
+}

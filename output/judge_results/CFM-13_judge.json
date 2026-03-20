@@ -1,0 +1,10 @@
+{
+  "internal_control_id": "CFM-13",
+  "overall_verdict": "APPROVED",
+  "overall_confidence": 0.95,
+  "overall_summary": "The empty mapping is correct. The internal control requires specific hardware configurations (explicit usage indicators) and restrictions on collaborative devices that are not addressed by any CIS safeguard. General configuration controls (e.g., CIS 4.8) fail the primary action test (Change 3) as they do not mandate usage indicators or specifically target collaborative device remote activation.",
+  "per_mapping_verdicts": [],
+  "false_negatives": [],
+  "quarantine_reason": null,
+  "recovery_hint": null
+}

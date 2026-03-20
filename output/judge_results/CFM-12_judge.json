@@ -1,0 +1,33 @@
+{
+  "internal_control_id": "CFM-12",
+  "overall_verdict": "APPROVED_WITH_WARNINGS",
+  "overall_confidence": 0.8,
+  "overall_summary": "The mapping correctly identifies CIS 4.8 for the 'single function' requirement and CIS 10.5 for the 'execution domain' requirement, but the rationale for 10.5 technically conflates Data Execution Prevention with process isolation. Additionally, CIS 3.12 (Segment Data Processing) was omitted despite addressing the 'one primary function per server' architectural requirement through sensitivity-based segmentation.",
+  "per_mapping_verdicts": [
+    {
+      "external_id": "4.8",
+      "verdict": "KEEP",
+      "rationale_rating": "ACCEPTABLE",
+      "rule_violations": [],
+      "judge_note": "CIS 4.8 directly supports the 'one primary function per server' requirement by removing secondary capabilities. The rationale is specific and logically tied to the control intent."
+    },
+    {
+      "external_id": "10.5",
+      "verdict": "WARN",
+      "rationale_rating": "WEAK",
+      "rule_violations": [
+        "Rule 15: Mechanism Class Mismatch \u2014 The rationale claims DEP enforces 'separate execution domain' (process isolation), but DEP is an exploit mitigation feature (memory page permissions), not a process isolation mechanism (virtual memory separation)."
+      ],
+      "judge_note": "Retain mapping as PARTIAL because 10.5 is the closest hardening control for execution boundaries, but flag the rationale for technical imprecision. Process isolation is an OS kernel function; DEP hardens against exploitation within that domain."
+    }
+  ],
+  "false_negatives": [
+    {
+      "external_id": "3.12",
+      "external_title": "Segment Data Processing and Storage Based on Sensitivity",
+      "reason_should_be_included": "CIS 3.12 mandates that sensitive data not be processed on assets intended for lower sensitivity, which functionally enforces the 'one primary function per server' architectural requirement. It addresses the primary action of server dedication/segmentation which is currently only partially covered by 4.8."
+    }
+  ],
+  "quarantine_reason": null,
+  "recovery_hint": "Review the rationale for CIS 10.5 to distinguish between exploit mitigation (DEP) and process isolation (virtual memory separation). Add CIS 3.12 to capture the architectural segmentation aspect of the 'single function' requirement."
+}

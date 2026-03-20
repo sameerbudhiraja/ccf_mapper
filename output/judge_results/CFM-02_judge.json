@@ -1,0 +1,85 @@
+{
+  "internal_control_id": "CFM-02",
+  "overall_verdict": "APPROVED_WITH_WARNINGS",
+  "overall_confidence": 0.85,
+  "overall_summary": "The mapping set accurately captures the primary technical implementations of a 'default-deny' posture (firewalls, allowlisting, ACLs, NAC). However, it omits two credible subset matches (CIS 4.7 and 4.8) that enforce deny-all on default accounts and unnecessary services. Rationales for firewall and filtering controls rely on industry inference rather than explicit text, warranting a warning on rationale precision.",
+  "per_mapping_verdicts": [
+    {
+      "external_id": "2.5",
+      "verdict": "KEEP",
+      "rationale_rating": "STRONG",
+      "rule_violations": [],
+      "judge_note": "Allowlisting is the direct mechanism for default-deny on software execution. Rationale correctly links intent."
+    },
+    {
+      "external_id": "2.6",
+      "verdict": "KEEP",
+      "rationale_rating": "STRONG",
+      "rule_violations": [],
+      "judge_note": "Library allowlisting is a specific subset of execution control, valid under Rule 3."
+    },
+    {
+      "external_id": "2.7",
+      "verdict": "KEEP",
+      "rationale_rating": "STRONG",
+      "rule_violations": [],
+      "judge_note": "Script allowlisting is a specific subset of execution control, valid under Rule 3."
+    },
+    {
+      "external_id": "3.3",
+      "verdict": "KEEP",
+      "rationale_rating": "ACCEPTABLE",
+      "rule_violations": [],
+      "judge_note": "ACLs based on 'need to know' imply default-deny for others. Rationale is sound but relies on inference of 'need to know' logic."
+    },
+    {
+      "external_id": "4.4",
+      "verdict": "KEEP",
+      "rationale_rating": "ACCEPTABLE",
+      "rule_violations": [],
+      "judge_note": "Firewalls are the mechanism for network deny-all. Rationale claims 'inherent' default-deny which is best practice but not explicit in 4.4 text (unlike 4.5)."
+    },
+    {
+      "external_id": "4.5",
+      "verdict": "KEEP",
+      "rationale_rating": "STRONG",
+      "rule_violations": [],
+      "judge_note": "External control text explicitly mandates 'default-deny rule'. Direct coverage match."
+    },
+    {
+      "external_id": "13.4",
+      "verdict": "KEEP",
+      "rationale_rating": "ACCEPTABLE",
+      "rule_violations": [],
+      "judge_note": "Traffic filtering implies blocking unauthorized flow. Rationale assumes 'default' stance which is standard but not explicit in text."
+    },
+    {
+      "external_id": "13.9",
+      "verdict": "KEEP",
+      "rationale_rating": "STRONG",
+      "rule_violations": [],
+      "judge_note": "802.1x denies access by default until authenticated. Direct mechanism match."
+    },
+    {
+      "external_id": "13.10",
+      "verdict": "KEEP",
+      "rationale_rating": "ACCEPTABLE",
+      "rule_violations": [],
+      "judge_note": "Application layer filtering restricts traffic. Rationale correctly identifies the deny-all implication of filtering."
+    }
+  ],
+  "false_negatives": [
+    {
+      "external_id": "4.7",
+      "external_title": "Manage Default Accounts on Enterprise Assets and Software",
+      "reason_should_be_included": "Disabling or making default accounts unusable is a direct configuration action that sets default access to 'deny' for those specific vectors. It is a meaningful subset of CFM-02's 'information system default access configurations' under Rule 3."
+    },
+    {
+      "external_id": "4.8",
+      "external_title": "Uninstall or Disable Unnecessary Services on Enterprise Assets and Software",
+      "reason_should_be_included": "Disabling unnecessary services is the OS-level equivalent of a 'default-deny' posture for system services. Leaving services enabled without need violates the deny-all intent. This is a primary action subset under Rule 3 and Rule 12."
+    }
+  ],
+  "quarantine_reason": null,
+  "recovery_hint": null
+}

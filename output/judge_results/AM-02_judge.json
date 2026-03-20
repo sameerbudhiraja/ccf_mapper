@@ -1,0 +1,25 @@
+{
+  "internal_control_id": "AM-02",
+  "overall_verdict": "APPROVED",
+  "overall_confidence": 0.95,
+  "overall_summary": "The mapping correctly identifies CIS 1.1 as a valid superset and CIS 6.6 as a valid subset for the application asset inventory requirement, adhering to Rule 13 and Rule 3. It appropriately excludes discovery tools (1.3-1.5) and software inventories (2.1) based on Rule 9 (prerequisite vs. coverage) and Rule 13 (artifact type) distinctions. Rationales are specific, rule-referenced, and accurately reflect the security intent.",
+  "per_mapping_verdicts": [
+    {
+      "external_id": "1.1",
+      "verdict": "KEEP",
+      "rationale_rating": "STRONG",
+      "rule_violations": [],
+      "judge_note": "Correctly applied Rule 13 superset exception for 'store or process data' scope encompassing application assets. Rationale explicitly cites the rule and scope alignment."
+    },
+    {
+      "external_id": "6.6",
+      "verdict": "KEEP",
+      "rationale_rating": "STRONG",
+      "rule_violations": [],
+      "judge_note": "Correctly applied Rule 3 subset reasoning for authentication/authorization systems as typed application assets. Rationale accurately distinguishes artifact type (systems vs. components)."
+    }
+  ],
+  "false_negatives": [],
+  "quarantine_reason": null,
+  "recovery_hint": null
+}

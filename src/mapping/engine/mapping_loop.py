@@ -20,10 +20,12 @@ def _build_chain(llm):
 def _coerce_mapping_list(payload: Any) -> list[dict] | None:
     """Return mapping list from supported payload shapes."""
     if isinstance(payload, list):
-        return payload
+        if all(isinstance(item, dict) for item in payload):
+            return payload
+        return None
     if isinstance(payload, dict):
         mappings = payload.get("mappings")
-        if isinstance(mappings, list):
+        if isinstance(mappings, list) and all(isinstance(item, dict) for item in mappings):
             return mappings
     return None
 
@@ -84,11 +86,16 @@ def _filter_mappings(raw_mappings: list[dict], framework: str) -> list[dict]:
     """Keep only FULL/PARTIAL mappings and attach framework name."""
     results = []
     for m in raw_mappings:
-        if m.get("mapping") in ("FULL", "PARTIAL"):
+        if not isinstance(m, dict):
+            continue
+
+        mapping = m.get("mapping")
+        safeguard_id = m.get("safeguard_id")
+        if mapping in ("FULL", "PARTIAL") and safeguard_id:
             results.append({
-                "safeguard_id": m["safeguard_id"],
+                "safeguard_id": safeguard_id,
                 "framework": framework,
-                "mapping": m["mapping"],
+                "mapping": mapping,
                 "reason": m.get("reason", ""),
             })
     return results
