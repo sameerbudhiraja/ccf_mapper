@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ccf-mapper"
+version = "3.0.0"
+authors = [
+  { name = "Sameer Budhiraja", email = "iamsameer2006@gmail.com" },
+]
+description = "Common Control Framework Mapper pipeline"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "langchain-core==1.2.19",
+  "langchain-ollama==1.0.1",
+  "ollama==0.6.1",
+  "pageindex==0.2.6",
+  "python-dotenv==1.2.2",
+]
+
+[project.scripts]
+ccf-mapper = "src.pipeline:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]

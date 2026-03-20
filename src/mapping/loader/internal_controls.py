@@ -2,8 +2,6 @@
 import json
 from pathlib import Path
 
-print("Loading internal controls...")
-
 def load_internal_controls(filepath: Path) -> list[dict]:
     """Load internal controls JSON and return list of control dicts.
 

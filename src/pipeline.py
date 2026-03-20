@@ -27,6 +27,8 @@ def _print_summary(title: str, summary: dict) -> None:
 
 
 def run_pipeline(args: argparse.Namespace) -> None:
+	print("\n=== CCF Mapper Pipeline ===\n")
+	
 	if args.build_final:
 		from src.review.final_output_builder import build_final_output, write_final_output
 

@@ -25,6 +25,7 @@ ENV/
 .coverage
 .coverage.*
 htmlcov/
+*.pyc
 
 # Build/distribution
 build/
