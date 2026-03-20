@@ -33,7 +33,7 @@ If you run the mapping workflow in this project, you’ll get a 62% exact-match 
 ## 3) Project Structure
 
 ```text
-ccf_mapper_3.0/
+ccf_mapper/
 ├── README.md
 ├── requirements.txt
 ├── data/
@@ -113,12 +113,12 @@ The pipeline is designed as a staged, resumable workflow:
 ### Clone and install
 
 ```bash
-git clone https://github.com/<your-org>/ccf_mapper_3.0.git
-cd ccf_mapper_3.0
+git clone https://github.com/sameerbudhiraja/ccf_mapper.git
+cd ccf_mapper
 
 python3 -m venv venv
 source venv/bin/activate
-pip install -r requirements.txt
+pip install -r requirements.txt || python3 -m pip install -r requirements.txt
 ```
 
 ### Environment setup
@@ -128,7 +128,7 @@ Create `.env` in the project root:
 ```env
 LLM_PROVIDER=ollama
 LLM_MODEL=llama3.1:8b
-LLM_TEMPERATURE=0.1
+LLM_TEMPERATURE=0.0
 OLLAMA_BASE_URL=http://localhost:11434/v1
 OLLAMA_API_KEY=
 PAGEINDEX_API_KEY=your_pageindex_key_if_needed

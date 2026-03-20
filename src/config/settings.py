@@ -17,9 +17,9 @@ REVIEW_QUEUE_DIR = PROJECT_ROOT / "output" / "review_queue"
 FINAL_OUTPUT_DIR = PROJECT_ROOT / "output" / "final_output"
 
 # LLM Configuration
-LLM_PROVIDER = os.getenv("LLM_PROVIDER", "openai")  # openai, anthropic, etc.
-LLM_MODEL = os.getenv("LLM_MODEL", "gpt-4")
-LLM_TEMPERATURE = float(os.getenv("LLM_TEMPERATURE", "0.1"))
+LLM_PROVIDER = os.getenv("LLM_PROVIDER", "ollama")  # openai, anthropic, etc.
+LLM_MODEL = os.getenv("LLM_MODEL", "llama3.1:8b")
+LLM_TEMPERATURE = float(os.getenv("LLM_TEMPERATURE", "0.0"))
 LLM_MAX_TOKENS = int(os.getenv("LLM_MAX_TOKENS", "2000"))
 
 # Ollama Configuration
